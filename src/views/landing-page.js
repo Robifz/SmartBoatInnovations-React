@@ -161,7 +161,7 @@ const LandingPage = (props) => {
           <PlaceCard
             city="Introduction to Smart Boating"
             image="/intro%20thumbnail1.png"
-            description="In this video, I'll guide you through setting up Home Assistant on your boat using a Raspberry Pi, a budget-friendly and energy-efficient computer. "
+            description="Join me on a journey towards smart boating in this video, where I'll show you the power of free and open systems."
             rootClassName="place-card-root-class-name6"
             className="landing-page-component"
           ></PlaceCard>
@@ -203,7 +203,7 @@ const LandingPage = (props) => {
           <PlaceCard
             city="Unbox and Install Raspberry Pi 4"
             image="/thumbnail%20unbox%20pi%203.png"
-            description="and today I'll show you the essential equipment for setting up a smart boat."
+            description="In this video, we delve into the unboxing experience of the Raspberry Pi 4B with 8GB of RAM. "
             rootClassName="place-card-root-class-name9"
             className="landing-page-component3"
           ></PlaceCard>
@@ -229,7 +229,7 @@ const LandingPage = (props) => {
           className="landing-page-link5"
         >
           <PlaceCard
-            city="Install Boat Smart App"
+            city="Install Smart Boat App"
             image="/thumbnail%20smart%20app%20ha%20install%20final.png"
             description="In this video we will go through the installation and configuration of Home Assistant"
             rootClassName="place-card-root-class-name11"
