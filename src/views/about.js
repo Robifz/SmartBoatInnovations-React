@@ -121,7 +121,7 @@ const About = (props) => {
             </div>
           </header>
         </div>
-        <img alt="image" src="/wlan%20logo-300h.png" className="about-image" />
+        <img alt="image" src="/wlan%20logo.png" className="about-image" />
         <div className="about-container5">
           <span className="about-text">Smart Boat Innovations</span>
         </div>

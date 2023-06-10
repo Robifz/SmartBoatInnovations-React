@@ -121,11 +121,7 @@ const Services = (props) => {
             </div>
           </header>
         </div>
-        <img
-          alt="image"
-          src="/wlan%20logo-300h.png"
-          className="services-image"
-        />
+        <img alt="image" src="/wlan%20logo.png" className="services-image" />
         <div className="services-container5">
           <span className="services-text">Smart Boat Innovations</span>
         </div>

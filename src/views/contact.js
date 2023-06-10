@@ -121,11 +121,7 @@ const Contact = (props) => {
             </div>
           </header>
         </div>
-        <img
-          alt="image"
-          src="/wlan%20logo-300h.png"
-          className="contact-image"
-        />
+        <img alt="image" src="/wlan%20logo.png" className="contact-image" />
         <div className="contact-container5">
           <span className="contact-text">Smart Boat Innovations</span>
         </div>

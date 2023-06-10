@@ -133,7 +133,7 @@ const DownloadCode = (props) => {
         </div>
         <img
           alt="image"
-          src="/wlan%20logo-300h.png"
+          src="/wlan%20logo.png"
           className="download-code-image"
         />
         <div className="download-code-container5">

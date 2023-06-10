@@ -131,7 +131,7 @@ const LandingPage = (props) => {
         </div>
         <img
           alt="image"
-          src="/wlan%20logo-300h.png"
+          src="/wlan%20logo.png"
           className="landing-page-image"
         />
         <div className="landing-page-container5">
@@ -160,7 +160,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="Introduction to Smart Boating"
-            image="/intro%20thumbnail1-200h.png"
+            image="/intro%20thumbnail1.png"
             description="In this video, I'll guide you through setting up Home Assistant on your boat using a Raspberry Pi, a budget-friendly and energy-efficient computer. "
             rootClassName="place-card-root-class-name6"
             className="landing-page-component"
@@ -174,7 +174,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="What is Smart Boating"
-            image="/thumbnail%20what%20is%20smart%20boating-200h.png"
+            image="/thumbnail%20what%20is%20smart%20boating.png"
             description="In this video, we discuss the importance of Smart Boating and how it can enhance safety, efficiency, and peace of mind while on the water."
             rootClassName="place-card-root-class-name7"
             className="landing-page-component1"
@@ -188,7 +188,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="Essential equipment to get started"
-            image="/essential%20thumbnail1-200h.png"
+            image="/essential%20thumbnail1.png"
             description="In this video I'll show you the essential equipment for setting up a smart boat."
             rootClassName="place-card-root-class-name8"
             className="landing-page-component2"
@@ -202,7 +202,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="Unbox and Install Raspberry Pi 4"
-            image="/thumbnail%20unbox%20pi%203-200h.png"
+            image="/thumbnail%20unbox%20pi%203.png"
             description="and today I'll show you the essential equipment for setting up a smart boat."
             rootClassName="place-card-root-class-name9"
             className="landing-page-component3"
@@ -216,7 +216,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="4G LTE Router"
-            image="/thumbnail%20router%20final1-200h.png"
+            image="/thumbnail%20router%20final1.png"
             description=" In this video, we'll dive into the installation and configuration of a 4G LTE router, which is an essential component for our smart boat setup."
             rootClassName="place-card-root-class-name10"
             className="landing-page-component4"
@@ -230,7 +230,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="Install Boat Smart App"
-            image="/thumbnail%20smart%20app%20ha%20install%20final-200h.png"
+            image="/thumbnail%20smart%20app%20ha%20install%20final.png"
             description="In this video we will go through the installation and configuration of Home Assistant"
             rootClassName="place-card-root-class-name11"
             className="landing-page-component5"
