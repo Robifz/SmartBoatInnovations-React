@@ -182,10 +182,25 @@ const Services = (props) => {
         <br></br>
         <br></br>
         <span>
-          Please don&apos;t hesitate to reach out to me to discuss your
-          requirements and delve into further details. Together, we can make
-          your boat smarter and more efficient, providing you with a truly
-          enjoyable and hassle-free experience on the water.
+          Please don&apos;t hesitate to
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </span>
+        <Link to="/contact" className="services-navlink10">
+          contact
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </Link>
+        <span>
+          me to discuss your requirements and delve into further details.
+          Together, we can make your boat smarter and more efficient, providing
+          you with a truly enjoyable and hassle-free experience on the water.
         </span>
         <br></br>
       </span>
@@ -193,26 +208,26 @@ const Services = (props) => {
       <footer className="services-footer">
         <div className="services-container6">
           <nav className="services-nav3">
-            <Link to="/" className="services-navlink10">
+            <Link to="/" className="services-navlink11">
               Home
             </Link>
-            <Link to="/about" className="services-navlink11">
+            <Link to="/about" className="services-navlink12">
               About
             </Link>
-            <Link to="/services" className="services-navlink12">
+            <Link to="/services" className="services-navlink13">
               Services
             </Link>
-            <Link to="/download-code" className="services-navlink13">
+            <Link to="/download-code" className="services-navlink14">
               Code
             </Link>
-            <Link to="/contact" className="services-navlink14">
+            <Link to="/contact" className="services-navlink15">
               Contact
             </Link>
           </nav>
         </div>
         <div className="services-separator"></div>
         <div className="services-container7">
-          <span className="services-text23">
+          <span className="services-text24">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="services-icon-group1">

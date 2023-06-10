@@ -205,6 +205,9 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
+.services-navlink10 {
+  text-decoration: underline;
+}
 .services-cards-container {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -244,12 +247,8 @@
   align-items: center;
   flex-direction: row;
 }
-.services-navlink10 {
-  margin-left: 0px;
-  text-decoration: underline;
-}
 .services-navlink11 {
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
   text-decoration: underline;
 }
 .services-navlink12 {
@@ -261,6 +260,10 @@
   text-decoration: underline;
 }
 .services-navlink14 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: underline;
+}
+.services-navlink15 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
@@ -369,7 +372,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text23 {
+  .services-text24 {
     margin-bottom: 24px;
   }
 }
@@ -432,7 +435,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text23 {
+  .services-text24 {
     text-align: center;
     margin-bottom: 24px;
   }
