@@ -149,10 +149,26 @@ const About = (props) => {
         <br></br>
         <span>
           While our website provides valuable insights and information, the
-          majority of our content can be found on our YouTube channel. I invite
-          you to head over there, subscribe to our channel, and join the vibrant
-          community of boating enthusiasts who are exploring the exciting
-          possibilities of affordable technology.
+          majority of our content can be found on our
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </span>
+        <a
+          href="https://www.youtube.com/@SmartBoatInnovations"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="about-link"
+        >
+          YouTube channel.
+        </a>
+        <span>
+          {' '}
+          I invite you to head over there, subscribe to our channel, and join
+          the vibrant community of boating enthusiasts who are exploring the
+          exciting possibilities of affordable technology.
           <span
             dangerouslySetInnerHTML={{
               __html: ' ',
@@ -183,7 +199,7 @@ const About = (props) => {
         </div>
         <div className="about-separator"></div>
         <div className="about-container7">
-          <span className="about-text10">
+          <span className="about-text11">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="about-icon-group1">
@@ -191,7 +207,7 @@ const About = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="about-link"
+              className="about-link1"
             >
               <img
                 alt="image"
