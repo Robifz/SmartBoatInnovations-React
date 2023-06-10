@@ -184,11 +184,14 @@
   align-items: flex-start;
 }
 .contact-text {
-  font-size: 32px;
+  display: block;
+  font-size: 26px;
   align-self: center;
   font-style: normal;
   margin-top: 0px;
   font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-text1 {
   align-self: center;
