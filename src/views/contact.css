@@ -84,8 +84,8 @@
   justify-content: center;
 }
 .contact-icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 .contact-mobile-menu {
   top: 0px;
@@ -389,7 +389,9 @@
     padding: 16px;
   }
   .contact-navlink05 {
-    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: underline;
   }
   .contact-navlink06 {
     font-weight: 500;
@@ -404,6 +406,8 @@
     text-decoration: underline;
   }
   .contact-navlink09 {
+    font-style: normal;
+    font-weight: 500;
     text-decoration: underline;
   }
   .contact-footer {

@@ -84,8 +84,8 @@
   justify-content: center;
 }
 .download-code-icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 .download-code-mobile-menu {
   top: 0px;
@@ -373,7 +373,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .download-code-text09 {
+  .download-code-text15 {
     margin-bottom: 24px;
   }
 }
@@ -383,6 +383,7 @@
   }
   .download-code-navbar-interactive {
     padding: var(--dl-space-space-unit);
+    padding-bottom: 1em;
   }
   .download-code-desktop-menu {
     display: none;
@@ -397,7 +398,9 @@
     padding: 16px;
   }
   .download-code-navlink04 {
-    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: underline;
   }
   .download-code-navlink05 {
     font-weight: 500;
@@ -412,6 +415,8 @@
     text-decoration: underline;
   }
   .download-code-navlink08 {
+    font-style: normal;
+    font-weight: 500;
     text-decoration: underline;
   }
   .download-code-footer {
@@ -426,7 +431,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .download-code-text09 {
+  .download-code-text15 {
     text-align: center;
     margin-bottom: 24px;
   }

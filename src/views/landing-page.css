@@ -83,8 +83,8 @@
   justify-content: center;
 }
 .landing-page-icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 .landing-page-mobile-menu {
   top: 0px;
@@ -426,7 +426,9 @@
     padding: 16px;
   }
   .landing-page-navlink04 {
-    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: underline;
   }
   .landing-page-navlink05 {
     font-weight: 500;
@@ -441,6 +443,8 @@
     text-decoration: underline;
   }
   .landing-page-navlink08 {
+    font-style: normal;
+    font-weight: 500;
     text-decoration: underline;
   }
   .landing-page-footer {

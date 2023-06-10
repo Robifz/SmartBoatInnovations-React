@@ -147,10 +147,22 @@ const DownloadCode = (props) => {
           to share a collection of code snippets that I&apos;ve personally
           crafted to enhance your smart boat&apos;s capabilities. I&apos;ve put
           in a lot of time and effort to develop this code, and if you find it
-          valuable, I kindly ask for your support through a donation. Your
-          contribution helps me fuel my passion for advancing boating technology
-          and enables future projects.
+          valuable, I kindly ask for your support through a donation.
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
         </span>
+        <br></br>
+        <br></br>
+        <span>
+          Your contribution helps me fuel my passion for advancing boating
+          technology and enables future projects.
+        </span>
+        <br></br>
+        <br></br>
+        <span>Rob</span>
         <br></br>
         <br></br>
         <br></br>
@@ -191,7 +203,7 @@ const DownloadCode = (props) => {
         </div>
         <div className="download-code-separator"></div>
         <div className="download-code-container7">
-          <span className="download-code-text09">
+          <span className="download-code-text15">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group1">

@@ -84,8 +84,8 @@
   justify-content: center;
 }
 .services-icon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 .services-mobile-menu {
   top: 0px;
@@ -390,7 +390,8 @@
     padding: 16px;
   }
   .services-navlink05 {
-    text-decoration: none;
+    font-weight: 500;
+    text-decoration: underline;
   }
   .services-navlink06 {
     font-weight: 500;
@@ -405,6 +406,8 @@
     text-decoration: underline;
   }
   .services-navlink09 {
+    font-style: normal;
+    font-weight: 500;
     text-decoration: underline;
   }
   .services-footer {

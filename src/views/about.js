@@ -126,8 +126,8 @@ const About = (props) => {
           <span className="about-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="about-text1">About Me    </h1>
-      <span className="about-text2">
+      <h1 className="about-text01">About Me    </h1>
+      <span className="about-text02">
         <span>
           Welcome to Smart Boat Innovations! I&apos;m Rob, a seasoned sailor and
           tech enthusiast dedicated to revolutionizing the boating industry
@@ -143,12 +143,16 @@ const About = (props) => {
           harness the power of the Internet of Things (IoT) technology. My
           philosophy revolves around utilizing free open systems and affordable
           sensors and equipment. I believe that everyone should have access to
-          these advancements without breaking the bank.While our website
-          provides valuable insights and information, the majority of our
-          content can be found on our YouTube channel. I invite you to head over
-          there, subscribe to our channel, and join the vibrant community of
-          boating enthusiasts who are exploring the exciting possibilities of
-          affordable technology.
+          these advancements without breaking the bank.
+        </span>
+        <br></br>
+        <br></br>
+        <span>
+          While our website provides valuable insights and information, the
+          majority of our content can be found on our YouTube channel. I invite
+          you to head over there, subscribe to our channel, and join the vibrant
+          community of boating enthusiasts who are exploring the exciting
+          possibilities of affordable technology.
           <span
             dangerouslySetInnerHTML={{
               __html: ' ',
@@ -179,7 +183,7 @@ const About = (props) => {
         </div>
         <div className="about-separator"></div>
         <div className="about-container7">
-          <span className="about-text7">
+          <span className="about-text10">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="about-icon-group1">
