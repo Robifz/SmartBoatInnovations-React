@@ -139,15 +139,23 @@ const Contact = (props) => {
             <Link to="/" className="contact-navlink10">
               Home
             </Link>
-            <span className="contact-text3">About</span>
-            <span className="contact-text4">Services</span>
-            <span className="contact-text5">Code</span>
-            <span className="contact-text6">Contact</span>
+            <Link to="/about" className="contact-navlink11">
+              About
+            </Link>
+            <Link to="/services" className="contact-navlink12">
+              Services
+            </Link>
+            <Link to="/download-code" className="contact-navlink13">
+              Code
+            </Link>
+            <Link to="/contact" className="contact-navlink14">
+              Contact
+            </Link>
           </nav>
         </div>
         <div className="contact-separator"></div>
         <div className="contact-container7">
-          <span className="contact-text7">
+          <span className="contact-text3">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="contact-icon-group1">
