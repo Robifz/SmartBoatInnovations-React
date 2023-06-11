@@ -160,7 +160,7 @@ const LandingPage = (props) => {
         >
           <PlaceCard
             city="Introduction to Smart Boating"
-            image="/intro%20thumbnail1.png"
+            image="/intro%20thumbnail11-200h.png"
             description="Join me on a journey towards smart boating in this video, where I'll show you the power of free and open systems."
             rootClassName="place-card-root-class-name6"
             className="landing-page-component"
