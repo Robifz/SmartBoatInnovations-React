@@ -153,86 +153,86 @@ const LandingPage = (props) => {
       <h1 className="landing-page-text6">Videos</h1>
       <div className="landing-page-cards-container">
         <a
-          href="https://youtu.be/q0JC-2xTj_I"
+          href="https://youtu.be/Z6F7-IKwX9A?si=i9eKFgUwYrk0DJY6"
           target="_blank"
           rel="noreferrer noopener"
           className="landing-page-link"
         >
           <PlaceCard
-            city="Introduction to Smart Boating"
-            image="/intro%20thumbnail11-200h.png"
-            description="Join me on a journey towards smart boating in this video, where I'll show you the power of free and open systems."
+            city="DIY SMART BOAT"
+            image="/thumbnail%20diy%20smart-200h.png"
+            description="Join me on an exciting journey as I transform a regular boat into a Smart Boat on a budget.  In this video, I'll share with you how I achieved a boat equipped with smart technology for just $350."
             rootClassName="place-card-root-class-name6"
             className="landing-page-component"
           ></PlaceCard>
         </a>
         <a
-          href="https://youtu.be/bwMf2vMeN48"
+          href="https://youtu.be/tXhyfL7mbQE?si=78taBbfu-KbltWoj"
           target="_blank"
           rel="noreferrer noopener"
           className="landing-page-link1"
-        >
-          <PlaceCard
-            city="What is Smart Boating"
-            image="/thumbnail%20what%20is%20smart%20boating.png"
-            description="In this video, we discuss the importance of Smart Boating and how it can enhance safety, efficiency, and peace of mind while on the water."
-            rootClassName="place-card-root-class-name7"
-            className="landing-page-component1"
-          ></PlaceCard>
-        </a>
-        <a
-          href="https://youtu.be/tXhyfL7mbQE"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="landing-page-link2"
         >
           <PlaceCard
             city="Essential equipment to get started"
             image="/essential%20thumbnail1.png"
             description="In this video I'll show you the essential equipment for setting up a smart boat."
             rootClassName="place-card-root-class-name8"
-            className="landing-page-component2"
+            className="landing-page-component1"
           ></PlaceCard>
         </a>
         <a
-          href="https://youtu.be/t87EIejPqaU"
+          href="https://youtu.be/t87EIejPqaU?si=iNyy2UhlbN0K1LtW"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link3"
+          className="landing-page-link2"
         >
           <PlaceCard
             city="Unbox and Install Raspberry Pi 4"
             image="/thumbnail%20unbox%20pi%203.png"
             description="In this video, we delve into the unboxing experience of the Raspberry Pi 4B with 8GB of RAM. "
             rootClassName="place-card-root-class-name9"
-            className="landing-page-component3"
+            className="landing-page-component2"
           ></PlaceCard>
         </a>
         <a
-          href="https://youtu.be/H34KSeNSUcU"
+          href="https://youtu.be/H34KSeNSUcU?si=zS37aFcXQliqgsQC"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link4"
+          className="landing-page-link3"
         >
           <PlaceCard
             city="4G LTE Router"
             image="/thumbnail%20router%20final1.png"
             description=" In this video, we'll dive into the installation and configuration of a 4G LTE router, which is an essential component for our smart boat setup."
             rootClassName="place-card-root-class-name10"
-            className="landing-page-component4"
+            className="landing-page-component3"
           ></PlaceCard>
         </a>
         <a
-          href="https://youtu.be/sUzZLOp1Rr4"
+          href="https://youtu.be/sUzZLOp1Rr4?si=hsVByG7Kfh94SloT"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link5"
+          className="landing-page-link4"
         >
           <PlaceCard
             city="Install Smart Boat App"
             image="/thumbnail%20smart%20app%20ha%20install%20final.png"
             description="In this video we will go through the installation and configuration of Home Assistant"
             rootClassName="place-card-root-class-name11"
+            className="landing-page-component4"
+          ></PlaceCard>
+        </a>
+        <a
+          href="https://youtu.be/q0JC-2xTj_I?si=aV2Y6MbFPfgwmOzc"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="landing-page-link5"
+        >
+          <PlaceCard
+            city="Introduction to Smart Boating"
+            image="/intro%20thumbnail1.png"
+            description="In this video I'll show you the power of free and open systems. As someone who seeks innovative solutions beyond the marine industry's limitations and costs, I've discovered the potential of Home Assistant, a leading open software used in smart homes."
+            rootClassName="place-card-root-class-name7"
             className="landing-page-component5"
           ></PlaceCard>
         </a>
