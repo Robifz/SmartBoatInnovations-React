@@ -50,8 +50,10 @@ const LandingPage = (props) => {
                 <Link to="/services" className="landing-page-navlink02">
                   Services
                 </Link>
-                <span className="landing-page-text">Code</span>
-                <Link to="/contact" className="landing-page-navlink03">
+                <Link to="/download-code" className="landing-page-navlink03">
+                  Code
+                </Link>
+                <Link to="/contact" className="landing-page-navlink04">
                   Contact
                 </Link>
               </nav>
@@ -88,19 +90,19 @@ const LandingPage = (props) => {
                   data-role="Nav"
                   className="landing-page-nav2"
                 >
-                  <Link to="/" className="landing-page-navlink04">
+                  <Link to="/" className="landing-page-navlink05">
                     Home
                   </Link>
-                  <Link to="/about" className="landing-page-navlink05">
+                  <Link to="/about" className="landing-page-navlink06">
                     About
                   </Link>
-                  <Link to="/services" className="landing-page-navlink06">
+                  <Link to="/services" className="landing-page-navlink07">
                     Services
                   </Link>
-                  <Link to="/download-code" className="landing-page-navlink07">
+                  <Link to="/download-code" className="landing-page-navlink08">
                     Code
                   </Link>
-                  <Link to="/contact" className="landing-page-navlink08">
+                  <Link to="/contact" className="landing-page-navlink09">
                     Contact
                   </Link>
                 </nav>
@@ -135,11 +137,11 @@ const LandingPage = (props) => {
           className="landing-page-image"
         />
         <div className="landing-page-container5">
-          <span className="landing-page-text1">Smart Boat Innovations</span>
+          <span className="landing-page-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="landing-page-text2">Welcome</h1>
-      <span className="landing-page-text3">
+      <h1 className="landing-page-text1">Welcome</h1>
+      <span className="landing-page-text2">
         <span>
           Welcome to Smart Boat Innovations! I&apos;m Rob, a seasoned sailor and
           tech enthusiast dedicated to revolutionizing the boating industry
@@ -150,7 +152,7 @@ const LandingPage = (props) => {
         </span>
         <br></br>
       </span>
-      <h1 className="landing-page-text6">Videos</h1>
+      <h1 className="landing-page-text5">Videos</h1>
       <div className="landing-page-cards-container">
         <a
           href="https://youtu.be/Z6F7-IKwX9A?si=i9eKFgUwYrk0DJY6"
@@ -240,26 +242,26 @@ const LandingPage = (props) => {
       <footer className="landing-page-footer">
         <div className="landing-page-container6">
           <nav className="landing-page-nav3">
-            <Link to="/" className="landing-page-navlink09">
+            <Link to="/" className="landing-page-navlink10">
               Home
             </Link>
-            <Link to="/about" className="landing-page-navlink10">
+            <Link to="/about" className="landing-page-navlink11">
               About
             </Link>
-            <Link to="/services" className="landing-page-navlink11">
+            <Link to="/services" className="landing-page-navlink12">
               Services
             </Link>
-            <Link to="/download-code" className="landing-page-navlink12">
+            <Link to="/download-code" className="landing-page-navlink13">
               Code
             </Link>
-            <Link to="/contact" className="landing-page-navlink13">
+            <Link to="/contact" className="landing-page-navlink14">
               Contact
             </Link>
           </nav>
         </div>
         <div className="landing-page-separator"></div>
         <div className="landing-page-container7">
-          <span className="landing-page-text7">
+          <span className="landing-page-text6">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="landing-page-icon-group1">

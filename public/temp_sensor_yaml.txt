@@ -1,0 +1,19 @@
+  
+dallas:
+  - pin: GPIO25
+    update_interval: "10s"
+sensor:
+  - platform: dallas
+    address: 0x2c3c18e381b14128
+    name: "Temperature 1"
+  - platform: dallas
+    address: 0xf43c9ae38186c228
+    name: "Temperature 2"
+  - platform: dallas
+    address: 0x5c3c09e3810b9328
+    name: "Temperature 3"
+  - platform: dallas
+    address: 0x443c7de381c5a828
+    name: "Temperature 4"
+
+  

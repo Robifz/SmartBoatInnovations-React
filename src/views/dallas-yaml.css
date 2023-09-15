@@ -1,4 +1,4 @@
-.download-code-container {
+.dallas-yaml-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   border-width: 5px;
   flex-direction: column;
 }
-.download-code-container01 {
+.dallas-yaml-container01 {
   width: 100%;
   height: 300px;
   display: flex;
@@ -19,11 +19,11 @@
   justify-content: flex-start;
   background-image: url("/website%20banner%20no%20logo%20or%20name.png");
 }
-.download-code-container02 {
+.dallas-yaml-container02 {
   display: flex;
   position: relative;
 }
-.download-code-navbar-interactive {
+.dallas-yaml-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -34,60 +34,60 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.download-code-desktop-menu {
+.dallas-yaml-desktop-menu {
   display: flex;
 }
-.download-code-nav {
+.dallas-yaml-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.download-code-navlink {
+.dallas-yaml-navlink {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
 }
-.download-code-navlink01 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.download-code-navlink02 {
+.dallas-yaml-navlink01 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.download-code-navlink03 {
+.dallas-yaml-navlink02 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.download-code-navlink04 {
+.dallas-yaml-navlink03 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.download-code-btn-group {
+.dallas-yaml-navlink04 {
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.dallas-yaml-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.download-code-burger-menu {
+.dallas-yaml-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.download-code-icon {
+.dallas-yaml-icon {
   width: 32px;
   height: 32px;
 }
-.download-code-mobile-menu {
+.dallas-yaml-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -100,50 +100,50 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.download-code-nav1 {
+.dallas-yaml-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.download-code-container03 {
+.dallas-yaml-container03 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.download-code-menu-close {
+.dallas-yaml-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.download-code-nav2 {
+.dallas-yaml-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.download-code-navlink05 {
+.dallas-yaml-navlink05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-navlink06 {
+.dallas-yaml-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-navlink07 {
+.dallas-yaml-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-navlink08 {
+.dallas-yaml-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-navlink09 {
+.dallas-yaml-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-container04 {
+.dallas-yaml-container04 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -152,30 +152,30 @@
   align-items: center;
   flex-direction: row;
 }
-.download-code-icon-group {
+.dallas-yaml-icon-group {
   display: flex;
 }
-.download-code-icon2 {
+.dallas-yaml-icon2 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.download-code-icon4 {
+.dallas-yaml-icon4 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.download-code-icon6 {
+.dallas-yaml-icon6 {
   width: 16px;
   height: 16px;
 }
-.download-code-image {
+.dallas-yaml-image {
   width: 100px;
   align-self: center;
   margin-top: 40px;
   object-fit: cover;
 }
-.download-code-container05 {
+.dallas-yaml-container05 {
   width: 400px;
   height: 66px;
   display: flex;
@@ -183,7 +183,7 @@
   margin-top: 20px;
   align-items: flex-start;
 }
-.download-code-text {
+.dallas-yaml-text {
   display: block;
   font-size: 32px;
   align-self: center;
@@ -193,69 +193,49 @@
   margin-left: auto;
   margin-right: auto;
 }
-.download-code-text01 {
+.dallas-yaml-text01 {
   align-self: center;
   margin-top: 50px;
 }
-.download-code-text02 {
+.dallas-yaml-container06 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dallas-yaml-text02 {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-gray-black);
-  padding-left: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
 }
-.download-code-link {
+.dallas-yaml-link {
+  text-decoration: underline;
+}
+.dallas-yaml-link1 {
   display: contents;
 }
-.download-code-image1 {
+.dallas-yaml-image1 {
   width: 300px;
-  align-self: flex-start;
+  align-self: center;
   object-fit: cover;
-  padding-left: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.download-code-container06 {
-  flex: 0 0 auto;
+.dallas-yaml-container07 {
   width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
 }
-.download-code-container07 {
-  flex: 0 0 auto;
-  width: 1015px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  padding-top: 30px;
-  flex-direction: column;
-  justify-content: center;
+.dallas-yaml-div {
+  display: contents;
 }
-.download-code-text12 {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-}
-.download-code-container08 {
-  flex: 0 0 auto;
-  width: 1015px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.download-code-navlink10 {
-  color: rgb(28, 39, 161);
-  font-style: normal;
-  font-weight: 700;
-  text-decoration: underline;
-}
-.download-code-cards-container {
+.dallas-yaml-cards-container {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
@@ -268,7 +248,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.download-code-footer {
+.dallas-yaml-footer {
   width: 100%;
   display: flex;
   max-width: 1400px;
@@ -280,41 +260,41 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.download-code-container09 {
+.dallas-yaml-container08 {
   display: flex;
   max-width: 1400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.download-code-nav3 {
+.dallas-yaml-nav3 {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.download-code-navlink11 {
+.dallas-yaml-navlink10 {
   margin-left: 0px;
   text-decoration: underline;
 }
-.download-code-navlink12 {
+.dallas-yaml-navlink11 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink13 {
+.dallas-yaml-navlink12 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink14 {
+.dallas-yaml-navlink13 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink15 {
+.dallas-yaml-navlink14 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-separator {
+.dallas-yaml-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -332,7 +312,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.download-code-container10 {
+.dallas-yaml-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -340,154 +320,154 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.download-code-icon-group1 {
+.dallas-yaml-icon-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.download-code-link1 {
+.dallas-yaml-link2 {
   display: contents;
 }
-.download-code-image2 {
+.dallas-yaml-image2 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .download-code-navlink {
+  .dallas-yaml-navlink {
     font-style: normal;
     font-weight: 500;
   }
-  .download-code-navlink01 {
+  .dallas-yaml-navlink01 {
     font-style: normal;
     font-weight: 500;
   }
-  .download-code-navlink02 {
+  .dallas-yaml-navlink02 {
     font-style: normal;
     font-weight: 500;
   }
-  .download-code-navlink03 {
+  .dallas-yaml-navlink03 {
     font-style: normal;
     font-weight: 500;
   }
-  .download-code-navlink04 {
+  .dallas-yaml-navlink04 {
     font-style: normal;
     font-weight: 500;
   }
-  .download-code-text02 {
+  .dallas-yaml-text02 {
     border-width: 0px;
   }
-  .download-code-cards-container {
+  .dallas-yaml-cards-container {
     justify-content: center;
   }
-  .download-code-image2 {
+  .dallas-yaml-image2 {
     width: auto;
     height: 50px;
   }
 }
 @media(max-width: 767px) {
-  .download-code-navbar-interactive {
+  .dallas-yaml-navbar-interactive {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .download-code-navlink01 {
+  .dallas-yaml-navlink01 {
     margin-left: var(--dl-space-space-unit);
   }
-  .download-code-navlink02 {
+  .dallas-yaml-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .download-code-navlink03 {
+  .dallas-yaml-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .download-code-navlink04 {
+  .dallas-yaml-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .download-code-footer {
+  .dallas-yaml-footer {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .download-code-separator {
+  .dallas-yaml-separator {
     margin-top: 24px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 24px;
   }
-  .download-code-container10 {
+  .dallas-yaml-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .download-code-text13 {
+  .dallas-yaml-text20 {
     margin-bottom: 24px;
   }
 }
 @media(max-width: 479px) {
-  .download-code-container {
+  .dallas-yaml-container {
     border-width: 3px;
   }
-  .download-code-navbar-interactive {
+  .dallas-yaml-navbar-interactive {
     padding: var(--dl-space-space-unit);
     padding-bottom: 1em;
   }
-  .download-code-desktop-menu {
+  .dallas-yaml-desktop-menu {
     display: none;
   }
-  .download-code-btn-group {
+  .dallas-yaml-btn-group {
     display: none;
   }
-  .download-code-burger-menu {
+  .dallas-yaml-burger-menu {
     display: flex;
   }
-  .download-code-mobile-menu {
+  .dallas-yaml-mobile-menu {
     padding: 16px;
   }
-  .download-code-navlink05 {
+  .dallas-yaml-navlink05 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .download-code-navlink06 {
+  .dallas-yaml-navlink06 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .download-code-navlink07 {
+  .dallas-yaml-navlink07 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .download-code-navlink08 {
+  .dallas-yaml-navlink08 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .download-code-navlink09 {
+  .dallas-yaml-navlink09 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .download-code-text {
+  .dallas-yaml-text {
     display: block;
     font-size: 26px;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
   }
-  .download-code-footer {
+  .dallas-yaml-footer {
     padding: var(--dl-space-space-unit);
   }
-  .download-code-separator {
+  .dallas-yaml-separator {
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .download-code-container10 {
+  .dallas-yaml-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .download-code-text13 {
+  .dallas-yaml-text20 {
     text-align: center;
     margin-bottom: 24px;
   }
-  .download-code-image2 {
+  .dallas-yaml-image2 {
     width: auto;
     height: 50px;
   }

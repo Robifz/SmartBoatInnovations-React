@@ -27,8 +27,8 @@ const DownloadCode = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
         />
       </Helmet>
-      <div className="download-code-container1">
-        <div className="download-code-container2">
+      <div className="download-code-container01">
+        <div className="download-code-container02">
           <header
             data-thq="thq-navbar"
             className="download-code-navbar-interactive"
@@ -46,14 +46,16 @@ const DownloadCode = (props) => {
                 <Link to="/" className="download-code-navlink">
                   Home
                 </Link>
-                <span className="download-code-text">About</span>
-                <Link to="/services" className="download-code-navlink01">
+                <Link to="/about" className="download-code-navlink01">
+                  About
+                </Link>
+                <Link to="/services" className="download-code-navlink02">
                   Services
                 </Link>
-                <Link to="/download-code" className="download-code-navlink02">
+                <Link to="/download-code" className="download-code-navlink03">
                   Code
                 </Link>
-                <Link to="/contact" className="download-code-navlink03">
+                <Link to="/contact" className="download-code-navlink04">
                   Contact
                 </Link>
               </nav>
@@ -79,7 +81,7 @@ const DownloadCode = (props) => {
                 data-role="Nav"
                 className="download-code-nav1"
               >
-                <div className="download-code-container3">
+                <div className="download-code-container03">
                   <div
                     data-thq="thq-close-menu"
                     className="download-code-menu-close"
@@ -90,23 +92,23 @@ const DownloadCode = (props) => {
                   data-role="Nav"
                   className="download-code-nav2"
                 >
-                  <Link to="/" className="download-code-navlink04">
+                  <Link to="/" className="download-code-navlink05">
                     Home
                   </Link>
-                  <Link to="/about" className="download-code-navlink05">
+                  <Link to="/about" className="download-code-navlink06">
                     About
                   </Link>
-                  <Link to="/services" className="download-code-navlink06">
+                  <Link to="/services" className="download-code-navlink07">
                     Services
                   </Link>
-                  <Link to="/download-code" className="download-code-navlink07">
+                  <Link to="/download-code" className="download-code-navlink08">
                     Code
                   </Link>
-                  <Link to="/contact" className="download-code-navlink08">
+                  <Link to="/contact" className="download-code-navlink09">
                     Contact
                   </Link>
                 </nav>
-                <div className="download-code-container4"></div>
+                <div className="download-code-container04"></div>
               </div>
               <div className="download-code-icon-group">
                 <svg
@@ -136,12 +138,12 @@ const DownloadCode = (props) => {
           src="/wlan%20logo.png"
           className="download-code-image"
         />
-        <div className="download-code-container5">
-          <span className="download-code-text01">Smart Boat Innovations</span>
+        <div className="download-code-container05">
+          <span className="download-code-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="download-code-text02">Download Code Centre</h1>
-      <span className="download-code-text03">
+      <h1 className="download-code-text01">Download Code Centre</h1>
+      <span className="download-code-text02">
         <span>
           Welcome to the Smart Boat Innovations Download Center! I&apos;m here
           to share a collection of code snippets that I&apos;ve personally
@@ -165,8 +167,6 @@ const DownloadCode = (props) => {
         <span>Rob</span>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
       </span>
       <a
         href="https://ko-fi.com/smartboatinnovations"
@@ -176,34 +176,43 @@ const DownloadCode = (props) => {
       >
         <img
           alt="image"
-          src="/kofi_logo_blue.svg"
+          src="/kofi_button_blue-200h.png"
           className="download-code-image1"
         />
       </a>
+      <div className="download-code-container06"></div>
+      <div className="download-code-container07">
+        <span className="download-code-text12">Available Code Snippets:</span>
+      </div>
+      <div className="download-code-container08">
+        <Link to="/dallas-yaml" className="download-code-navlink10">
+          Temperature Sensor Dallas YAML
+        </Link>
+      </div>
       <div className="download-code-cards-container"></div>
       <footer className="download-code-footer">
-        <div className="download-code-container6">
+        <div className="download-code-container09">
           <nav className="download-code-nav3">
-            <Link to="/" className="download-code-navlink09">
+            <Link to="/" className="download-code-navlink11">
               Home
             </Link>
-            <Link to="/about" className="download-code-navlink10">
+            <Link to="/about" className="download-code-navlink12">
               About
             </Link>
-            <Link to="/services" className="download-code-navlink11">
+            <Link to="/services" className="download-code-navlink13">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink12">
+            <Link to="/download-code" className="download-code-navlink14">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink13">
+            <Link to="/contact" className="download-code-navlink15">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
-        <div className="download-code-container7">
-          <span className="download-code-text15">
+        <div className="download-code-container10">
+          <span className="download-code-text13">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group1">
