@@ -46,8 +46,8 @@ const DownloadCode = (props) => {
                 <Link to="/" className="download-code-navlink">
                   Home
                 </Link>
-                <Link to="/about" className="download-code-navlink01">
-                  About
+                <Link to="/equipment" className="download-code-navlink01">
+                  Equipment
                 </Link>
                 <Link to="/services" className="download-code-navlink02">
                   Services
@@ -95,8 +95,8 @@ const DownloadCode = (props) => {
                   <Link to="/" className="download-code-navlink05">
                     Home
                   </Link>
-                  <Link to="/about" className="download-code-navlink06">
-                    About
+                  <Link to="/equipment" className="download-code-navlink06">
+                    Equipment
                   </Link>
                   <Link to="/services" className="download-code-navlink07">
                     Services
@@ -196,8 +196,8 @@ const DownloadCode = (props) => {
             <Link to="/" className="download-code-navlink11">
               Home
             </Link>
-            <Link to="/about" className="download-code-navlink12">
-              About
+            <Link to="/equipment" className="download-code-navlink12">
+              Equipment
             </Link>
             <Link to="/services" className="download-code-navlink13">
               Services

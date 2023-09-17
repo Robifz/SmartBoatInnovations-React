@@ -47,8 +47,8 @@ const DallasYAML = (props) => {
                 <Link to="/" className="dallas-yaml-navlink">
                   Home
                 </Link>
-                <Link to="/about" className="dallas-yaml-navlink01">
-                  About
+                <Link to="/equipment" className="dallas-yaml-navlink01">
+                  Equipment
                 </Link>
                 <Link to="/services" className="dallas-yaml-navlink02">
                   Services
@@ -90,8 +90,8 @@ const DallasYAML = (props) => {
                   <Link to="/" className="dallas-yaml-navlink05">
                     Home
                   </Link>
-                  <Link to="/about" className="dallas-yaml-navlink06">
-                    About
+                  <Link to="/equipment" className="dallas-yaml-navlink06">
+                    Equipment
                   </Link>
                   <Link to="/services" className="dallas-yaml-navlink07">
                     Services
@@ -197,8 +197,8 @@ const DallasYAML = (props) => {
           className="dallas-yaml-link1"
         >
           <img
-            src="/kofi_button_blue-200h.png"
             alt="image"
+            src="/kofi_button_blue-200h.png"
             className="dallas-yaml-image1"
           />
         </a>
@@ -260,8 +260,8 @@ function copyToClipboard() {
             <Link to="/" className="dallas-yaml-navlink10">
               Home
             </Link>
-            <Link to="/about" className="dallas-yaml-navlink11">
-              About
+            <Link to="/equipment" className="dallas-yaml-navlink11">
+              Equipment
             </Link>
             <Link to="/services" className="dallas-yaml-navlink12">
               Services

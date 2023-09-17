@@ -40,8 +40,8 @@ const Contact = (props) => {
                 <Link to="/" className="contact-navlink">
                   Home
                 </Link>
-                <Link to="/about" className="contact-navlink01">
-                  About
+                <Link to="/equipment" className="contact-navlink01">
+                  Equipment
                 </Link>
                 <Link to="/services" className="contact-navlink02">
                   Services
@@ -83,8 +83,8 @@ const Contact = (props) => {
                   <Link to="/" className="contact-navlink05">
                     Home
                   </Link>
-                  <Link to="/about" className="contact-navlink06">
-                    About
+                  <Link to="/equipment" className="contact-navlink06">
+                    Equipment
                   </Link>
                   <Link to="/services" className="contact-navlink07">
                     Services
@@ -135,8 +135,8 @@ const Contact = (props) => {
             <Link to="/" className="contact-navlink10">
               Home
             </Link>
-            <Link to="/about" className="contact-navlink11">
-              About
+            <Link to="/equipment" className="contact-navlink11">
+              Equipment
             </Link>
             <Link to="/services" className="contact-navlink12">
               Services

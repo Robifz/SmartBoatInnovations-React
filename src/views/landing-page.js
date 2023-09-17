@@ -44,16 +44,16 @@ const LandingPage = (props) => {
                 <Link to="/" className="landing-page-navlink">
                   Home
                 </Link>
-                <Link to="/about" className="landing-page-navlink01">
-                  About
+                <Link to="/equipment" className="landing-page-link">
+                  Equipment
                 </Link>
-                <Link to="/services" className="landing-page-navlink02">
+                <Link to="/services" className="landing-page-navlink01">
                   Services
                 </Link>
-                <Link to="/download-code" className="landing-page-navlink03">
+                <Link to="/download-code" className="landing-page-navlink02">
                   Code
                 </Link>
-                <Link to="/contact" className="landing-page-navlink04">
+                <Link to="/contact" className="landing-page-navlink03">
                   Contact
                 </Link>
               </nav>
@@ -90,19 +90,19 @@ const LandingPage = (props) => {
                   data-role="Nav"
                   className="landing-page-nav2"
                 >
-                  <Link to="/" className="landing-page-navlink05">
+                  <Link to="/" className="landing-page-navlink04">
                     Home
                   </Link>
-                  <Link to="/about" className="landing-page-navlink06">
-                    About
+                  <Link to="/equipment" className="landing-page-link1">
+                    Equipment
                   </Link>
-                  <Link to="/services" className="landing-page-navlink07">
+                  <Link to="/services" className="landing-page-navlink05">
                     Services
                   </Link>
-                  <Link to="/download-code" className="landing-page-navlink08">
+                  <Link to="/download-code" className="landing-page-navlink06">
                     Code
                   </Link>
-                  <Link to="/contact" className="landing-page-navlink09">
+                  <Link to="/contact" className="landing-page-navlink07">
                     Contact
                   </Link>
                 </nav>
@@ -140,25 +140,44 @@ const LandingPage = (props) => {
           <span className="landing-page-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="landing-page-text1">Welcome</h1>
-      <span className="landing-page-text2">
+      <h1 className="landing-page-text01">Welcome</h1>
+      <span className="landing-page-text02">
         <span>
           Welcome to Smart Boat Innovations! I&apos;m Rob, a seasoned sailor and
           tech enthusiast dedicated to revolutionizing the boating industry
           through the integration of accessible technology. With over 20 years
           of global sailing experience and a Computer Science degree, I am
           committed to providing you with practical innovations and ideas that
-          will transform your boating experience.
+          will transform your boating experience.At Smart Boat Innovations, we
+          explore the world of boat automation and harness the power of the
+          Internet of Things (IoT) technology.
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </span>
+        <br></br>
+        <br></br>
+        <span>
+          My philosophy revolves around utilizing free open systems and
+          affordable sensors and equipment. I believe that everyone should have
+          access to these advancements without breaking the bank.While our
+          website provides valuable insights and information, the majority of
+          our content can be found on our YouTube channel. I invite you to head
+          over there, subscribe to our channel, and join the vibrant community
+          of boating enthusiasts who are exploring the exciting possibilities of
+          affordable technology.
         </span>
         <br></br>
       </span>
-      <h1 className="landing-page-text5">Videos</h1>
+      <h1 className="landing-page-text08">Videos</h1>
       <div className="landing-page-cards-container">
         <a
           href="https://youtu.be/Z6F7-IKwX9A?si=i9eKFgUwYrk0DJY6"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link"
+          className="landing-page-link2"
         >
           <PlaceCard
             city="DIY SMART BOAT"
@@ -172,7 +191,7 @@ const LandingPage = (props) => {
           href="https://youtu.be/tXhyfL7mbQE?si=78taBbfu-KbltWoj"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link1"
+          className="landing-page-link3"
         >
           <PlaceCard
             city="Essential equipment to get started"
@@ -186,7 +205,7 @@ const LandingPage = (props) => {
           href="https://youtu.be/t87EIejPqaU?si=iNyy2UhlbN0K1LtW"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link2"
+          className="landing-page-link4"
         >
           <PlaceCard
             city="Unbox and Install Raspberry Pi 4"
@@ -200,7 +219,7 @@ const LandingPage = (props) => {
           href="https://youtu.be/H34KSeNSUcU?si=zS37aFcXQliqgsQC"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link3"
+          className="landing-page-link5"
         >
           <PlaceCard
             city="4G LTE Router"
@@ -214,7 +233,7 @@ const LandingPage = (props) => {
           href="https://youtu.be/sUzZLOp1Rr4?si=hsVByG7Kfh94SloT"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link4"
+          className="landing-page-link6"
         >
           <PlaceCard
             city="Install Smart Boat App"
@@ -228,7 +247,7 @@ const LandingPage = (props) => {
           href="https://youtu.be/q0JC-2xTj_I?si=aV2Y6MbFPfgwmOzc"
           target="_blank"
           rel="noreferrer noopener"
-          className="landing-page-link5"
+          className="landing-page-link7"
         >
           <PlaceCard
             city="Introduction to Smart Boating"
@@ -242,26 +261,26 @@ const LandingPage = (props) => {
       <footer className="landing-page-footer">
         <div className="landing-page-container6">
           <nav className="landing-page-nav3">
-            <Link to="/" className="landing-page-navlink10">
+            <Link to="/" className="landing-page-navlink08">
               Home
             </Link>
-            <Link to="/about" className="landing-page-navlink11">
-              About
+            <Link to="/equipment" className="landing-page-navlink09">
+              Equipment
             </Link>
-            <Link to="/services" className="landing-page-navlink12">
+            <Link to="/services" className="landing-page-navlink10">
               Services
             </Link>
-            <Link to="/download-code" className="landing-page-navlink13">
+            <Link to="/download-code" className="landing-page-navlink11">
               Code
             </Link>
-            <Link to="/contact" className="landing-page-navlink14">
+            <Link to="/contact" className="landing-page-navlink12">
               Contact
             </Link>
           </nav>
         </div>
         <div className="landing-page-separator"></div>
         <div className="landing-page-container7">
-          <span className="landing-page-text6">
+          <span className="landing-page-text09">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="landing-page-icon-group1">
@@ -269,7 +288,7 @@ const LandingPage = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="landing-page-link6"
+              className="landing-page-link8"
             >
               <img
                 alt="image"

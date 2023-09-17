@@ -54,6 +54,12 @@
   margin-left: 32px;
   text-decoration: none;
 }
+.services-text {
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 32px;
+  text-decoration: none;
+}
 .services-navlink02 {
   font-style: normal;
   font-weight: 500;
@@ -61,12 +67,6 @@
   text-decoration: none;
 }
 .services-navlink03 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.services-navlink04 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
@@ -123,6 +123,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.services-navlink04 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .services-navlink05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -136,10 +140,6 @@
   text-decoration: none;
 }
 .services-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.services-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -183,7 +183,7 @@
   margin-top: 20px;
   align-items: flex-start;
 }
-.services-text {
+.services-text01 {
   display: block;
   font-size: 32px;
   align-self: center;
@@ -193,11 +193,11 @@
   margin-left: auto;
   margin-right: auto;
 }
-.services-text01 {
+.services-text02 {
   align-self: center;
   margin-top: 50px;
 }
-.services-text02 {
+.services-text03 {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
@@ -205,7 +205,7 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.services-navlink10 {
+.services-navlink09 {
   text-decoration: underline;
 }
 .services-cards-container {
@@ -247,8 +247,12 @@
   align-items: center;
   flex-direction: row;
 }
-.services-navlink11 {
+.services-navlink10 {
   margin-left: 0px;
+  text-decoration: underline;
+}
+.services-navlink11 {
+  margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
 .services-navlink12 {
@@ -260,10 +264,6 @@
   text-decoration: underline;
 }
 .services-navlink14 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: underline;
-}
-.services-navlink15 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
@@ -316,6 +316,10 @@
     font-style: normal;
     font-weight: 500;
   }
+  .services-text {
+    font-style: normal;
+    font-weight: 500;
+  }
   .services-navlink02 {
     font-style: normal;
     font-weight: 500;
@@ -324,11 +328,7 @@
     font-style: normal;
     font-weight: 500;
   }
-  .services-navlink04 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .services-text02 {
+  .services-text03 {
     font-size: 14px;
     border-width: 0px;
   }
@@ -348,13 +348,13 @@
   .services-navlink01 {
     margin-left: var(--dl-space-space-unit);
   }
+  .services-text {
+    margin-left: var(--dl-space-space-unit);
+  }
   .services-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
   .services-navlink03 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .services-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
   .services-footer {
@@ -372,7 +372,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text24 {
+  .services-text25 {
     margin-bottom: 24px;
   }
 }
@@ -395,7 +395,12 @@
   .services-mobile-menu {
     padding: 16px;
   }
+  .services-navlink04 {
+    font-weight: 500;
+    text-decoration: underline;
+  }
   .services-navlink05 {
+    font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
@@ -408,15 +413,11 @@
     text-decoration: underline;
   }
   .services-navlink08 {
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .services-navlink09 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .services-text {
+  .services-text01 {
     display: block;
     font-size: 26px;
     align-self: center;
@@ -435,7 +436,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .services-text24 {
+  .services-text25 {
     text-align: center;
     margin-bottom: 24px;
   }

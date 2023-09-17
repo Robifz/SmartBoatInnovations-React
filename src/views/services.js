@@ -40,16 +40,14 @@ const Services = (props) => {
                 <Link to="/" className="services-navlink">
                   Home
                 </Link>
-                <Link to="/about" className="services-navlink01">
-                  About
+                <Link to="/equipment" className="services-navlink01">
+                  Equipment
                 </Link>
-                <Link to="/about" className="services-navlink02">
-                  Services
-                </Link>
-                <Link to="/download-code" className="services-navlink03">
+                <span className="services-text">Services</span>
+                <Link to="/download-code" className="services-navlink02">
                   Code
                 </Link>
-                <Link to="/contact" className="services-navlink04">
+                <Link to="/contact" className="services-navlink03">
                   Contact
                 </Link>
               </nav>
@@ -80,19 +78,19 @@ const Services = (props) => {
                   data-role="Nav"
                   className="services-nav2"
                 >
-                  <Link to="/" className="services-navlink05">
+                  <Link to="/" className="services-navlink04">
                     Home
                   </Link>
-                  <Link to="/about" className="services-navlink06">
-                    About
+                  <Link to="/equipment" className="services-navlink05">
+                    Equipment
                   </Link>
-                  <Link to="/services" className="services-navlink07">
+                  <Link to="/services" className="services-navlink06">
                     Services
                   </Link>
-                  <Link to="/download-code" className="services-navlink08">
+                  <Link to="/download-code" className="services-navlink07">
                     Code
                   </Link>
-                  <Link to="/contact" className="services-navlink09">
+                  <Link to="/contact" className="services-navlink08">
                     Contact
                   </Link>
                 </nav>
@@ -123,11 +121,11 @@ const Services = (props) => {
         </div>
         <img alt="image" src="/wlan%20logo.png" className="services-image" />
         <div className="services-container5">
-          <span className="services-text">Smart Boat Innovations</span>
+          <span className="services-text01">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="services-text01">Services</h1>
-      <span className="services-text02">
+      <h1 className="services-text02">Services</h1>
+      <span className="services-text03">
         <span>
           Are you looking to automate your boat and enhance its functionality,
           but lack the time or technical expertise to do so? Look no further!
@@ -189,7 +187,7 @@ const Services = (props) => {
             }}
           />
         </span>
-        <Link to="/contact" className="services-navlink10">
+        <Link to="/contact" className="services-navlink09">
           contact
           <span
             dangerouslySetInnerHTML={{
@@ -208,26 +206,26 @@ const Services = (props) => {
       <footer className="services-footer">
         <div className="services-container6">
           <nav className="services-nav3">
-            <Link to="/" className="services-navlink11">
+            <Link to="/" className="services-navlink10">
               Home
             </Link>
-            <Link to="/about" className="services-navlink12">
-              About
+            <Link to="/equipment" className="services-navlink11">
+              Equipment
             </Link>
-            <Link to="/services" className="services-navlink13">
+            <Link to="/services" className="services-navlink12">
               Services
             </Link>
-            <Link to="/download-code" className="services-navlink14">
+            <Link to="/download-code" className="services-navlink13">
               Code
             </Link>
-            <Link to="/contact" className="services-navlink15">
+            <Link to="/contact" className="services-navlink14">
               Contact
             </Link>
           </nav>
         </div>
         <div className="services-separator"></div>
         <div className="services-container7">
-          <span className="services-text24">
+          <span className="services-text25">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="services-icon-group1">
