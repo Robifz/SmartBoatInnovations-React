@@ -677,6 +677,20 @@
 .equipment-link42 {
   text-decoration: underline;
 }
+.equipment-text251 {
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.equipment-link43 {
+  text-decoration: underline;
+}
+.equipment-link44 {
+  text-decoration: underline;
+}
+.equipment-link45 {
+  text-decoration: underline;
+}
 .equipment-cards-container {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -768,7 +782,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.equipment-link43 {
+.equipment-link46 {
   display: contents;
 }
 .equipment-image1 {
@@ -843,7 +857,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .equipment-text251 {
+  .equipment-text263 {
     margin-bottom: 24px;
   }
 }
@@ -912,7 +926,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .equipment-text251 {
+  .equipment-text263 {
     text-align: center;
     margin-bottom: 24px;
   }

@@ -834,6 +834,51 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
+          <span className="equipment-text251">
+            ✔  Junction Box (80mm x 80mm):
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            🎁 Amazon:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <a
+            href="https://geni.us/n9oc7"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link43"
+          >
+            https://geni.us/n9oc7
+          </a>
+          <br></br>
+          <a
+            href="https://geni.us/a3xe"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link44"
+          >
+            https://geni.us/a3xe
+          </a>
+          <br></br>
+          <br></br>
+          <span>🎁 AliExpress: Select 83x81x56mm</span>
+          <br></br>
+          <a
+            href="https://s.click.aliexpress.com/e/_DBOgxxV"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link45"
+          >
+            https://s.click.aliexpress.com/e/_DBOgxxV
+          </a>
+          <br></br>
+          <br></br>
         </span>
       </div>
       <div className="equipment-cards-container"></div>
@@ -859,7 +904,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text251">
+          <span className="equipment-text263">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">
@@ -867,7 +912,7 @@ const Equipment = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="equipment-link43"
+              className="equipment-link46"
             >
               <img
                 alt="image"
