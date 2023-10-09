@@ -204,9 +204,10 @@ const DallasYAML = (props) => {
         </a>
       </div>
       <div className="dallas-yaml-container07">
-        <div className="dallas-yaml-div">
-          <Script
-            html={`<div style="position:relative; background-color: #f8f8f8; border: 1px solid #ccc; padding: 10px;">
+        <div className="dallas-yaml-container08">
+          <div className="dallas-yaml-container09">
+            <Script
+              html={`<div style="position:relative; background-color: #f8f8f8; border: 1px solid #ccc; padding: 10px;">
     <div style="position: absolute; top: 10px; right: 10px;">
         <button id="copyButton" style="padding: 5px 10px; background-color: #007BFF; color: #fff; border: none; border-radius: 4px; cursor: pointer; margin-right: 10px;" onclick="copyToClipboard()">Copy</button>
         <a href="/temp_sensor_yaml.txt" download style="padding: 5px 10px; background-color: #28a745; color: #fff; border: none; border-radius: 4px; text-decoration: none; text-align: center; line-height: 1.5;">Download</a>
@@ -250,12 +251,13 @@ function copyToClipboard() {
 }
 </script>
 `}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </div>
       <div className="dallas-yaml-cards-container"></div>
       <footer className="dallas-yaml-footer">
-        <div className="dallas-yaml-container08">
+        <div className="dallas-yaml-container10">
           <nav className="dallas-yaml-nav3">
             <Link to="/" className="dallas-yaml-navlink10">
               Home
@@ -275,7 +277,7 @@ function copyToClipboard() {
           </nav>
         </div>
         <div className="dallas-yaml-separator"></div>
-        <div className="dallas-yaml-container09">
+        <div className="dallas-yaml-container11">
           <span className="dallas-yaml-text20">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>

@@ -1,0 +1,10 @@
+
+  - platform: template
+    name: "Oil Sender BAR"
+    lambda: |-
+      float voltage = id(oil_sender_voltage).state;
+      if (voltage <= 0.001) 
+          return 0.0;  
+      return (voltage - 0.720) / 1.23;
+    update_interval: 5s
+    unit_of_measurement: "Bar"

@@ -1,0 +1,15 @@
+i2c:
+  sda: GPIO21
+  scl: GPIO22
+
+
+  - platform: ina219
+    address: 0x40
+    shunt_resistance: 0.1 ohm
+    id: ina_sensor
+    bus_voltage:
+      name: "oil_sender_voltage"
+      id: oil_sender_voltage
+    max_voltage: 32.0V
+    max_current: 3.2A
+    update_interval: 5s
