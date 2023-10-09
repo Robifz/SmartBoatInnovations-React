@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './download-code.css'
@@ -195,9 +196,19 @@ const DownloadCode = (props) => {
           Oil Pressure Template YAML
         </Link>
       </div>
+      <div className="download-code-container09">
+        <div>
+          <div className="download-code-container11">
+            <Script
+              html={`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334564583627358"
+     crossorigin="anonymous"></script>`}
+            ></Script>
+          </div>
+        </div>
+      </div>
       <div className="download-code-cards-container"></div>
       <footer className="download-code-footer">
-        <div className="download-code-container09">
+        <div className="download-code-container12">
           <nav className="download-code-nav3">
             <Link to="/" className="download-code-navlink13">
               Home
@@ -217,7 +228,7 @@ const DownloadCode = (props) => {
           </nav>
         </div>
         <div className="download-code-separator"></div>
-        <div className="download-code-container10">
+        <div className="download-code-container13">
           <span className="download-code-text13">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
