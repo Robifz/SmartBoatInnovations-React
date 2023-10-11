@@ -25,7 +25,7 @@ const OilPressureYAML = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <div className="oil-pressure-yaml-container01">
@@ -154,8 +154,8 @@ const OilPressureYAML = (props) => {
         <span className="oil-pressure-yaml-text02">
           <br></br>
           <span>
-            Here is the essential INA219 Oil Pressure template YAML snippet to
-            add to your ESPhome Engine Monitor YAML configuration.
+            Here is the essential Oil Pressure template YAML snippet to add to
+            your ESPhome Engine Monitor YAML configuration.
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -211,12 +211,12 @@ const OilPressureYAML = (props) => {
     <code style="font-family: 'Courier New', Courier, monospace; white-space: pre-wrap;">
 
   - platform: template
-    name: "Oil Sender BAR"
+    name: "Oil Pressure"
     lambda: |-
       float voltage = id(oil_sender_voltage).state;
       if (voltage <= 0.001) 
           return 0.0;  
-      return (voltage - 0.720) / 1.23;
+      return (voltage - 0.720) * 0.812;
     update_interval: 5s
     unit_of_measurement: "Bar"
     </code>
