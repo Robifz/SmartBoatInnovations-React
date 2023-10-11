@@ -214,7 +214,7 @@ const OilPressureYAML = (props) => {
     name: "Oil Pressure"
     lambda: |-
       float voltage = id(oil_sender_voltage).state;
-      if (voltage <= 0.001) 
+      if (voltage <= 0.720) 
           return 0.0;  
       return (voltage - 0.720) * 0.812;
     update_interval: 5s
