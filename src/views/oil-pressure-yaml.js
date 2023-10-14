@@ -25,7 +25,7 @@ const OilPressureYAML = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1&amp;force_format=original"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
         />
       </Helmet>
       <div className="oil-pressure-yaml-container01">
@@ -151,7 +151,12 @@ const OilPressureYAML = (props) => {
       </div>
       <h1 className="oil-pressure-yaml-text01">Oil Pressure Template YAML</h1>
       <div className="oil-pressure-yaml-container06">
-        <span className="oil-pressure-yaml-text02">
+        <a
+          href="https://youtu.be/ScP7xjOwWFg"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="oil-pressure-yaml-link"
+        >
           <br></br>
           <span>
             Here is the essential Oil Pressure template YAML snippet to add to
@@ -173,18 +178,11 @@ const OilPressureYAML = (props) => {
               }}
             />
           </span>
-          <a
-            href="https://youtu.be/Xjgw3LuyOAw?si=e3pmSvft8490T33t"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="oil-pressure-yaml-link"
-          >
-            Video
-          </a>
+          <span className="oil-pressure-yaml-text07">Video</span>
           <br></br>
           <br></br>
           <br></br>
-        </span>
+        </a>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
@@ -193,8 +191,20 @@ const OilPressureYAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-200h.png"
+            src="/kofi_button_blue-400h.png"
             className="oil-pressure-yaml-image1"
+          />
+        </a>
+        <a
+          href="https://youtu.be/ScP7xjOwWFg"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="oil-pressure-yaml-link2"
+        >
+          <img
+            src="/oil%20pressure%20thumbnail%20low-400h.png"
+            alt="image"
+            className="oil-pressure-yaml-image2"
           />
         </a>
       </div>
@@ -244,7 +254,6 @@ function copyToClipboard() {
           </div>
         </div>
       </div>
-      <div className="oil-pressure-yaml-cards-container"></div>
       <footer className="oil-pressure-yaml-footer">
         <div className="oil-pressure-yaml-container10">
           <nav className="oil-pressure-yaml-nav3">
@@ -275,12 +284,12 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="oil-pressure-yaml-link2"
+              className="oil-pressure-yaml-link3"
             >
               <img
                 alt="image"
                 src="/kofi_logo_blue.svg"
-                className="oil-pressure-yaml-image2"
+                className="oil-pressure-yaml-image3"
               />
             </a>
           </div>

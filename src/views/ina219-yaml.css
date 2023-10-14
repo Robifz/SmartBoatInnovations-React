@@ -199,21 +199,31 @@
 }
 .ina219yaml-container06 {
   width: auto;
-  height: auto;
+  height: 341px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.ina219yaml-text02 {
+.ina219yaml-link {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-gray-black);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.ina219yaml-link {
+.ina219yaml-text07 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.ina219yaml-text08 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.ina219yaml-text09 {
+  color: #0000ff;
   text-decoration: underline;
 }
 .ina219yaml-link1 {
@@ -224,6 +234,17 @@
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.ina219yaml-link2 {
+  display: contents;
+}
+.ina219yaml-image2 {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .ina219yaml-container07 {
@@ -238,19 +259,6 @@
 }
 .ina219yaml-container09 {
   display: contents;
-}
-.ina219yaml-cards-container {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  grid-gap: var(--dl-space-space-doubleunit);
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: space-between;
 }
 .ina219yaml-footer {
   width: 100%;
@@ -330,10 +338,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.ina219yaml-link2 {
+.ina219yaml-link3 {
   display: contents;
 }
-.ina219yaml-image2 {
+.ina219yaml-image3 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
@@ -359,13 +367,10 @@
     font-style: normal;
     font-weight: 500;
   }
-  .ina219yaml-text02 {
+  .ina219yaml-link {
     border-width: 0px;
   }
-  .ina219yaml-cards-container {
-    justify-content: center;
-  }
-  .ina219yaml-image2 {
+  .ina219yaml-image3 {
     width: auto;
     height: 50px;
   }
@@ -402,7 +407,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .ina219yaml-text11 {
+  .ina219yaml-text13 {
     margin-bottom: 24px;
   }
 }
@@ -468,11 +473,11 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .ina219yaml-text11 {
+  .ina219yaml-text13 {
     text-align: center;
     margin-bottom: 24px;
   }
-  .ina219yaml-image2 {
+  .ina219yaml-image3 {
     width: auto;
     height: 50px;
   }

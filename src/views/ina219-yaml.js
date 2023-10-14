@@ -25,7 +25,7 @@ const INA219YAML = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1&amp;force_format=original"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
         />
       </Helmet>
       <div className="ina219yaml-container01">
@@ -135,7 +135,12 @@ const INA219YAML = (props) => {
       </div>
       <h1 className="ina219yaml-text01">INA219 Sensor YAML</h1>
       <div className="ina219yaml-container06">
-        <span className="ina219yaml-text02">
+        <a
+          href="https://youtu.be/ScP7xjOwWFg"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="ina219yaml-link"
+        >
           <br></br>
           <span>
             Here is the essential INA219 Oil Pressure YAML snippet to add to
@@ -157,18 +162,13 @@ const INA219YAML = (props) => {
               }}
             />
           </span>
-          <a
-            href="https://youtu.be/Xjgw3LuyOAw?si=e3pmSvft8490T33t"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="ina219yaml-link"
-          >
-            Video
-          </a>
+          <span className="ina219yaml-text07">Vi</span>
+          <span className="ina219yaml-text08">d</span>
+          <span className="ina219yaml-text09">eo</span>
           <br></br>
           <br></br>
           <br></br>
-        </span>
+        </a>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
@@ -177,8 +177,20 @@ const INA219YAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-200h.png"
+            src="/kofi_button_blue-400h.png"
             className="ina219yaml-image1"
+          />
+        </a>
+        <a
+          href="https://youtu.be/ScP7xjOwWFg"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="ina219yaml-link2"
+        >
+          <img
+            src="/oil%20pressure%20thumbnail%20low-400h.png"
+            alt="image"
+            className="ina219yaml-image2"
           />
         </a>
       </div>
@@ -233,7 +245,6 @@ function copyToClipboard() {
           </div>
         </div>
       </div>
-      <div className="ina219yaml-cards-container"></div>
       <footer className="ina219yaml-footer">
         <div className="ina219yaml-container10">
           <nav className="ina219yaml-nav3">
@@ -256,7 +267,7 @@ function copyToClipboard() {
         </div>
         <div className="ina219yaml-separator"></div>
         <div className="ina219yaml-container11">
-          <span className="ina219yaml-text11">
+          <span className="ina219yaml-text13">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="ina219yaml-icon-group1">
@@ -264,12 +275,12 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="ina219yaml-link2"
+              className="ina219yaml-link3"
             >
               <img
                 alt="image"
                 src="/kofi_logo_blue.svg"
-                className="ina219yaml-image2"
+                className="ina219yaml-image3"
               />
             </a>
           </div>

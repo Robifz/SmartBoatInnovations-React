@@ -25,7 +25,7 @@ const DallasYAML = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1&amp;force_format=original"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
         />
       </Helmet>
       <div className="dallas-yaml-container01">
@@ -135,7 +135,12 @@ const DallasYAML = (props) => {
       </div>
       <h1 className="dallas-yaml-text01">Temperature Sensor YAML</h1>
       <div className="dallas-yaml-container06">
-        <span className="dallas-yaml-text02">
+        <a
+          href="https://youtu.be/hfo4Pd6KxlE"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="dallas-yaml-link"
+        >
           <br></br>
           <span>
             Here is the essential YAML snippet to add to the tail end of your
@@ -178,18 +183,11 @@ const DallasYAML = (props) => {
               }}
             />
           </span>
-          <a
-            href="https://youtu.be/Xjgw3LuyOAw?si=e3pmSvft8490T33t"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="dallas-yaml-link"
-          >
-            Video
-          </a>
+          <span className="dallas-yaml-text16">Video</span>
           <br></br>
           <br></br>
           <br></br>
-        </span>
+        </a>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
@@ -198,8 +196,20 @@ const DallasYAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-200h.png"
+            src="/kofi_button_blue-500h.png"
             className="dallas-yaml-image1"
+          />
+        </a>
+        <a
+          href="https://youtu.be/hfo4Pd6KxlE"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="dallas-yaml-link2"
+        >
+          <img
+            src="/engine%20temp%20thumbnail%20low-500h.png"
+            alt="image"
+            className="dallas-yaml-image2"
           />
         </a>
       </div>
@@ -255,7 +265,6 @@ function copyToClipboard() {
           </div>
         </div>
       </div>
-      <div className="dallas-yaml-cards-container"></div>
       <footer className="dallas-yaml-footer">
         <div className="dallas-yaml-container10">
           <nav className="dallas-yaml-nav3">
@@ -286,12 +295,12 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="dallas-yaml-link2"
+              className="dallas-yaml-link3"
             >
               <img
                 alt="image"
                 src="/kofi_logo_blue.svg"
-                className="dallas-yaml-image2"
+                className="dallas-yaml-image3"
               />
             </a>
           </div>

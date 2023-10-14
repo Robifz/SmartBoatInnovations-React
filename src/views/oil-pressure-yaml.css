@@ -199,21 +199,23 @@
 }
 .oil-pressure-yaml-container06 {
   width: auto;
-  height: auto;
+  height: 348px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.oil-pressure-yaml-text02 {
+.oil-pressure-yaml-link {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-gray-black);
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.oil-pressure-yaml-link {
+.oil-pressure-yaml-text07 {
+  color: #0000ff;
   text-decoration: underline;
 }
 .oil-pressure-yaml-link1 {
@@ -224,6 +226,17 @@
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.oil-pressure-yaml-link2 {
+  display: contents;
+}
+.oil-pressure-yaml-image2 {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .oil-pressure-yaml-container07 {
@@ -238,19 +251,6 @@
 }
 .oil-pressure-yaml-container09 {
   display: contents;
-}
-.oil-pressure-yaml-cards-container {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  grid-gap: var(--dl-space-space-doubleunit);
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-top: var(--dl-space-space-doubleunit);
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: space-between;
 }
 .oil-pressure-yaml-footer {
   width: 100%;
@@ -330,10 +330,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.oil-pressure-yaml-link2 {
+.oil-pressure-yaml-link3 {
   display: contents;
 }
-.oil-pressure-yaml-image2 {
+.oil-pressure-yaml-image3 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
@@ -359,13 +359,10 @@
     font-style: normal;
     font-weight: 500;
   }
-  .oil-pressure-yaml-text02 {
+  .oil-pressure-yaml-link {
     border-width: 0px;
   }
-  .oil-pressure-yaml-cards-container {
-    justify-content: center;
-  }
-  .oil-pressure-yaml-image2 {
+  .oil-pressure-yaml-image3 {
     width: auto;
     height: 50px;
   }
@@ -472,7 +469,7 @@
     text-align: center;
     margin-bottom: 24px;
   }
-  .oil-pressure-yaml-image2 {
+  .oil-pressure-yaml-image3 {
     width: auto;
     height: 50px;
   }
