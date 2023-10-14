@@ -199,7 +199,7 @@
 }
 .dallas-yaml-container06 {
   width: auto;
-  height: 460px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -233,6 +233,7 @@
 }
 .dallas-yaml-image2 {
   width: 200px;
+  height: 100%;
   align-self: center;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
@@ -452,6 +453,10 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .dallas-yaml-container08 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
   }
   .dallas-yaml-footer {
     padding: var(--dl-space-space-unit);

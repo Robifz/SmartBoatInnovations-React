@@ -196,7 +196,7 @@ const DallasYAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-500h.png"
+            src="/kofi_button_blue-200h.png"
             className="dallas-yaml-image1"
           />
         </a>
@@ -207,8 +207,8 @@ const DallasYAML = (props) => {
           className="dallas-yaml-link2"
         >
           <img
-            src="/engine%20temp%20thumbnail%20low-500h.png"
             alt="image"
+            src="/engine%20temp%20thumbnail%20low-200h.png"
             className="dallas-yaml-image2"
           />
         </a>

@@ -191,7 +191,7 @@ const OilPressureYAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-400h.png"
+            src="/kofi_button_blue-200h.png"
             className="oil-pressure-yaml-image1"
           />
         </a>
@@ -202,8 +202,8 @@ const OilPressureYAML = (props) => {
           className="oil-pressure-yaml-link2"
         >
           <img
-            src="/oil%20pressure%20thumbnail%20low-400h.png"
             alt="image"
+            src="/oil%20pressure%20thumbnail%20low-200h.png"
             className="oil-pressure-yaml-image2"
           />
         </a>

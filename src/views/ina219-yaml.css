@@ -199,7 +199,7 @@
 }
 .ina219yaml-container06 {
   width: auto;
-  height: 341px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -256,6 +256,8 @@
 .ina219yaml-container08 {
   width: 435px;
   height: 466px;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
 }
 .ina219yaml-container09 {
   display: contents;

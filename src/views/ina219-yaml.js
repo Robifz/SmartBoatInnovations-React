@@ -177,7 +177,7 @@ const INA219YAML = (props) => {
         >
           <img
             alt="image"
-            src="/kofi_button_blue-400h.png"
+            src="/kofi_button_blue-200h.png"
             className="ina219yaml-image1"
           />
         </a>
@@ -188,8 +188,8 @@ const INA219YAML = (props) => {
           className="ina219yaml-link2"
         >
           <img
-            src="/oil%20pressure%20thumbnail%20low-400h.png"
             alt="image"
+            src="/oil%20pressure%20thumbnail%20low-200h.png"
             className="ina219yaml-image2"
           />
         </a>

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import PlaceCard from '../components/place-card'
 import './landing-page.css'
 
 const LandingPage = (props) => {
@@ -148,7 +147,7 @@ const LandingPage = (props) => {
           through the integration of accessible technology. With over 20 years
           of global sailing experience and a Computer Science degree, I am
           committed to providing you with practical innovations and ideas that
-          will transform your boating experience.At Smart Boat Innovations, we
+          will transform your boating experience. At Smart Boat Innovations, we
           explore the world of boat automation and harness the power of the
           Internet of Things (IoT) technology.
           <span
@@ -162,104 +161,55 @@ const LandingPage = (props) => {
         <span>
           My philosophy revolves around utilizing free open systems and
           affordable sensors and equipment. I believe that everyone should have
-          access to these advancements without breaking the bank.While our
+          access to these advancements without breaking the bank. While our
           website provides valuable insights and information, the majority of
-          our content can be found on our YouTube channel. I invite you to head
-          over there, subscribe to our channel, and join the vibrant community
-          of boating enthusiasts who are exploring the exciting possibilities of
-          affordable technology.
+          our content can be found on our
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
         </span>
-        <br></br>
-      </span>
-      <h1 className="landing-page-text08">Videos</h1>
-      <div className="landing-page-cards-container">
         <a
-          href="https://youtu.be/Z6F7-IKwX9A?si=i9eKFgUwYrk0DJY6"
+          href="https://www.youtube.com/@SmartBoatInnovations"
           target="_blank"
           rel="noreferrer noopener"
           className="landing-page-link2"
         >
-          <PlaceCard
-            city="DIY SMART BOAT"
-            image="/thumbnail%20diy%20smart-200h.png"
-            description="Join me on an exciting journey as I transform a regular boat into a Smart Boat on a budget.  In this video, I'll share with you how I achieved a boat equipped with smart technology for just $350."
-            rootClassName="place-card-root-class-name6"
-            className="landing-page-component"
-          ></PlaceCard>
+          YouTube
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
         </a>
+        <span>
+          channel. I invite you to head over there, subscribe to our channel,
+          and join the vibrant community of boating enthusiasts who are
+          exploring the exciting possibilities of affordable technology.
+        </span>
+        <br></br>
+      </span>
+      <h1 className="landing-page-text09">
+        <span>Introduction Video</span>
+        <br></br>
+      </h1>
+      <div className="landing-page-container6">
         <a
-          href="https://youtu.be/tXhyfL7mbQE?si=78taBbfu-KbltWoj"
+          href="https://youtu.be/Z6F7-IKwX9A"
           target="_blank"
           rel="noreferrer noopener"
           className="landing-page-link3"
         >
-          <PlaceCard
-            city="Essential equipment to get started"
-            image="/essential%20thumbnail1.png"
-            description="In this video I'll show you the essential equipment for setting up a smart boat."
-            rootClassName="place-card-root-class-name8"
-            className="landing-page-component1"
-          ></PlaceCard>
-        </a>
-        <a
-          href="https://youtu.be/t87EIejPqaU?si=iNyy2UhlbN0K1LtW"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="landing-page-link4"
-        >
-          <PlaceCard
-            city="Unbox and Install Raspberry Pi 4"
-            image="/thumbnail%20unbox%20pi%203.png"
-            description="In this video, we delve into the unboxing experience of the Raspberry Pi 4B with 8GB of RAM. "
-            rootClassName="place-card-root-class-name9"
-            className="landing-page-component2"
-          ></PlaceCard>
-        </a>
-        <a
-          href="https://youtu.be/H34KSeNSUcU?si=zS37aFcXQliqgsQC"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="landing-page-link5"
-        >
-          <PlaceCard
-            city="4G LTE Router"
-            image="/thumbnail%20router%20final1.png"
-            description=" In this video, we'll dive into the installation and configuration of a 4G LTE router, which is an essential component for our smart boat setup."
-            rootClassName="place-card-root-class-name10"
-            className="landing-page-component3"
-          ></PlaceCard>
-        </a>
-        <a
-          href="https://youtu.be/sUzZLOp1Rr4?si=hsVByG7Kfh94SloT"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="landing-page-link6"
-        >
-          <PlaceCard
-            city="Install Smart Boat App"
-            image="/thumbnail%20smart%20app%20ha%20install%20final.png"
-            description="In this video we will go through the installation and configuration of Home Assistant"
-            rootClassName="place-card-root-class-name11"
-            className="landing-page-component4"
-          ></PlaceCard>
-        </a>
-        <a
-          href="https://youtu.be/q0JC-2xTj_I?si=aV2Y6MbFPfgwmOzc"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="landing-page-link7"
-        >
-          <PlaceCard
-            city="Introduction to Smart Boating"
-            image="/intro%20thumbnail1.png"
-            description="In this video I'll show you the power of free and open systems. As someone who seeks innovative solutions beyond the marine industry's limitations and costs, I've discovered the potential of Home Assistant, a leading open software used in smart homes."
-            rootClassName="place-card-root-class-name7"
-            className="landing-page-component5"
-          ></PlaceCard>
+          <img
+            src="/thumbnail%20diy%20rounded-200h.png"
+            alt="image"
+            className="landing-page-image1"
+          />
         </a>
       </div>
       <footer className="landing-page-footer">
-        <div className="landing-page-container6">
+        <div className="landing-page-container7">
           <nav className="landing-page-nav3">
             <Link to="/" className="landing-page-navlink08">
               Home
@@ -279,8 +229,8 @@ const LandingPage = (props) => {
           </nav>
         </div>
         <div className="landing-page-separator"></div>
-        <div className="landing-page-container7">
-          <span className="landing-page-text09">
+        <div className="landing-page-container8">
+          <span className="landing-page-text12">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="landing-page-icon-group1">
@@ -288,12 +238,12 @@ const LandingPage = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="landing-page-link8"
+              className="landing-page-link4"
             >
               <img
                 alt="image"
                 src="/kofi_logo_blue.svg"
-                className="landing-page-image1"
+                className="landing-page-image2"
               />
             </a>
           </div>
