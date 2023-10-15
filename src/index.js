@@ -16,6 +16,7 @@ import Equipment from './views/equipment'
 import INA219YAML from './views/ina219-yaml'
 import DownloadCode from './views/download-code'
 import LandingPage from './views/landing-page'
+import Videos from './views/videos'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <Route component={INA219YAML} exact path="/ina219-yaml" />
         <Route component={DownloadCode} exact path="/download-code" />
         <Route component={LandingPage} exact path="/" />
+        <Route component={Videos} exact path="/videos" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

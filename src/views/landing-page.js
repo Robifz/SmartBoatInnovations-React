@@ -202,35 +202,49 @@ const LandingPage = (props) => {
           className="landing-page-link3"
         >
           <img
-            src="/thumbnail%20diy%20rounded-200h.png"
             alt="image"
+            src="/thumbnail%20diy%20rounded-200h.png"
             className="landing-page-image1"
           />
         </a>
       </div>
+      <span className="landing-page-text12">
+        <br></br>
+        <span>
+          All the other Smart Boat videos can be found
+          <span
+            dangerouslySetInnerHTML={{
+              __html: ' ',
+            }}
+          />
+        </span>
+        <Link to="/videos" className="landing-page-navlink08">
+          here
+        </Link>
+      </span>
       <footer className="landing-page-footer">
         <div className="landing-page-container7">
           <nav className="landing-page-nav3">
-            <Link to="/" className="landing-page-navlink08">
+            <Link to="/" className="landing-page-navlink09">
               Home
             </Link>
-            <Link to="/equipment" className="landing-page-navlink09">
+            <Link to="/equipment" className="landing-page-navlink10">
               Equipment
             </Link>
-            <Link to="/services" className="landing-page-navlink10">
+            <Link to="/services" className="landing-page-navlink11">
               Services
             </Link>
-            <Link to="/download-code" className="landing-page-navlink11">
+            <Link to="/download-code" className="landing-page-navlink12">
               Code
             </Link>
-            <Link to="/contact" className="landing-page-navlink12">
+            <Link to="/contact" className="landing-page-navlink13">
               Contact
             </Link>
           </nav>
         </div>
         <div className="landing-page-separator"></div>
         <div className="landing-page-container8">
-          <span className="landing-page-text12">
+          <span className="landing-page-text15">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="landing-page-icon-group1">
