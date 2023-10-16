@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './download-code.css'
@@ -185,34 +186,64 @@ const DownloadCode = (props) => {
         <span className="download-code-text12">Available Code Snippets:</span>
       </div>
       <div className="download-code-container08">
-        <Link to="/dallas-yaml" className="download-code-navlink10">
+        <Link to="/commands" className="download-code-navlink10">
+          Miscellaneous Commands
+        </Link>
+        <Link to="/dallas-yaml" className="download-code-navlink11">
           Temperature Sensor Dallas YAML
         </Link>
+        <Link to="/ina219-yaml" className="download-code-navlink12">
+          INA219 YAML
+        </Link>
+        <Link to="/oil-pressure-yaml" className="download-code-navlink13">
+          Oil Pressure Template YAML
+        </Link>
+        <Link to="/smart0183" className="download-code-navlink14">
+          <span>
+            Smart0183 
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span>YAML</span>
+        </Link>
+      </div>
+      <div className="download-code-container09">
+        <div>
+          <div className="download-code-container11">
+            <Script
+              html={`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2334564583627358"
+     crossorigin="anonymous"></script>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <div className="download-code-cards-container"></div>
       <footer className="download-code-footer">
-        <div className="download-code-container09">
+        <div className="download-code-container12">
           <nav className="download-code-nav3">
-            <Link to="/" className="download-code-navlink11">
+            <Link to="/" className="download-code-navlink15">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink12">
+            <Link to="/equipment" className="download-code-navlink16">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink13">
+            <Link to="/services" className="download-code-navlink17">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink14">
+            <Link to="/download-code" className="download-code-navlink18">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink15">
+            <Link to="/contact" className="download-code-navlink19">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
-        <div className="download-code-container10">
-          <span className="download-code-text13">
+        <div className="download-code-container13">
+          <span className="download-code-text15">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group1">

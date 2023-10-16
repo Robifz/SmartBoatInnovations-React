@@ -1,0 +1,12 @@
+    
+To Install HACS
+
+wget -O - https://get.hacs.xyz | bash -   
+
+To Check Serial Data
+
+apk add minicom
+minicom -D /dev/ttyUSB0 -b 4800
+ 
+    
+    
