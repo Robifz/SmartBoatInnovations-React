@@ -879,6 +879,87 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
+          <span className="equipment-text263">✔  INA219 Module:</span>
+          <br className="equipment-text264"></br>
+          <span>🎁 Amazon:</span>
+          <br></br>
+          <a
+            href="https://geni.us/yE8oa"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link46"
+          >
+            https://geni.us/yE8oa
+          </a>
+          <a
+            href="https://geni.us/yE8oa"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <br className="equipment-text267"></br>
+          </a>
+          <br></br>
+          <span>🎁 AliExpress: Select soldered option or ask them</span>
+          <br></br>
+          <a
+            href="https://s.click.aliexpress.com/e/_Dd2RsTZ"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link48"
+          >
+            https://s.click.aliexpress.com/e/_Dd2RsTZ
+          </a>
+          <br></br>
+          <br></br>
+          <span className="equipment-text273">✔ Dupont breakout cables:</span>
+          <br></br>
+          <br></br>
+          <span>
+            🎁 Amazon:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <a
+            href="https://geni.us/tKWkywT"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link49"
+          >
+            https://geni.us/tKWkywT
+          </a>
+          <a
+            href="https://geni.us/tKWkywT"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <br className="equipment-text278"></br>
+          </a>
+          <br></br>
+          <span>
+            🎁 AliExpress:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <a
+            href="https://s.click.aliexpress.com/e/_DdQTOsx"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link51"
+          >
+            https://s.click.aliexpress.com/e/_DdQTOsx
+          </a>
+          <br className="equipment-text282"></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </span>
       </div>
       <div className="equipment-cards-container"></div>
@@ -904,7 +985,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text263">
+          <span className="equipment-text286">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">
@@ -912,7 +993,7 @@ const Equipment = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="equipment-link46"
+              className="equipment-link52"
             >
               <img
                 alt="image"

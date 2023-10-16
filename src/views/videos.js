@@ -176,8 +176,8 @@ const Videos = (props) => {
             className="videos-link01"
           >
             <img
-              src="/essential%20thumbnail%20low%20200-200h.png"
               alt="image"
+              src="/essential%20thumbnail%20low%20200-200h.png"
               className="videos-image01"
             />
           </a>
@@ -188,8 +188,8 @@ const Videos = (props) => {
             className="videos-link02"
           >
             <img
-              src="/thumbnail%20router%20low-200h.png"
               alt="image"
+              src="/thumbnail%20router%20low-200h.png"
               className="videos-image02"
             />
           </a>
@@ -200,8 +200,8 @@ const Videos = (props) => {
             className="videos-link03"
           >
             <img
-              src="/thumbnail%20ha%20setup%20guide%20low-200h.png"
               alt="image"
+              src="/thumbnail%20ha%20setup%20guide%20low-200h.png"
               className="videos-image03"
             />
           </a>
@@ -212,8 +212,8 @@ const Videos = (props) => {
             className="videos-link04"
           >
             <img
-              src="/thumbnail%20zigbee%20low-200h.png"
               alt="image"
+              src="/thumbnail%20zigbee%20low-200h.png"
               className="videos-image04"
             />
           </a>
@@ -224,8 +224,8 @@ const Videos = (props) => {
             className="videos-link05"
           >
             <img
-              src="/thumbnail%20siren%20low-200h.png"
               alt="image"
+              src="/thumbnail%20siren%20low-200h.png"
               className="videos-image05"
             />
           </a>
@@ -236,8 +236,8 @@ const Videos = (props) => {
             className="videos-link06"
           >
             <img
-              src="/thumbnail%20ha%20add%20on%20low-200h.png"
               alt="image"
+              src="/thumbnail%20ha%20add%20on%20low-200h.png"
               className="videos-image06"
             />
           </a>
@@ -248,8 +248,8 @@ const Videos = (props) => {
             className="videos-link07"
           >
             <img
-              src="/engine%20temp%20thumbnail%20low-200h.png"
               alt="image"
+              src="/engine%20temp%20thumbnail%20low-200h.png"
               className="videos-image07"
             />
           </a>
@@ -260,8 +260,8 @@ const Videos = (props) => {
             className="videos-link08"
           >
             <img
-              src="/intro%20thumbnail%20brighter%20low-200h.png"
               alt="image"
+              src="/intro%20thumbnail%20brighter%20low-200h.png"
               className="videos-image08"
             />
           </a>
@@ -274,8 +274,8 @@ const Videos = (props) => {
             className="videos-link09"
           >
             <img
-              src="/thumbnail%20raspberry%20pi%20low-200h.png"
               alt="image"
+              src="/thumbnail%20raspberry%20pi%20low-200h.png"
               className="videos-image09"
             />
           </a>
@@ -286,8 +286,8 @@ const Videos = (props) => {
             className="videos-link10"
           >
             <img
-              src="/thumbnail%20smart%20app%20low-200h.png"
               alt="image"
+              src="/thumbnail%20smart%20app%20low-200h.png"
               className="videos-image10"
             />
           </a>
@@ -298,8 +298,8 @@ const Videos = (props) => {
             className="videos-link11"
           >
             <img
-              src="/thumbnail%20auto%20anchor%20light%20low-200h.png"
               alt="image"
+              src="/thumbnail%20auto%20anchor%20light%20low-200h.png"
               className="videos-image11"
             />
           </a>
@@ -310,8 +310,8 @@ const Videos = (props) => {
             className="videos-link12"
           >
             <img
-              src="/thumbnail%20new%20bilge%20low-200h.png"
               alt="image"
+              src="/thumbnail%20new%20bilge%20low-200h.png"
               className="videos-image12"
             />
           </a>
@@ -322,8 +322,8 @@ const Videos = (props) => {
             className="videos-link13"
           >
             <img
-              src="/fire%20alarm%20300-200h.png"
               alt="image"
+              src="/fire%20alarm%20300-200h.png"
               className="videos-image13"
             />
           </a>
@@ -334,8 +334,8 @@ const Videos = (props) => {
             className="videos-link14"
           >
             <img
-              src="/esp32%20low-200h.png"
               alt="image"
+              src="/esp32%20low-200h.png"
               className="videos-image14"
             />
           </a>
@@ -346,8 +346,8 @@ const Videos = (props) => {
             className="videos-link15"
           >
             <img
-              src="/oil%20pressure%20thumbnail%20low-200h.png"
               alt="image"
+              src="/oil%20pressure%20thumbnail%20low-200h.png"
               className="videos-image15"
             />
           </a>
@@ -358,8 +358,8 @@ const Videos = (props) => {
             className="videos-link16"
           >
             <img
-              src="/thumbnail%20diy%20smart%20low-200h.png"
               alt="image"
+              src="/thumbnail%20diy%20smart%20low-200h.png"
               className="videos-image16"
             />
           </a>
