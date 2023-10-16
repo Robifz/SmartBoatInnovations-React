@@ -132,22 +132,32 @@ const Smart0183 = (props) => {
       </div>
       <h1 className="smart0183-text01">SMART0183 Configuration YAML</h1>
       <div className="smart0183-container06">
-        <a
-          href="https://youtu.be/ScP7xjOwWFg"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="smart0183-link"
-        >
+        <span className="smart0183-text02">
           <br></br>
           <span>
             Here is the essential SMART0183 YAML snippet to add to your Home
             Assistant configuration.yaml.
+          </span>
+          <br></br>
+          <br></br>
+          <span>
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
+          <span>The HACS custom repository URL is:</span>
+          <br></br>
+          <br></br>
+          <a
+            href="https://github.com/SmartBoatInnovations/ha-smart0183"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart0183-link"
+          >
+            https://github.com/SmartBoatInnovations/ha-smart0183
+          </a>
           <br></br>
           <br></br>
           <span>
@@ -159,16 +169,23 @@ const Smart0183 = (props) => {
               }}
             />
           </span>
-          <span className="smart0183-text07">Video</span>
+          <a
+            href="https://youtu.be/ScP7xjOwWFg"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart0183-link1"
+          >
+            Video
+          </a>
           <br></br>
           <br></br>
           <br></br>
-        </a>
+        </span>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
           rel="noreferrer noopener"
-          className="smart0183-link1"
+          className="smart0183-link2"
         >
           <img
             alt="image"
@@ -241,7 +258,7 @@ function copyToClipboard() {
         </div>
         <div className="smart0183-separator"></div>
         <div className="smart0183-container11">
-          <span className="smart0183-text11">
+          <span className="smart0183-text17">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="smart0183-icon-group1">
@@ -249,7 +266,7 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="smart0183-link2"
+              className="smart0183-link3"
             >
               <img
                 alt="image"
