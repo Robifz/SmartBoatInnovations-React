@@ -179,13 +179,31 @@ const Smart0183 = (props) => {
           </a>
           <br></br>
           <br></br>
+          <span>
+            A description of the 0183 sentence types can be found
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <a
+            href="https://gpsd.gitlab.io/gpsd/NMEA.html"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart0183-link2"
+          >
+            here
+          </a>
+          <span>.</span>
+          <br></br>
           <br></br>
         </span>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
           rel="noreferrer noopener"
-          className="smart0183-link2"
+          className="smart0183-link3"
         >
           <img
             alt="image"
@@ -258,7 +276,7 @@ function copyToClipboard() {
         </div>
         <div className="smart0183-separator"></div>
         <div className="smart0183-container11">
-          <span className="smart0183-text17">
+          <span className="smart0183-text20">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="smart0183-icon-group1">
@@ -266,7 +284,7 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="smart0183-link3"
+              className="smart0183-link4"
             >
               <img
                 alt="image"
