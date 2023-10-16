@@ -1,0 +1,5 @@
+sensor:
+  - platform: smart0183
+    serial_port: /dev/ttyUSB0
+    baudrate: 4800
+    name: smart_instruments

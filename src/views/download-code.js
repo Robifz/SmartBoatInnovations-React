@@ -189,7 +189,7 @@ const DownloadCode = (props) => {
         <Link to="/commands" className="download-code-navlink10">
           Miscellaneous Commands
         </Link>
-        <Link to="/ina219-yaml" className="download-code-navlink11">
+        <Link to="/dallas-yaml" className="download-code-navlink11">
           Temperature Sensor Dallas YAML
         </Link>
         <Link to="/ina219-yaml" className="download-code-navlink12">
@@ -197,6 +197,17 @@ const DownloadCode = (props) => {
         </Link>
         <Link to="/oil-pressure-yaml" className="download-code-navlink13">
           Oil Pressure Template YAML
+        </Link>
+        <Link to="/smart0183" className="download-code-navlink14">
+          <span>
+            Smart0183 
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span>YAML</span>
         </Link>
       </div>
       <div className="download-code-container09">
@@ -213,26 +224,26 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container12">
           <nav className="download-code-nav3">
-            <Link to="/" className="download-code-navlink14">
+            <Link to="/" className="download-code-navlink15">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink15">
+            <Link to="/equipment" className="download-code-navlink16">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink16">
+            <Link to="/services" className="download-code-navlink17">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink17">
+            <Link to="/download-code" className="download-code-navlink18">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink18">
+            <Link to="/contact" className="download-code-navlink19">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
         <div className="download-code-container13">
-          <span className="download-code-text13">
+          <span className="download-code-text15">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group1">
