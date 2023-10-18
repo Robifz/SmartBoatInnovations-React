@@ -22,7 +22,7 @@ const Smart0183 = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ea7f7557-3544-4a71-a4e9-4320e8b75036/0aa20519-76fc-42ec-9c9d-541129945274?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <div className="smart0183-container01">
@@ -211,6 +211,11 @@ const Smart0183 = (props) => {
             className="smart0183-image1"
           />
         </a>
+        <img
+          alt="image"
+          src="/smart0183%20low-200h.png"
+          className="smart0183-image2"
+        />
       </div>
       <div className="smart0183-container07">
         <div className="smart0183-container08">
@@ -289,7 +294,7 @@ function copyToClipboard() {
               <img
                 alt="image"
                 src="/kofi_logo_blue.svg"
-                className="smart0183-image2"
+                className="smart0183-image3"
               />
             </a>
           </div>

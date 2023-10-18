@@ -235,6 +235,13 @@
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.smart0183-image2 {
+  width: 300px;
+  align-self: center;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+}
 .smart0183-container07 {
   width: auto;
   height: auto;
@@ -331,7 +338,7 @@
 .smart0183-link4 {
   display: contents;
 }
-.smart0183-image2 {
+.smart0183-image3 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
@@ -360,7 +367,7 @@
   .smart0183-text02 {
     border-width: 0px;
   }
-  .smart0183-image2 {
+  .smart0183-image3 {
     width: auto;
     height: 50px;
   }
@@ -467,7 +474,7 @@
     text-align: center;
     margin-bottom: 24px;
   }
-  .smart0183-image2 {
+  .smart0183-image3 {
     width: auto;
     height: 50px;
   }
