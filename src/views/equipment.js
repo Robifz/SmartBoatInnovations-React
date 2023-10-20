@@ -173,7 +173,7 @@ const Equipment = (props) => {
           </span>
           <br className="equipment-text014"></br>
           <span className="equipment-text015">
-            I recommend the Raspberry Pi 3, 3B, or 4 with at least 4GB of RAM.
+            I recommend the Raspberry Pi 3, 3B, 4 or 5 with at least 4GB of RAM.
             It can handle various tasks and has low power consumption.
           </span>
           <br className="equipment-text016"></br>
@@ -209,7 +209,7 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DFqcCiP
           </a>
-          <br></br>
+          <br className="equipment-text025"></br>
           <br></br>
           <span className="equipment-text027">✔ Raspberry Pi Case:</span>
           <span className="equipment-text028">
@@ -236,7 +236,7 @@ const Equipment = (props) => {
           >
             https://geni.us/m4Y0b
           </a>
-          <br></br>
+          <br className="equipment-text035"></br>
           <a
             href="https://geni.us/u6sFQQX"
             target="_blank"
@@ -270,6 +270,7 @@ const Equipment = (props) => {
             href="https://geni.us/Z1yFZek"
             target="_blank"
             rel="noreferrer noopener"
+            className="equipment-link05"
           >
             https://geni.us/Z1yFZek
           </a>
@@ -339,7 +340,7 @@ const Equipment = (props) => {
           >
             https://geni.us/8wRR
           </a>
-          <br></br>
+          <br className="equipment-text076"></br>
           <a
             href="https://geni.us/mJkAS5P"
             target="_blank"
@@ -528,7 +529,7 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DlBQrTH
           </a>
-          <br></br>
+          <br className="equipment-text138"></br>
           <br></br>
           <span className="equipment-text140">✔ Shelly 1 Relay Switch:</span>
           <br></br>
@@ -601,7 +602,7 @@ const Equipment = (props) => {
           >
             https://geni.us/D06kbNA
           </a>
-          <br></br>
+          <br className="equipment-text167"></br>
           <a
             href="https://geni.us/1rb2G4L"
             target="_blank"
@@ -624,7 +625,7 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DeXguFH
           </a>
-          <br></br>
+          <br className="equipment-text172"></br>
           <br></br>
           <span className="equipment-text174">
             ✔ Tuya Zigbee Siren Sound Light Alarm 90dB:
@@ -688,7 +689,7 @@ const Equipment = (props) => {
           >
             https://geni.us/n4Agt2
           </a>
-          <br></br>
+          <br className="equipment-text197"></br>
           <br></br>
           <span>🎁 AliExpress: Select 38Pins-Type-C-ESP32 option</span>
           <br></br>
@@ -700,7 +701,7 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_Ddsn2z5
           </a>
-          <br></br>
+          <br className="equipment-text201"></br>
           <br></br>
           <span className="equipment-text203">
             ✔ ESP32 Expansion Breakout Board:
@@ -731,7 +732,10 @@ const Equipment = (props) => {
           </a>
           <br className="equipment-text212"></br>
           <br className="equipment-text213"></br>
-          <span>✔ 12v to 5v Converter for ESP32:</span>
+          <span className="equipment-text214">
+            ✔ 12v to 5v Converter for ESP32
+          </span>
+          <span>:</span>
           <br></br>
           <span>🎁 Amazon:</span>
           <br></br>
@@ -760,17 +764,17 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text222"></br>
+            <br className="equipment-text223"></br>
           </a>
           <br></br>
-          <span className="equipment-text224">
+          <span className="equipment-text225">
             ✔ Temperature Sensors Dallas One Wre:
           </span>
           <br></br>
           <br></br>
           <span>🎁 Amazon:</span>
           <br></br>
-          <span>1M Length</span>
+          <span>(1M Length)</span>
           <br></br>
           <a
             href="https://geni.us/vANa"
@@ -781,7 +785,7 @@ const Equipment = (props) => {
             https://geni.us/vANa
           </a>
           <br></br>
-          <span>3M Length</span>
+          <span>(3M Length)</span>
           <br></br>
           <a
             href="https://geni.us/7KqXm1w"
@@ -805,7 +809,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text240">
+          <span className="equipment-text241">
             ✔ Resistors for Temp Sensor ( 4.7K OHM ):
           </span>
           <br></br>
@@ -832,9 +836,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DeuWUYb
           </a>
+          <br className="equipment-text250"></br>
           <br></br>
-          <br></br>
-          <span className="equipment-text251">
+          <span className="equipment-text252">
             ✔  Junction Box (80mm x 80mm):
           </span>
           <br></br>
@@ -856,7 +860,7 @@ const Equipment = (props) => {
           >
             https://geni.us/n9oc7
           </a>
-          <br></br>
+          <br className="equipment-text257"></br>
           <a
             href="https://geni.us/a3xe"
             target="_blank"
@@ -879,8 +883,9 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text263">✔  INA219 Module:</span>
-          <br className="equipment-text264"></br>
+          <span className="equipment-text264">✔  INA219 Module:</span>
+          <br className="equipment-text265"></br>
+          <br className="equipment-text266"></br>
           <span>🎁 Amazon:</span>
           <br></br>
           <a
@@ -896,7 +901,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text267"></br>
+            <br className="equipment-text269"></br>
           </a>
           <br></br>
           <span>🎁 AliExpress: Select soldered option or ask them</span>
@@ -911,7 +916,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text273">✔ Dupont breakout cables:</span>
+          <span className="equipment-text275">✔ Dupont breakout cables:</span>
           <br></br>
           <br></br>
           <span>
@@ -936,7 +941,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text278"></br>
+            <br className="equipment-text280"></br>
           </a>
           <br></br>
           <span>
@@ -956,8 +961,140 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DdQTOsx
           </a>
-          <br className="equipment-text282"></br>
+          <br className="equipment-text284"></br>
           <br></br>
+          <span className="equipment-text286">
+            ✔ USB to RS-232 DB9 Serial 9 pin Adapter :
+          </span>
+          <br></br>
+          <br></br>
+          <span>
+            🎁 Amazon:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <a
+            href="https://geni.us/gXDJT"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link52"
+          >
+            https://geni.us/gXDJT
+          </a>
+          <br></br>
+          <br></br>
+          <span className="equipment-text293">
+            ✔  USB to RS422 Serial Adapter :
+          </span>
+          <br></br>
+          <br></br>
+          <span>🎁 Amazon:</span>
+          <br></br>
+          <a
+            href="https://geni.us/dArAn8"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link53"
+          >
+            https://geni.us/dArAn8
+          </a>
+          <br></br>
+          <br></br>
+          <span className="equipment-text300">
+            ✔  DB-9 Female RS232 Serial Plug:
+          </span>
+          <br></br>
+          <br></br>
+          <span>🎁 Amazon:</span>
+          <br></br>
+          <a
+            href="https://geni.us/X6cOtZq"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link54"
+          >
+            https://geni.us/X6cOtZq
+          </a>
+          <br></br>
+          <br></br>
+          <span>🎁 AliExpress: Select Female option</span>
+          <br></br>
+          <a
+            href="https://s.click.aliexpress.com/e/_DmSWQBZ"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link55"
+          >
+            https://s.click.aliexpress.com/e/_DmSWQBZ
+          </a>
+          <br></br>
+          <br></br>
+          <span className="equipment-text311">
+            ✔  NMEA 2000 to 0183 Adapter:
+          </span>
+          <br></br>
+          <br></br>
+          <span>🎁 Amazon:</span>
+          <br></br>
+          <span>(USB Version)</span>
+          <br></br>
+          <a
+            href="https://geni.us/tBzPiz "
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link56"
+          >
+            https://geni.us/tBzPiz 
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </a>
+          <span className="equipment-text318">
+             
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>(R2422 Version)</span>
+          <br></br>
+          <a
+            href="https://geni.us/pWteOio"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link57"
+          >
+            https://geni.us/pWteOio
+          </a>
+          <span className="equipment-text322">
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br className="equipment-text324"></br>
+          <br></br>
+          <span>
+            Some links above are affiliate links, meaning I may earn a small
+            commission if you make a purchase. Your support helps fund valuable
+            content. Thank you!
+          </span>
           <br></br>
           <br></br>
         </span>
@@ -985,7 +1122,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text286">
+          <span className="equipment-text329">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">
@@ -993,7 +1130,7 @@ const Equipment = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="equipment-link52"
+              className="equipment-link58"
             >
               <img
                 alt="image"
