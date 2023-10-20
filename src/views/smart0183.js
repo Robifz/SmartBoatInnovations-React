@@ -170,12 +170,28 @@ const Smart0183 = (props) => {
             />
           </span>
           <a
-            href="https://youtu.be/ScP7xjOwWFg"
+            href="https://youtu.be/9mlTKtD1FFI"
             target="_blank"
             rel="noreferrer noopener"
             className="smart0183-link1"
           >
-            Video
+            Vi
+          </a>
+          <a
+            href="https://youtu.be/9mlTKtD1FFI"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart0183-link2"
+          >
+            d
+          </a>
+          <a
+            href="https://youtu.be/9mlTKtD1FFI"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart0183-link3"
+          >
+            eo
           </a>
           <br></br>
           <br></br>
@@ -191,7 +207,7 @@ const Smart0183 = (props) => {
             href="https://gpsd.gitlab.io/gpsd/NMEA.html"
             target="_blank"
             rel="noreferrer noopener"
-            className="smart0183-link2"
+            className="smart0183-link4"
           >
             here
           </a>
@@ -203,7 +219,7 @@ const Smart0183 = (props) => {
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
           rel="noreferrer noopener"
-          className="smart0183-link3"
+          className="smart0183-link5"
         >
           <img
             alt="image"
@@ -211,11 +227,18 @@ const Smart0183 = (props) => {
             className="smart0183-image1"
           />
         </a>
-        <img
-          alt="image"
-          src="/smart0183%20low-200h.png"
-          className="smart0183-image2"
-        />
+        <a
+          href="https://youtu.be/9mlTKtD1FFI"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="smart0183-link6"
+        >
+          <img
+            alt="image"
+            src="/smart0183%20low-200h.png"
+            className="smart0183-image2"
+          />
+        </a>
       </div>
       <div className="smart0183-container07">
         <div className="smart0183-container08">
@@ -289,7 +312,7 @@ function copyToClipboard() {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="smart0183-link4"
+              className="smart0183-link7"
             >
               <img
                 alt="image"

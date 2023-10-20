@@ -7,6 +7,5 @@ To Check Serial Data
 
 apk add minicom
 minicom -D /dev/ttyUSB0 -b 4800
- 
-    
-    
+
+ls /dev | grep USB

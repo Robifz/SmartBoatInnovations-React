@@ -226,6 +226,14 @@
   text-decoration: underline;
 }
 .smart0183-link3 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart0183-link4 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart0183-link5 {
   display: contents;
 }
 .smart0183-image1 {
@@ -235,12 +243,16 @@
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.smart0183-link6 {
+  display: contents;
+}
 .smart0183-image2 {
   width: 300px;
   align-self: center;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .smart0183-container07 {
   width: auto;
@@ -335,7 +347,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.smart0183-link4 {
+.smart0183-link7 {
   display: contents;
 }
 .smart0183-image3 {
