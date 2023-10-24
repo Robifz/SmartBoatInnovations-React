@@ -276,55 +276,76 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text049">✔ 12V to 9V converter:</span>
-          <br className="equipment-text050"></br>
-          <span className="equipment-text051">
+          <span className="equipment-text049">
+            ✔  NMEA 2000 to 0183 USB Adapter :
+          </span>
+          <br></br>
+          <br></br>
+          <span>🎁 Digital Yacht:</span>
+          <br></br>
+          <span>
+            For %10 Discount at Digital Yacht use the SMARTBOAT10 coupon code
+          </span>
+          <br></br>
+          <a
+            href="https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="equipment-link06"
+          >
+            https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb
+          </a>
+          <br></br>
+          <br></br>
+          <span className="equipment-text058">✔ 12V to 9V converter:</span>
+          <br className="equipment-text059"></br>
+          <span className="equipment-text060">
             If your router model takes 9V.
           </span>
-          <br className="equipment-text052"></br>
-          <br className="equipment-text053"></br>
+          <br className="equipment-text061"></br>
+          <br className="equipment-text062"></br>
           <span>🎁 AliExpress ( Select 12V to 9V 3A Option )</span>
           <br></br>
           <a
             href="https://s.click.aliexpress.com/e/_DDliOIn"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link06"
+            className="equipment-link07"
           >
             https://s.click.aliexpress.com/e/_DDliOIn
           </a>
-          <br className="equipment-text056"></br>
-          <br className="equipment-text057"></br>
-          <span className="equipment-text058">✔ 12V to 12V converter.:</span>
-          <br className="equipment-text059"></br>
-          <span className="equipment-text060">
+          <br className="equipment-text065"></br>
+          <br className="equipment-text066"></br>
+          <span className="equipment-text067">✔ 12V to 12V converter.:</span>
+          <br className="equipment-text068"></br>
+          <span className="equipment-text069">
             If your router model takes 12V ( Select 3A Option )
           </span>
           <span>.</span>
-          <br className="equipment-text062"></br>
-          <br className="equipment-text063"></br>
+          <br className="equipment-text071"></br>
+          <br className="equipment-text072"></br>
           <span>🎁 AliExpress</span>
           <br></br>
           <a
             href="https://s.click.aliexpress.com/e/_DB7Riz5"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link07"
+            className="equipment-link08"
           >
             https://s.click.aliexpress.com/e/_DB7Riz5
           </a>
-          <br className="equipment-text066"></br>
+          <br className="equipment-text075"></br>
           <br></br>
-          <span className="equipment-text068">✔ Heat Sink:</span>
-          <span className="equipment-text069">
+          <span className="equipment-text077">✔ Heat Sink:</span>
+          <span className="equipment-text078">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text070"></br>
-          <span className="equipment-text071">
+          <br className="equipment-text079"></br>
+          <span className="equipment-text080">
             Helps dissipate heat from the Raspberry Pi, ensuring optimal
             performance in the boat environment.
           </span>
@@ -336,16 +357,16 @@ const Equipment = (props) => {
             href="https://geni.us/8wRR"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link08"
+            className="equipment-link09"
           >
             https://geni.us/8wRR
           </a>
-          <br className="equipment-text076"></br>
+          <br className="equipment-text085"></br>
           <a
             href="https://geni.us/mJkAS5P"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link09"
+            className="equipment-link10"
           >
             https://geni.us/mJkAS5P
           </a>
@@ -357,181 +378,181 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DcZ56cj"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link10"
+            className="equipment-link11"
           >
             https://s.click.aliexpress.com/e/_DcZ56cj
           </a>
-          <br className="equipment-text081"></br>
+          <br className="equipment-text090"></br>
           <br></br>
-          <span className="equipment-text083">✔ MicroSD Card:</span>
-          <span className="equipment-text084">
+          <span className="equipment-text092">✔ MicroSD Card:</span>
+          <span className="equipment-text093">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text085"></br>
-          <span className="equipment-text086">
+          <br className="equipment-text094"></br>
+          <span className="equipment-text095">
             A high-quality A2 class microSD card provides fast, reliable, and
             durable storage for the Raspberry Pi. At least 32GB is needed.
           </span>
           <br></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text090"></br>
+          <br className="equipment-text099"></br>
           <a
             href="https://geni.us/F4BQ"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link11"
+            className="equipment-link12"
           >
             https://geni.us/F4BQ
           </a>
-          <br className="equipment-text091"></br>
+          <br className="equipment-text100"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text094"></br>
+          <br className="equipment-text103"></br>
           <a
             href="https://s.click.aliexpress.com/e/_De5JvCf"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link12"
+            className="equipment-link13"
           >
             https://s.click.aliexpress.com/e/_De5JvCf
           </a>
-          <br className="equipment-text095"></br>
+          <br className="equipment-text104"></br>
           <br></br>
-          <span className="equipment-text097">✔ Ethernet Cable:</span>
-          <span className="equipment-text098">
+          <span className="equipment-text106">✔ Ethernet Cable:</span>
+          <span className="equipment-text107">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text099"></br>
-          <span className="equipment-text100">
+          <br className="equipment-text108"></br>
+          <span className="equipment-text109">
             Connects the Raspberry Pi to the router for initial configuration.
             Wi-Fi can be used later for regular usage.
           </span>
-          <br className="equipment-text101"></br>
+          <br className="equipment-text110"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text104"></br>
+          <br className="equipment-text113"></br>
           <a
             href="https://geni.us/TpfWW4"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link13"
+            className="equipment-link14"
           >
             https://geni.us/TpfWW4
           </a>
-          <br className="equipment-text105"></br>
+          <br className="equipment-text114"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text108"></br>
+          <br className="equipment-text117"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DmHdxQb"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link14"
+            className="equipment-link15"
           >
             https://s.click.aliexpress.com/e/_DmHdxQb
           </a>
-          <br className="equipment-text109"></br>
+          <br className="equipment-text118"></br>
           <br></br>
-          <span className="equipment-text111">✔ USB-C Cable:</span>
-          <span className="equipment-text112">
+          <span className="equipment-text120">✔ USB-C Cable:</span>
+          <span className="equipment-text121">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text113"></br>
-          <span className="equipment-text114">
+          <br className="equipment-text122"></br>
+          <span className="equipment-text123">
             Powers the Raspberry Pi from the boat&apos;s DC power system. Avoid
             using an inverter for continuous operation.
           </span>
-          <br className="equipment-text115"></br>
+          <br className="equipment-text124"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text118"></br>
+          <br className="equipment-text127"></br>
           <a
             href="https://geni.us/5tpz"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link15"
+            className="equipment-link16"
           >
             https://geni.us/5tpz
           </a>
-          <br className="equipment-text119"></br>
+          <br className="equipment-text128"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text122"></br>
+          <br className="equipment-text131"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DFH9izV"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link16"
+            className="equipment-link17"
           >
             https://s.click.aliexpress.com/e/_DFH9izV
           </a>
-          <br className="equipment-text123"></br>
+          <br className="equipment-text132"></br>
           <br></br>
-          <span className="equipment-text125">
+          <span className="equipment-text134">
             ✔ USB cigarette lighter plug or USB Hub:
           </span>
-          <br className="equipment-text126"></br>
-          <span className="equipment-text127">
+          <br className="equipment-text135"></br>
+          <span className="equipment-text136">
             Choose a high power 3A adapter for the Raspberry Pi USB Cable.
           </span>
-          <br className="equipment-text128"></br>
+          <br className="equipment-text137"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text131"></br>
+          <br className="equipment-text140"></br>
           <a
             href="https://geni.us/FYfHJ"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link17"
+            className="equipment-link18"
           >
             https://geni.us/FYfHJ
           </a>
-          <br className="equipment-text132"></br>
+          <br className="equipment-text141"></br>
           <a
             href="https://geni.us/edYnmTY"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link18"
+            className="equipment-link19"
           >
             https://geni.us/edYnmTY
           </a>
-          <br className="equipment-text133"></br>
+          <br className="equipment-text142"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text136"></br>
+          <br className="equipment-text145"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DeJQYSR"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link19"
+            className="equipment-link20"
           >
             https://s.click.aliexpress.com/e/_DeJQYSR
           </a>
-          <br className="equipment-text137"></br>
+          <br className="equipment-text146"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DlBQrTH"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link20"
+            className="equipment-link21"
           >
             https://s.click.aliexpress.com/e/_DlBQrTH
           </a>
-          <br className="equipment-text138"></br>
+          <br className="equipment-text147"></br>
           <br></br>
-          <span className="equipment-text140">✔ Shelly 1 Relay Switch:</span>
+          <span className="equipment-text149">✔ Shelly 1 Relay Switch:</span>
           <br></br>
           <br></br>
           <span>🎁 Amazon:</span>
@@ -540,7 +561,7 @@ const Equipment = (props) => {
             href="https://geni.us/Znr9"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link21"
+            className="equipment-link22"
           >
             https://geni.us/Znr9
           </a>
@@ -552,13 +573,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DEZ2AAR"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link22"
+            className="equipment-link23"
           >
             https://s.click.aliexpress.com/e/_DEZ2AAR
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text151">
+          <span className="equipment-text160">
             ✔ SONOFF Zigbee 3.0 USB Dongle Plus Gateway:
           </span>
           <br></br>
@@ -569,7 +590,7 @@ const Equipment = (props) => {
             href="https://geni.us/l80Ab"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link23"
+            className="equipment-link24"
           >
             https://geni.us/l80Ab
           </a>
@@ -581,13 +602,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DCj5pzN"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link24"
+            className="equipment-link25"
           >
             https://s.click.aliexpress.com/e/_DCj5pzN
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text162">
+          <span className="equipment-text171">
             ✔ Aqara IP67 Water Immersing Sensor Flood Water Leak:
           </span>
           <br></br>
@@ -598,16 +619,16 @@ const Equipment = (props) => {
             href="https://geni.us/D06kbNA"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link25"
+            className="equipment-link26"
           >
             https://geni.us/D06kbNA
           </a>
-          <br className="equipment-text167"></br>
+          <br className="equipment-text176"></br>
           <a
             href="https://geni.us/1rb2G4L"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link26"
+            className="equipment-link27"
           >
             https://geni.us/1rb2G4L
           </a>
@@ -621,13 +642,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DeXguFH"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link27"
+            className="equipment-link28"
           >
             https://s.click.aliexpress.com/e/_DeXguFH
           </a>
-          <br className="equipment-text172"></br>
+          <br className="equipment-text181"></br>
           <br></br>
-          <span className="equipment-text174">
+          <span className="equipment-text183">
             ✔ Tuya Zigbee Siren Sound Light Alarm 90dB:
           </span>
           <br></br>
@@ -638,7 +659,7 @@ const Equipment = (props) => {
             href="https://geni.us/XFxiTrT"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link28"
+            className="equipment-link29"
           >
             https://geni.us/XFxiTrT
           </a>
@@ -650,13 +671,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DkTQ4mF"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link29"
+            className="equipment-link30"
           >
             https://s.click.aliexpress.com/e/_DkTQ4mF
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text185">
+          <span className="equipment-text194">
             ✔ Tuya WiFi Zigbee Smoke Detector Alarm:
           </span>
           <br></br>
@@ -667,13 +688,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DCcAuYB"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link30"
+            className="equipment-link31"
           >
             https://s.click.aliexpress.com/e/_DCcAuYB
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text192">✔ ESP32:</span>
+          <span className="equipment-text201">✔ ESP32:</span>
           <br></br>
           <br></br>
           <span>
@@ -685,11 +706,11 @@ const Equipment = (props) => {
             href="https://geni.us/n4Agt2"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link31"
+            className="equipment-link32"
           >
             https://geni.us/n4Agt2
           </a>
-          <br className="equipment-text197"></br>
+          <br className="equipment-text206"></br>
           <br></br>
           <span>🎁 AliExpress: Select 38Pins-Type-C-ESP32 option</span>
           <br></br>
@@ -697,13 +718,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_Ddsn2z5"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link32"
+            className="equipment-link33"
           >
             https://s.click.aliexpress.com/e/_Ddsn2z5
           </a>
-          <br className="equipment-text201"></br>
+          <br className="equipment-text210"></br>
           <br></br>
-          <span className="equipment-text203">
+          <span className="equipment-text212">
             ✔ ESP32 Expansion Breakout Board:
           </span>
           <br></br>
@@ -714,7 +735,7 @@ const Equipment = (props) => {
             href="https://geni.us/jySpd"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link33"
+            className="equipment-link34"
           >
             https://geni.us/jySpd
           </a>
@@ -726,13 +747,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_Ddsn2z5"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link34"
+            className="equipment-link35"
           >
             https://s.click.aliexpress.com/e/_Ddsn2z5
           </a>
-          <br className="equipment-text212"></br>
-          <br className="equipment-text213"></br>
-          <span className="equipment-text214">
+          <br className="equipment-text221"></br>
+          <br className="equipment-text222"></br>
+          <span className="equipment-text223">
             ✔ 12v to 5v Converter for ESP32
           </span>
           <span>:</span>
@@ -743,7 +764,7 @@ const Equipment = (props) => {
             href="https://geni.us/4fpMDiB"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link35"
+            className="equipment-link36"
           >
             https://geni.us/4fpMDiB
           </a>
@@ -755,7 +776,7 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_Deuww1D"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link36"
+            className="equipment-link37"
           >
             https://s.click.aliexpress.com/e/_Deuww1D
           </a>
@@ -764,10 +785,10 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text223"></br>
+            <br className="equipment-text232"></br>
           </a>
           <br></br>
-          <span className="equipment-text225">
+          <span className="equipment-text234">
             ✔ Temperature Sensors Dallas One Wre:
           </span>
           <br></br>
@@ -780,7 +801,7 @@ const Equipment = (props) => {
             href="https://geni.us/vANa"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link38"
+            className="equipment-link39"
           >
             https://geni.us/vANa
           </a>
@@ -791,7 +812,7 @@ const Equipment = (props) => {
             href="https://geni.us/7KqXm1w"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link39"
+            className="equipment-link40"
           >
             https://geni.us/7KqXm1w
           </a>
@@ -803,13 +824,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DByVEZV"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link40"
+            className="equipment-link41"
           >
             https://s.click.aliexpress.com/e/_DByVEZV
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text241">
+          <span className="equipment-text250">
             ✔ Resistors for Temp Sensor ( 4.7K OHM ):
           </span>
           <br></br>
@@ -820,7 +841,7 @@ const Equipment = (props) => {
             href="https://geni.us/DWBKQ"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link41"
+            className="equipment-link42"
           >
             https://geni.us/DWBKQ
           </a>
@@ -832,13 +853,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DeuWUYb"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link42"
+            className="equipment-link43"
           >
             https://s.click.aliexpress.com/e/_DeuWUYb
           </a>
-          <br className="equipment-text250"></br>
+          <br className="equipment-text259"></br>
           <br></br>
-          <span className="equipment-text252">
+          <span className="equipment-text261">
             ✔  Junction Box (80mm x 80mm):
           </span>
           <br></br>
@@ -856,16 +877,16 @@ const Equipment = (props) => {
             href="https://geni.us/n9oc7"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link43"
+            className="equipment-link44"
           >
             https://geni.us/n9oc7
           </a>
-          <br className="equipment-text257"></br>
+          <br className="equipment-text266"></br>
           <a
             href="https://geni.us/a3xe"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link44"
+            className="equipment-link45"
           >
             https://geni.us/a3xe
           </a>
@@ -877,22 +898,22 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DBOgxxV"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link45"
+            className="equipment-link46"
           >
             https://s.click.aliexpress.com/e/_DBOgxxV
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text264">✔  INA219 Module:</span>
-          <br className="equipment-text265"></br>
-          <br className="equipment-text266"></br>
+          <span className="equipment-text273">✔  INA219 Module:</span>
+          <br className="equipment-text274"></br>
+          <br className="equipment-text275"></br>
           <span>🎁 Amazon:</span>
           <br></br>
           <a
             href="https://geni.us/yE8oa"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link46"
+            className="equipment-link47"
           >
             https://geni.us/yE8oa
           </a>
@@ -901,7 +922,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text269"></br>
+            <br className="equipment-text278"></br>
           </a>
           <br></br>
           <span>🎁 AliExpress: Select soldered option or ask them</span>
@@ -910,13 +931,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_Dd2RsTZ"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link48"
+            className="equipment-link49"
           >
             https://s.click.aliexpress.com/e/_Dd2RsTZ
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text275">✔ Dupont breakout cables:</span>
+          <span className="equipment-text284">✔ Dupont breakout cables:</span>
           <br></br>
           <br></br>
           <span>
@@ -932,7 +953,7 @@ const Equipment = (props) => {
             href="https://geni.us/tKWkywT"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link49"
+            className="equipment-link50"
           >
             https://geni.us/tKWkywT
           </a>
@@ -941,7 +962,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text280"></br>
+            <br className="equipment-text289"></br>
           </a>
           <br></br>
           <span>
@@ -957,13 +978,13 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DdQTOsx"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link51"
+            className="equipment-link52"
           >
             https://s.click.aliexpress.com/e/_DdQTOsx
           </a>
-          <br className="equipment-text284"></br>
+          <br className="equipment-text293"></br>
           <br></br>
-          <span className="equipment-text286">
+          <span className="equipment-text295">
             ✔ USB to RS-232 DB9 Serial 9 pin Adapter :
           </span>
           <br></br>
@@ -981,13 +1002,13 @@ const Equipment = (props) => {
             href="https://geni.us/gXDJT"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link52"
+            className="equipment-link53"
           >
             https://geni.us/gXDJT
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text293">
+          <span className="equipment-text302">
             ✔  USB to RS422 Serial Adapter :
           </span>
           <br></br>
@@ -998,13 +1019,13 @@ const Equipment = (props) => {
             href="https://geni.us/dArAn8"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link53"
+            className="equipment-link54"
           >
             https://geni.us/dArAn8
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text300">
+          <span className="equipment-text309">
             ✔  DB-9 Female RS232 Serial Plug:
           </span>
           <br></br>
@@ -1015,7 +1036,7 @@ const Equipment = (props) => {
             href="https://geni.us/X6cOtZq"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link54"
+            className="equipment-link55"
           >
             https://geni.us/X6cOtZq
           </a>
@@ -1027,68 +1048,39 @@ const Equipment = (props) => {
             href="https://s.click.aliexpress.com/e/_DmSWQBZ"
             target="_blank"
             rel="noreferrer noopener"
-            className="equipment-link55"
+            className="equipment-link56"
           >
             https://s.click.aliexpress.com/e/_DmSWQBZ
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text311">
-            ✔  NMEA 2000 to 0183 Adapter:
+          <span className="equipment-text320">
+            ✔  NMEA 2000 to 0183 USB Adapter :
           </span>
-          <br></br>
-          <br></br>
-          <span>🎁 Amazon:</span>
-          <br></br>
-          <span>(USB Version)</span>
-          <br></br>
-          <a
-            href="https://geni.us/tBzPiz "
-            target="_blank"
-            rel="noreferrer noopener"
-            className="equipment-link56"
-          >
-            https://geni.us/tBzPiz 
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </a>
-          <span className="equipment-text318">
-             
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+          <br className="equipment-text321"></br>
+          <br className="equipment-text322"></br>
+          <span>🎁 Digital Yacht:</span>
+          <br className="equipment-text324"></br>
+          <br className="equipment-text325"></br>
+          <span>
+            For %10 Discount at Digital Yacht use the SMARTBOAT10 coupon code
           </span>
-          <br></br>
-          <span>(R2422 Version)</span>
-          <br></br>
+          <br className="equipment-text327"></br>
           <a
-            href="https://geni.us/pWteOio"
+            href="https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb"
             target="_blank"
             rel="noreferrer noopener"
             className="equipment-link57"
           >
-            https://geni.us/pWteOio
+            https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb
           </a>
-          <span className="equipment-text322">
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <span>
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br className="equipment-text324"></br>
+          <a
+            href="https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <br className="equipment-text328"></br>
+          </a>
           <br></br>
           <span>
             Some links above are affiliate links, meaning I may earn a small
@@ -1122,7 +1114,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text329">
+          <span className="equipment-text333">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">
@@ -1130,7 +1122,7 @@ const Equipment = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="equipment-link58"
+              className="equipment-link59"
             >
               <img
                 alt="image"
