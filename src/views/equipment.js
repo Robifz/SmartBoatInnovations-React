@@ -284,8 +284,22 @@ const Equipment = (props) => {
           <span>🎁 Digital Yacht:</span>
           <br></br>
           <span>
-            For %10 Discount at Digital Yacht use the SMARTBOAT10 coupon code
+            For %10 Discount at Digital Yacht use the
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
           </span>
+          <span className="equipment-text055">
+            SMARTBOAT10
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span>coupon code</span>
           <br></br>
           <a
             href="https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb"
@@ -297,13 +311,13 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text058">✔ 12V to 9V converter:</span>
-          <br className="equipment-text059"></br>
-          <span className="equipment-text060">
+          <span className="equipment-text060">✔ 12V to 9V converter:</span>
+          <br className="equipment-text061"></br>
+          <span className="equipment-text062">
             If your router model takes 9V.
           </span>
-          <br className="equipment-text061"></br>
-          <br className="equipment-text062"></br>
+          <br className="equipment-text063"></br>
+          <br className="equipment-text064"></br>
           <span>🎁 AliExpress ( Select 12V to 9V 3A Option )</span>
           <br></br>
           <a
@@ -314,16 +328,16 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DDliOIn
           </a>
-          <br className="equipment-text065"></br>
-          <br className="equipment-text066"></br>
-          <span className="equipment-text067">✔ 12V to 12V converter.:</span>
+          <br className="equipment-text067"></br>
           <br className="equipment-text068"></br>
-          <span className="equipment-text069">
+          <span className="equipment-text069">✔ 12V to 12V converter.:</span>
+          <br className="equipment-text070"></br>
+          <span className="equipment-text071">
             If your router model takes 12V ( Select 3A Option )
           </span>
           <span>.</span>
-          <br className="equipment-text071"></br>
-          <br className="equipment-text072"></br>
+          <br className="equipment-text073"></br>
+          <br className="equipment-text074"></br>
           <span>🎁 AliExpress</span>
           <br></br>
           <a
@@ -334,18 +348,18 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DB7Riz5
           </a>
-          <br className="equipment-text075"></br>
+          <br className="equipment-text077"></br>
           <br></br>
-          <span className="equipment-text077">✔ Heat Sink:</span>
-          <span className="equipment-text078">
+          <span className="equipment-text079">✔ Heat Sink:</span>
+          <span className="equipment-text080">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text079"></br>
-          <span className="equipment-text080">
+          <br className="equipment-text081"></br>
+          <span className="equipment-text082">
             Helps dissipate heat from the Raspberry Pi, ensuring optimal
             performance in the boat environment.
           </span>
@@ -361,7 +375,7 @@ const Equipment = (props) => {
           >
             https://geni.us/8wRR
           </a>
-          <br className="equipment-text085"></br>
+          <br className="equipment-text087"></br>
           <a
             href="https://geni.us/mJkAS5P"
             target="_blank"
@@ -382,25 +396,25 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DcZ56cj
           </a>
-          <br className="equipment-text090"></br>
+          <br className="equipment-text092"></br>
           <br></br>
-          <span className="equipment-text092">✔ MicroSD Card:</span>
-          <span className="equipment-text093">
+          <span className="equipment-text094">✔ MicroSD Card:</span>
+          <span className="equipment-text095">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text094"></br>
-          <span className="equipment-text095">
+          <br className="equipment-text096"></br>
+          <span className="equipment-text097">
             A high-quality A2 class microSD card provides fast, reliable, and
             durable storage for the Raspberry Pi. At least 32GB is needed.
           </span>
           <br></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text099"></br>
+          <br className="equipment-text101"></br>
           <a
             href="https://geni.us/F4BQ"
             target="_blank"
@@ -409,10 +423,10 @@ const Equipment = (props) => {
           >
             https://geni.us/F4BQ
           </a>
-          <br className="equipment-text100"></br>
+          <br className="equipment-text102"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text103"></br>
+          <br className="equipment-text105"></br>
           <a
             href="https://s.click.aliexpress.com/e/_De5JvCf"
             target="_blank"
@@ -421,25 +435,25 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_De5JvCf
           </a>
-          <br className="equipment-text104"></br>
+          <br className="equipment-text106"></br>
           <br></br>
-          <span className="equipment-text106">✔ Ethernet Cable:</span>
-          <span className="equipment-text107">
+          <span className="equipment-text108">✔ Ethernet Cable:</span>
+          <span className="equipment-text109">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text108"></br>
-          <span className="equipment-text109">
+          <br className="equipment-text110"></br>
+          <span className="equipment-text111">
             Connects the Raspberry Pi to the router for initial configuration.
             Wi-Fi can be used later for regular usage.
           </span>
-          <br className="equipment-text110"></br>
+          <br className="equipment-text112"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text113"></br>
+          <br className="equipment-text115"></br>
           <a
             href="https://geni.us/TpfWW4"
             target="_blank"
@@ -448,10 +462,10 @@ const Equipment = (props) => {
           >
             https://geni.us/TpfWW4
           </a>
-          <br className="equipment-text114"></br>
+          <br className="equipment-text116"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text117"></br>
+          <br className="equipment-text119"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DmHdxQb"
             target="_blank"
@@ -460,25 +474,25 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DmHdxQb
           </a>
-          <br className="equipment-text118"></br>
+          <br className="equipment-text120"></br>
           <br></br>
-          <span className="equipment-text120">✔ USB-C Cable:</span>
-          <span className="equipment-text121">
+          <span className="equipment-text122">✔ USB-C Cable:</span>
+          <span className="equipment-text123">
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
           </span>
-          <br className="equipment-text122"></br>
-          <span className="equipment-text123">
+          <br className="equipment-text124"></br>
+          <span className="equipment-text125">
             Powers the Raspberry Pi from the boat&apos;s DC power system. Avoid
             using an inverter for continuous operation.
           </span>
-          <br className="equipment-text124"></br>
+          <br className="equipment-text126"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text127"></br>
+          <br className="equipment-text129"></br>
           <a
             href="https://geni.us/5tpz"
             target="_blank"
@@ -487,10 +501,10 @@ const Equipment = (props) => {
           >
             https://geni.us/5tpz
           </a>
-          <br className="equipment-text128"></br>
+          <br className="equipment-text130"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text131"></br>
+          <br className="equipment-text133"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DFH9izV"
             target="_blank"
@@ -499,19 +513,19 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DFH9izV
           </a>
-          <br className="equipment-text132"></br>
+          <br className="equipment-text134"></br>
           <br></br>
-          <span className="equipment-text134">
+          <span className="equipment-text136">
             ✔ USB cigarette lighter plug or USB Hub:
           </span>
-          <br className="equipment-text135"></br>
-          <span className="equipment-text136">
+          <br className="equipment-text137"></br>
+          <span className="equipment-text138">
             Choose a high power 3A adapter for the Raspberry Pi USB Cable.
           </span>
-          <br className="equipment-text137"></br>
+          <br className="equipment-text139"></br>
           <br></br>
           <span>🎁 Amazon:</span>
-          <br className="equipment-text140"></br>
+          <br className="equipment-text142"></br>
           <a
             href="https://geni.us/FYfHJ"
             target="_blank"
@@ -520,7 +534,7 @@ const Equipment = (props) => {
           >
             https://geni.us/FYfHJ
           </a>
-          <br className="equipment-text141"></br>
+          <br className="equipment-text143"></br>
           <a
             href="https://geni.us/edYnmTY"
             target="_blank"
@@ -529,10 +543,10 @@ const Equipment = (props) => {
           >
             https://geni.us/edYnmTY
           </a>
-          <br className="equipment-text142"></br>
+          <br className="equipment-text144"></br>
           <br></br>
           <span>🎁 AliExpress:</span>
-          <br className="equipment-text145"></br>
+          <br className="equipment-text147"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DeJQYSR"
             target="_blank"
@@ -541,7 +555,7 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DeJQYSR
           </a>
-          <br className="equipment-text146"></br>
+          <br className="equipment-text148"></br>
           <a
             href="https://s.click.aliexpress.com/e/_DlBQrTH"
             target="_blank"
@@ -550,9 +564,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DlBQrTH
           </a>
-          <br className="equipment-text147"></br>
+          <br className="equipment-text149"></br>
           <br></br>
-          <span className="equipment-text149">✔ Shelly 1 Relay Switch:</span>
+          <span className="equipment-text151">✔ Shelly 1 Relay Switch:</span>
           <br></br>
           <br></br>
           <span>🎁 Amazon:</span>
@@ -579,7 +593,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text160">
+          <span className="equipment-text162">
             ✔ SONOFF Zigbee 3.0 USB Dongle Plus Gateway:
           </span>
           <br></br>
@@ -608,7 +622,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text171">
+          <span className="equipment-text173">
             ✔ Aqara IP67 Water Immersing Sensor Flood Water Leak:
           </span>
           <br></br>
@@ -623,7 +637,7 @@ const Equipment = (props) => {
           >
             https://geni.us/D06kbNA
           </a>
-          <br className="equipment-text176"></br>
+          <br className="equipment-text178"></br>
           <a
             href="https://geni.us/1rb2G4L"
             target="_blank"
@@ -646,9 +660,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DeXguFH
           </a>
-          <br className="equipment-text181"></br>
+          <br className="equipment-text183"></br>
           <br></br>
-          <span className="equipment-text183">
+          <span className="equipment-text185">
             ✔ Tuya Zigbee Siren Sound Light Alarm 90dB:
           </span>
           <br></br>
@@ -677,7 +691,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text194">
+          <span className="equipment-text196">
             ✔ Tuya WiFi Zigbee Smoke Detector Alarm:
           </span>
           <br></br>
@@ -694,7 +708,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text201">✔ ESP32:</span>
+          <span className="equipment-text203">✔ ESP32:</span>
           <br></br>
           <br></br>
           <span>
@@ -710,7 +724,7 @@ const Equipment = (props) => {
           >
             https://geni.us/n4Agt2
           </a>
-          <br className="equipment-text206"></br>
+          <br className="equipment-text208"></br>
           <br></br>
           <span>🎁 AliExpress: Select 38Pins-Type-C-ESP32 option</span>
           <br></br>
@@ -722,9 +736,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_Ddsn2z5
           </a>
-          <br className="equipment-text210"></br>
+          <br className="equipment-text212"></br>
           <br></br>
-          <span className="equipment-text212">
+          <span className="equipment-text214">
             ✔ ESP32 Expansion Breakout Board:
           </span>
           <br></br>
@@ -751,9 +765,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_Ddsn2z5
           </a>
-          <br className="equipment-text221"></br>
-          <br className="equipment-text222"></br>
-          <span className="equipment-text223">
+          <br className="equipment-text223"></br>
+          <br className="equipment-text224"></br>
+          <span className="equipment-text225">
             ✔ 12v to 5v Converter for ESP32
           </span>
           <span>:</span>
@@ -785,10 +799,10 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text232"></br>
+            <br className="equipment-text234"></br>
           </a>
           <br></br>
-          <span className="equipment-text234">
+          <span className="equipment-text236">
             ✔ Temperature Sensors Dallas One Wre:
           </span>
           <br></br>
@@ -830,7 +844,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text250">
+          <span className="equipment-text252">
             ✔ Resistors for Temp Sensor ( 4.7K OHM ):
           </span>
           <br></br>
@@ -857,9 +871,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DeuWUYb
           </a>
-          <br className="equipment-text259"></br>
+          <br className="equipment-text261"></br>
           <br></br>
-          <span className="equipment-text261">
+          <span className="equipment-text263">
             ✔  Junction Box (80mm x 80mm):
           </span>
           <br></br>
@@ -881,7 +895,7 @@ const Equipment = (props) => {
           >
             https://geni.us/n9oc7
           </a>
-          <br className="equipment-text266"></br>
+          <br className="equipment-text268"></br>
           <a
             href="https://geni.us/a3xe"
             target="_blank"
@@ -904,9 +918,9 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text273">✔  INA219 Module:</span>
-          <br className="equipment-text274"></br>
-          <br className="equipment-text275"></br>
+          <span className="equipment-text275">✔  INA219 Module:</span>
+          <br className="equipment-text276"></br>
+          <br className="equipment-text277"></br>
           <span>🎁 Amazon:</span>
           <br></br>
           <a
@@ -922,7 +936,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text278"></br>
+            <br className="equipment-text280"></br>
           </a>
           <br></br>
           <span>🎁 AliExpress: Select soldered option or ask them</span>
@@ -937,7 +951,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text284">✔ Dupont breakout cables:</span>
+          <span className="equipment-text286">✔ Dupont breakout cables:</span>
           <br></br>
           <br></br>
           <span>
@@ -962,7 +976,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text289"></br>
+            <br className="equipment-text291"></br>
           </a>
           <br></br>
           <span>
@@ -982,9 +996,9 @@ const Equipment = (props) => {
           >
             https://s.click.aliexpress.com/e/_DdQTOsx
           </a>
-          <br className="equipment-text293"></br>
+          <br className="equipment-text295"></br>
           <br></br>
-          <span className="equipment-text295">
+          <span className="equipment-text297">
             ✔ USB to RS-232 DB9 Serial 9 pin Adapter :
           </span>
           <br></br>
@@ -1008,7 +1022,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text302">
+          <span className="equipment-text304">
             ✔  USB to RS422 Serial Adapter :
           </span>
           <br></br>
@@ -1025,7 +1039,7 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text309">
+          <span className="equipment-text311">
             ✔  DB-9 Female RS232 Serial Plug:
           </span>
           <br></br>
@@ -1054,18 +1068,32 @@ const Equipment = (props) => {
           </a>
           <br></br>
           <br></br>
-          <span className="equipment-text320">
+          <span className="equipment-text322">
             ✔  NMEA 2000 to 0183 USB Adapter :
           </span>
-          <br className="equipment-text321"></br>
-          <br className="equipment-text322"></br>
-          <span>🎁 Digital Yacht:</span>
+          <br className="equipment-text323"></br>
           <br className="equipment-text324"></br>
-          <br className="equipment-text325"></br>
-          <span>
-            For %10 Discount at Digital Yacht use the SMARTBOAT10 coupon code
-          </span>
+          <span>🎁 Digital Yacht:</span>
+          <br className="equipment-text326"></br>
           <br className="equipment-text327"></br>
+          <span>
+            For %10 Discount at Digital Yacht use the
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="equipment-text329">
+            SMARTBOAT10
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span>coupon code</span>
+          <br className="equipment-text331"></br>
           <a
             href="https://digitalyacht.co.uk/product/ikonvert-nmea-2000-to-usb"
             target="_blank"
@@ -1079,7 +1107,7 @@ const Equipment = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <br className="equipment-text328"></br>
+            <br className="equipment-text332"></br>
           </a>
           <br></br>
           <span>
@@ -1114,7 +1142,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text333">
+          <span className="equipment-text337">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">
