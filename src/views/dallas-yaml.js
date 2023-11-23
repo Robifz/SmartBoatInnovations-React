@@ -231,6 +231,7 @@ sensor:
   - platform: dallas
     address: 0x2c3c18e381b14128
     name: "Temperature 1"
+    id: temperature_1_celsius
   - platform: dallas
     address: 0xf43c9ae38186c228
     name: "Temperature 2"
@@ -240,6 +241,12 @@ sensor:
   - platform: dallas
     address: 0x443c7de381c5a828
     name: "Temperature 4"
+
+  - platform: template
+    name: "Temperature 1 in Fahrenheit"
+    lambda: |-
+      return (id(temperature_1_celsius).state * 9.0/5.0) + 32.0;
+    update_interval: 10s 
     </code>
     </pre>
 </div>

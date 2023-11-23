@@ -248,13 +248,14 @@
 }
 .dallas-yaml-container08 {
   width: 435px;
-  height: 466px;
+  height: 712px;
 }
 .dallas-yaml-container09 {
   display: contents;
 }
 .dallas-yaml-footer {
   width: 100%;
+  height: 220px;
   display: flex;
   max-width: 1400px;
   align-items: center;
