@@ -9,7 +9,7 @@ const PlaceCard = (props) => {
   return (
     <div className={`place-card-container ${props.rootClassName} `}>
       <img
-        alt={props.image_alt}
+        alt={props.imageAlt}
         src={props.image}
         className="place-card-image"
       />
@@ -25,7 +25,7 @@ const PlaceCard = (props) => {
 PlaceCard.defaultProps = {
   image: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   rootClassName: '',
-  image_alt: 'image',
+  imageAlt: 'image',
   city: 'City Name',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
@@ -34,7 +34,7 @@ PlaceCard.defaultProps = {
 PlaceCard.propTypes = {
   image: PropTypes.string,
   rootClassName: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   city: PropTypes.string,
   description: PropTypes.string,
 }
