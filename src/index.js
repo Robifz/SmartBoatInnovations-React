@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import Smart0183serial from './views/smart0183serial'
 import Smart0183tcp from './views/smart0183tcp'
 import Videos from './views/videos'
 import Services from './views/services'
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={Smart0183serial} exact path="/smart0183serial" />
         <Route component={Smart0183tcp} exact path="/smart0183tcp" />
         <Route component={Videos} exact path="/videos" />
         <Route component={Services} exact path="/services" />

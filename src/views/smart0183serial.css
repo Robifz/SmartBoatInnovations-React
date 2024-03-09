@@ -1,4 +1,4 @@
-.smart0183tcp-container {
+.smart0183serial-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   border-width: 5px;
   flex-direction: column;
 }
-.smart0183tcp-container01 {
+.smart0183serial-container01 {
   width: 100%;
   height: 300px;
   display: flex;
@@ -19,11 +19,11 @@
   justify-content: flex-start;
   background-image: url("/website%20banner%20no%20logo%20or%20name.png");
 }
-.smart0183tcp-container02 {
+.smart0183serial-container02 {
   display: flex;
   position: relative;
 }
-.smart0183tcp-navbar-interactive {
+.smart0183serial-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -34,60 +34,60 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.smart0183tcp-desktop-menu {
+.smart0183serial-desktop-menu {
   display: flex;
 }
-.smart0183tcp-nav {
+.smart0183serial-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.smart0183tcp-navlink {
+.smart0183serial-navlink {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
 }
-.smart0183tcp-navlink01 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.smart0183tcp-navlink02 {
+.smart0183serial-navlink01 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart0183tcp-navlink03 {
+.smart0183serial-navlink02 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart0183tcp-navlink04 {
+.smart0183serial-navlink03 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart0183tcp-btn-group {
+.smart0183serial-navlink04 {
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.smart0183serial-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.smart0183tcp-burger-menu {
+.smart0183serial-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.smart0183tcp-icon {
+.smart0183serial-icon {
   width: 32px;
   height: 32px;
 }
-.smart0183tcp-mobile-menu {
+.smart0183serial-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -100,50 +100,50 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.smart0183tcp-nav1 {
+.smart0183serial-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.smart0183tcp-container03 {
+.smart0183serial-container03 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.smart0183tcp-menu-close {
+.smart0183serial-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.smart0183tcp-nav2 {
+.smart0183serial-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.smart0183tcp-navlink05 {
+.smart0183serial-navlink05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-navlink06 {
+.smart0183serial-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-navlink07 {
+.smart0183serial-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-navlink08 {
+.smart0183serial-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-navlink09 {
+.smart0183serial-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-container04 {
+.smart0183serial-container04 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -152,30 +152,30 @@
   align-items: center;
   flex-direction: row;
 }
-.smart0183tcp-icon-group {
+.smart0183serial-icon-group {
   display: flex;
 }
-.smart0183tcp-icon2 {
+.smart0183serial-icon2 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.smart0183tcp-icon4 {
+.smart0183serial-icon4 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.smart0183tcp-icon6 {
+.smart0183serial-icon6 {
   width: 16px;
   height: 16px;
 }
-.smart0183tcp-image {
+.smart0183serial-image {
   width: 100px;
   align-self: center;
   margin-top: 40px;
   object-fit: cover;
 }
-.smart0183tcp-container05 {
+.smart0183serial-container05 {
   width: 400px;
   height: 66px;
   display: flex;
@@ -183,7 +183,7 @@
   margin-top: 20px;
   align-items: flex-start;
 }
-.smart0183tcp-text {
+.smart0183serial-text {
   display: block;
   font-size: 32px;
   align-self: center;
@@ -193,11 +193,11 @@
   margin-left: auto;
   margin-right: auto;
 }
-.smart0183tcp-text01 {
+.smart0183serial-text01 {
   align-self: center;
   margin-top: 50px;
 }
-.smart0183tcp-container06 {
+.smart0183serial-container06 {
   width: auto;
   height: auto;
   display: flex;
@@ -205,7 +205,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.smart0183tcp-text02 {
+.smart0183serial-text02 {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
@@ -213,47 +213,47 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.smart0183tcp-link {
+.smart0183serial-link {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-link01 {
+.smart0183serial-link01 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-text08 {
+.smart0183serial-text08 {
   text-decoration: underline;
 }
-.smart0183tcp-link03 {
+.smart0183serial-link03 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-link04 {
+.smart0183serial-link04 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-link05 {
+.smart0183serial-link05 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-link06 {
+.smart0183serial-link06 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart0183tcp-link07 {
+.smart0183serial-link07 {
   display: contents;
 }
-.smart0183tcp-image1 {
+.smart0183serial-image1 {
   width: 300px;
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-link08 {
+.smart0183serial-link08 {
   display: contents;
 }
-.smart0183tcp-image2 {
+.smart0183serial-image2 {
   width: 300px;
   align-self: center;
   object-fit: cover;
@@ -261,14 +261,14 @@
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart0183tcp-container07 {
+.smart0183serial-container07 {
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.smart0183tcp-footer {
+.smart0183serial-footer {
   width: 100%;
   display: flex;
   max-width: 1400px;
@@ -280,41 +280,41 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.smart0183tcp-container08 {
+.smart0183serial-container08 {
   display: flex;
   max-width: 1400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.smart0183tcp-nav3 {
+.smart0183serial-nav3 {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.smart0183tcp-navlink10 {
+.smart0183serial-navlink10 {
   margin-left: 0px;
   text-decoration: underline;
 }
-.smart0183tcp-navlink11 {
+.smart0183serial-navlink11 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart0183tcp-navlink12 {
+.smart0183serial-navlink12 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart0183tcp-navlink13 {
+.smart0183serial-navlink13 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart0183tcp-navlink14 {
+.smart0183serial-navlink14 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart0183tcp-separator {
+.smart0183serial-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -332,7 +332,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.smart0183tcp-container09 {
+.smart0183serial-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -340,152 +340,152 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.smart0183tcp-icon-group1 {
+.smart0183serial-icon-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.smart0183tcp-link09 {
+.smart0183serial-link09 {
   display: contents;
 }
-.smart0183tcp-image3 {
+.smart0183serial-image3 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .smart0183tcp-navlink {
+  .smart0183serial-navlink {
     font-style: normal;
     font-weight: 500;
   }
-  .smart0183tcp-navlink01 {
+  .smart0183serial-navlink01 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart0183tcp-navlink02 {
+  .smart0183serial-navlink02 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart0183tcp-navlink03 {
+  .smart0183serial-navlink03 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart0183tcp-navlink04 {
+  .smart0183serial-navlink04 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart0183tcp-text02 {
+  .smart0183serial-text02 {
     border-width: 0px;
   }
-  .smart0183tcp-image3 {
+  .smart0183serial-image3 {
     width: auto;
     height: 50px;
   }
 }
 @media(max-width: 767px) {
-  .smart0183tcp-navbar-interactive {
+  .smart0183serial-navbar-interactive {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .smart0183tcp-navlink01 {
+  .smart0183serial-navlink01 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart0183tcp-navlink02 {
+  .smart0183serial-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart0183tcp-navlink03 {
+  .smart0183serial-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart0183tcp-navlink04 {
+  .smart0183serial-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart0183tcp-footer {
+  .smart0183serial-footer {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .smart0183tcp-separator {
+  .smart0183serial-separator {
     margin-top: 24px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 24px;
   }
-  .smart0183tcp-container09 {
+  .smart0183serial-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart0183tcp-text17 {
+  .smart0183serial-text17 {
     margin-bottom: 24px;
   }
 }
 @media(max-width: 479px) {
-  .smart0183tcp-container {
+  .smart0183serial-container {
     border-width: 3px;
   }
-  .smart0183tcp-navbar-interactive {
+  .smart0183serial-navbar-interactive {
     padding: var(--dl-space-space-unit);
     padding-bottom: 1em;
   }
-  .smart0183tcp-desktop-menu {
+  .smart0183serial-desktop-menu {
     display: none;
   }
-  .smart0183tcp-btn-group {
+  .smart0183serial-btn-group {
     display: none;
   }
-  .smart0183tcp-burger-menu {
+  .smart0183serial-burger-menu {
     display: flex;
   }
-  .smart0183tcp-mobile-menu {
+  .smart0183serial-mobile-menu {
     padding: 16px;
   }
-  .smart0183tcp-navlink05 {
+  .smart0183serial-navlink05 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart0183tcp-navlink06 {
+  .smart0183serial-navlink06 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart0183tcp-navlink07 {
+  .smart0183serial-navlink07 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart0183tcp-navlink08 {
+  .smart0183serial-navlink08 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart0183tcp-navlink09 {
+  .smart0183serial-navlink09 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart0183tcp-text {
+  .smart0183serial-text {
     display: block;
     font-size: 26px;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
   }
-  .smart0183tcp-footer {
+  .smart0183serial-footer {
     padding: var(--dl-space-space-unit);
   }
-  .smart0183tcp-separator {
+  .smart0183serial-separator {
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .smart0183tcp-container09 {
+  .smart0183serial-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart0183tcp-text17 {
+  .smart0183serial-text17 {
     text-align: center;
     margin-bottom: 24px;
   }
-  .smart0183tcp-image3 {
+  .smart0183serial-image3 {
     width: auto;
     height: 50px;
   }

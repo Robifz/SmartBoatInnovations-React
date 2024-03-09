@@ -209,9 +209,11 @@ const DownloadCode = (props) => {
           </span>
           <span>YAML</span>
         </Link>
-        <Link to="/smart0183tcp" className="download-code-navlink15">
-          <span>Smart0183TCP  </span>
-          <span>YAML</span>
+        <Link to="/smart0183serial" className="download-code-navlink15">
+          Smart0183serial
+        </Link>
+        <Link to="/smart0183tcp" className="download-code-navlink16">
+          Smart0183tcp
         </Link>
       </div>
       <div className="download-code-container09">
@@ -228,26 +230,26 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container12">
           <nav className="download-code-nav3">
-            <Link to="/" className="download-code-navlink16">
+            <Link to="/" className="download-code-navlink17">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink17">
+            <Link to="/equipment" className="download-code-navlink18">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink18">
+            <Link to="/services" className="download-code-navlink19">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink19">
+            <Link to="/download-code" className="download-code-navlink20">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink20">
+            <Link to="/contact" className="download-code-navlink21">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
         <div className="download-code-container13">
-          <span className="download-code-text17">
+          <span className="download-code-text15">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group1">
