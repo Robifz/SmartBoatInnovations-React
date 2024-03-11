@@ -127,7 +127,11 @@ const Contact = (props) => {
         </div>
       </div>
       <h1 className="contact-text1">Contact</h1>
-      <span className="contact-text2">smart.boat.innovations@gmail.com</span>
+      <span className="contact-text2">
+        <span className="contact-text3">smart.boat.innovations@gmail.com</span>
+        <br></br>
+        <br></br>
+      </span>
       <div className="contact-cards-container"></div>
       <footer className="contact-footer">
         <div className="contact-container6">
@@ -151,7 +155,7 @@ const Contact = (props) => {
         </div>
         <div className="contact-separator"></div>
         <div className="contact-container7">
-          <span className="contact-text3">
+          <span className="contact-text6">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="contact-icon-group1">

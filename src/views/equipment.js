@@ -1117,6 +1117,7 @@ const Equipment = (props) => {
           </span>
           <br></br>
           <br></br>
+          <br></br>
         </span>
       </div>
       <div className="equipment-cards-container"></div>
@@ -1142,7 +1143,7 @@ const Equipment = (props) => {
         </div>
         <div className="equipment-separator"></div>
         <div className="equipment-container09">
-          <span className="equipment-text337">
+          <span className="equipment-text338">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="equipment-icon-group1">

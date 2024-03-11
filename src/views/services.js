@@ -201,6 +201,7 @@ const Services = (props) => {
           you with a truly enjoyable and hassle-free experience on the water.
         </span>
         <br></br>
+        <br></br>
       </span>
       <div className="services-cards-container"></div>
       <footer className="services-footer">
@@ -225,7 +226,7 @@ const Services = (props) => {
         </div>
         <div className="services-separator"></div>
         <div className="services-container7">
-          <span className="services-text25">
+          <span className="services-text26">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="services-icon-group1">

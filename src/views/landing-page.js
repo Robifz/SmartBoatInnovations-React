@@ -189,8 +189,9 @@ const LandingPage = (props) => {
           exploring the exciting possibilities of affordable technology.
         </span>
         <br></br>
+        <br></br>
       </span>
-      <h1 className="landing-page-text09">
+      <h1 className="landing-page-text10">
         <span>Introduction Video</span>
         <br></br>
       </h1>
@@ -208,7 +209,7 @@ const LandingPage = (props) => {
           />
         </a>
       </div>
-      <span className="landing-page-text12">
+      <span className="landing-page-text13">
         <br></br>
         <span>
           All the other Smart Boat videos can be found
@@ -244,7 +245,7 @@ const LandingPage = (props) => {
         </div>
         <div className="landing-page-separator"></div>
         <div className="landing-page-container8">
-          <span className="landing-page-text15">
+          <span className="landing-page-text16">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="landing-page-icon-group1">
