@@ -20,154 +20,9 @@
   background-image: url("/website%20banner%20no%20logo%20or%20name.png");
 }
 .download-code-container02 {
-  display: flex;
-  position: relative;
-}
-.download-code-navbar-interactive {
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
-  justify-content: space-between;
-}
-.download-code-desktop-menu {
-  display: flex;
-}
-.download-code-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.download-code-navlink {
-  font-style: normal;
-  font-weight: 500;
-  text-decoration: none;
-}
-.download-code-navlink01 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.download-code-navlink02 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.download-code-navlink03 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.download-code-navlink04 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.download-code-btn-group {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.download-code-burger-menu {
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.download-code-icon {
-  width: 32px;
-  height: 32px;
-}
-.download-code-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: 32px;
-  z-index: 100;
-  position: fixed;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fff;
-}
-.download-code-nav1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.download-code-container03 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 48px;
-  justify-content: space-between;
-}
-.download-code-menu-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.download-code-nav2 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.download-code-navlink05 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-code-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-code-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-code-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-code-navlink09 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.download-code-container04 {
-  flex: 0 0 auto;
-  width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-}
-.download-code-icon-group {
-  display: flex;
-}
-.download-code-icon2 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.download-code-icon4 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.download-code-icon6 {
-  width: 16px;
-  height: 16px;
+  position: relative;
 }
 .download-code-image {
   width: 100px;
@@ -175,7 +30,7 @@
   margin-top: 40px;
   object-fit: cover;
 }
-.download-code-container05 {
+.download-code-container03 {
   width: 400px;
   height: 66px;
   display: flex;
@@ -216,7 +71,7 @@
   padding-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.download-code-container06 {
+.download-code-container04 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -225,7 +80,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.download-code-container07 {
+.download-code-container05 {
   flex: 0 0 auto;
   width: 1015px;
   height: 100px;
@@ -240,7 +95,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.download-code-container08 {
+.download-code-container06 {
   width: 1015px;
   height: 373px;
   display: flex;
@@ -248,55 +103,55 @@
   flex-direction: column;
   justify-content: center;
 }
-.download-code-navlink10 {
+.download-code-navlink {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.download-code-navlink11 {
-  color: rgb(28, 39, 161);
-  font-style: normal;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-unit);
-  text-decoration: underline;
-}
-.download-code-navlink12 {
+.download-code-navlink01 {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink13 {
+.download-code-navlink02 {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink14 {
+.download-code-navlink03 {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink15 {
+.download-code-navlink04 {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink16 {
+.download-code-navlink05 {
   color: rgb(28, 39, 161);
   font-style: normal;
   font-weight: 700;
   padding-top: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-container09 {
+.download-code-navlink06 {
+  color: rgb(28, 39, 161);
+  font-style: normal;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  text-decoration: underline;
+}
+.download-code-container07 {
   flex: 0 0 auto;
   width: 1015px;
   height: 100px;
@@ -305,7 +160,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.download-code-container11 {
+.download-code-container09 {
   display: contents;
 }
 .download-code-cards-container {
@@ -333,37 +188,37 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.download-code-container12 {
+.download-code-container10 {
   display: flex;
   max-width: 1400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.download-code-nav3 {
+.download-code-nav {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.download-code-navlink17 {
+.download-code-navlink07 {
   margin-left: 0px;
   text-decoration: underline;
 }
-.download-code-navlink18 {
+.download-code-navlink08 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink19 {
+.download-code-navlink09 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink20 {
+.download-code-navlink10 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.download-code-navlink21 {
+.download-code-navlink11 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
@@ -385,7 +240,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.download-code-container13 {
+.download-code-container11 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -393,7 +248,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.download-code-icon-group1 {
+.download-code-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -408,26 +263,6 @@
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .download-code-navlink {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .download-code-navlink01 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .download-code-navlink02 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .download-code-navlink03 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .download-code-navlink04 {
-    font-style: normal;
-    font-weight: 500;
-  }
   .download-code-text02 {
     border-width: 0px;
   }
@@ -440,22 +275,6 @@
   }
 }
 @media(max-width: 767px) {
-  .download-code-navbar-interactive {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .download-code-navlink01 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .download-code-navlink02 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .download-code-navlink03 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .download-code-navlink04 {
-    margin-left: var(--dl-space-space-unit);
-  }
   .download-code-footer {
     padding-left: 32px;
     padding-right: 32px;
@@ -466,7 +285,7 @@
     margin-right: 0px;
     margin-bottom: 24px;
   }
-  .download-code-container13 {
+  .download-code-container11 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -478,45 +297,6 @@
 @media(max-width: 479px) {
   .download-code-container {
     border-width: 3px;
-  }
-  .download-code-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-    padding-bottom: 1em;
-  }
-  .download-code-desktop-menu {
-    display: none;
-  }
-  .download-code-btn-group {
-    display: none;
-  }
-  .download-code-burger-menu {
-    display: flex;
-  }
-  .download-code-mobile-menu {
-    padding: 16px;
-  }
-  .download-code-navlink05 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .download-code-navlink06 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .download-code-navlink07 {
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .download-code-navlink08 {
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .download-code-navlink09 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
   }
   .download-code-text {
     display: block;
@@ -532,7 +312,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .download-code-container13 {
+  .download-code-container11 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;

@@ -20,153 +20,9 @@
   background-image: url("/website%20banner%20no%20logo%20or%20name.png");
 }
 .landing-page-container2 {
-  display: flex;
-  position: relative;
-}
-.landing-page-navbar-interactive {
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
-  justify-content: space-between;
-}
-.landing-page-desktop-menu {
-  display: flex;
-}
-.landing-page-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.landing-page-navlink {
-  font-style: normal;
-  font-weight: 500;
-  text-decoration: none;
-}
-.landing-page-link {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-}
-.landing-page-navlink01 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.landing-page-navlink02 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.landing-page-navlink03 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.landing-page-btn-group {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.landing-page-burger-menu {
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.landing-page-icon {
-  width: 32px;
-  height: 32px;
-}
-.landing-page-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: 32px;
-  z-index: 100;
-  position: fixed;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fff;
-}
-.landing-page-nav1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.landing-page-container3 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 48px;
-  justify-content: space-between;
-}
-.landing-page-menu-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.landing-page-nav2 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.landing-page-navlink04 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-link1 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-navlink05 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-navlink07 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.landing-page-container4 {
-  flex: 0 0 auto;
-  width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-}
-.landing-page-icon-group {
-  display: flex;
-}
-.landing-page-icon2 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.landing-page-icon4 {
-  width: 16px;
-  height: 16px;
-  margin-right: 32px;
-}
-.landing-page-icon6 {
-  width: 16px;
-  height: 16px;
+  position: relative;
 }
 .landing-page-image {
   width: 100px;
@@ -174,7 +30,7 @@
   margin-top: 40px;
   object-fit: cover;
 }
-.landing-page-container5 {
+.landing-page-container3 {
   width: 400px;
   height: 66px;
   display: flex;
@@ -204,14 +60,14 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.landing-page-link2 {
+.landing-page-link {
   color: #0000ff;
   text-decoration: underline;
 }
 .landing-page-text10 {
   margin-top: var(--dl-space-space-doubleunit);
 }
-.landing-page-container6 {
+.landing-page-container4 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -219,7 +75,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.landing-page-link3 {
+.landing-page-link1 {
   display: contents;
 }
 .landing-page-image1 {
@@ -231,7 +87,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.landing-page-navlink08 {
+.landing-page-navlink {
   color: #0000ff;
   text-decoration: underline;
 }
@@ -247,37 +103,37 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.landing-page-container7 {
+.landing-page-container5 {
   display: flex;
   max-width: 1400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-page-nav3 {
+.landing-page-nav {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.landing-page-navlink09 {
+.landing-page-navlink1 {
   margin-left: 0px;
   text-decoration: underline;
 }
-.landing-page-navlink10 {
+.landing-page-navlink2 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.landing-page-navlink11 {
+.landing-page-navlink3 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.landing-page-navlink12 {
+.landing-page-navlink4 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.landing-page-navlink13 {
+.landing-page-navlink5 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
@@ -299,7 +155,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.landing-page-container8 {
+.landing-page-container6 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -307,13 +163,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-icon-group1 {
+.landing-page-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.landing-page-link4 {
+.landing-page-link2 {
   display: contents;
 }
 .landing-page-image2 {
@@ -322,26 +178,6 @@
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .landing-page-navlink {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .landing-page-link {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .landing-page-navlink01 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .landing-page-navlink02 {
-    font-style: normal;
-    font-weight: 500;
-  }
-  .landing-page-navlink03 {
-    font-style: normal;
-    font-weight: 500;
-  }
   .landing-page-text02 {
     border-width: 0px;
   }
@@ -351,22 +187,6 @@
   }
 }
 @media(max-width: 767px) {
-  .landing-page-navbar-interactive {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .landing-page-link {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .landing-page-navlink01 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .landing-page-navlink02 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .landing-page-navlink03 {
-    margin-left: var(--dl-space-space-unit);
-  }
   .landing-page-footer {
     padding-left: 32px;
     padding-right: 32px;
@@ -377,7 +197,7 @@
     margin-right: 0px;
     margin-bottom: 24px;
   }
-  .landing-page-container8 {
+  .landing-page-container6 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -389,45 +209,6 @@
 @media(max-width: 479px) {
   .landing-page-container {
     border-width: 3px;
-  }
-  .landing-page-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-    padding-bottom: 1em;
-  }
-  .landing-page-desktop-menu {
-    display: none;
-  }
-  .landing-page-btn-group {
-    display: none;
-  }
-  .landing-page-burger-menu {
-    display: flex;
-  }
-  .landing-page-mobile-menu {
-    padding: 16px;
-  }
-  .landing-page-navlink04 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .landing-page-link1 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .landing-page-navlink05 {
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .landing-page-navlink06 {
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  .landing-page-navlink07 {
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: underline;
   }
   .landing-page-text {
     display: block;
@@ -452,7 +233,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .landing-page-container8 {
+  .landing-page-container6 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
