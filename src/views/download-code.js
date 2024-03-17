@@ -109,10 +109,10 @@ const DownloadCode = (props) => {
           <span>YAML</span>
         </Link>
         <Link to="/smart0183serial" className="download-code-navlink05">
-          Smart0183serial
+          Smart 0183 Serial
         </Link>
         <Link to="/smart0183tcp" className="download-code-navlink06">
-          Smart0183tcp
+          Smart 0183 TCP
         </Link>
       </div>
       <div className="download-code-container07">

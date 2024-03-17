@@ -145,7 +145,9 @@ const Smart0183serial = (props) => {
           <span className="smart0183serial-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="smart0183serial-text01">Smart0183serial Configuration</h1>
+      <h1 className="smart0183serial-text01">
+        Smart 0183 Serial Configuration
+      </h1>
       <div className="smart0183serial-container06">
         <span className="smart0183serial-text02">
           <br></br>
@@ -258,7 +260,7 @@ const Smart0183serial = (props) => {
         >
           <img
             alt="image"
-            src="/smart0183%20low-200h.png"
+            src="/smart0183tcp-200h.png"
             className="smart0183serial-image2"
           />
         </a>

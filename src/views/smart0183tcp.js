@@ -142,7 +142,7 @@ const Smart0183tcp = (props) => {
           <span className="smart0183tcp-text">Smart Boat Innovations</span>
         </div>
       </div>
-      <h1 className="smart0183tcp-text01">Smart0183tcp Configuration</h1>
+      <h1 className="smart0183tcp-text01">Smart 0183 TCP Configuration</h1>
       <div className="smart0183tcp-container06">
         <span className="smart0183tcp-text02">
           <br></br>
@@ -255,7 +255,7 @@ const Smart0183tcp = (props) => {
         >
           <img
             alt="image"
-            src="/smart0183%20low-200h.png"
+            src="/smart0183tcp-200h.png"
             className="smart0183tcp-image2"
           />
         </a>

@@ -131,31 +131,31 @@ const NavbarInteractive1 = (props) => {
 }
 
 NavbarInteractive1.defaultProps = {
-  text: 'Home',
-  text1: 'Equipment',
+  text6: 'Equipment',
+  rootClassName: '',
+  text9: 'Contact',
   text2: 'Services',
+  text: 'Home',
+  text5: 'Home',
   text3: 'Code',
   text4: 'Contact',
-  text5: 'Home',
-  text6: 'Equipment',
+  text1: 'Equipment',
   text7: 'Services',
   text8: 'Code',
-  text9: 'Contact',
-  rootClassName: '',
 }
 
 NavbarInteractive1.propTypes = {
-  text: PropTypes.string,
-  text1: PropTypes.string,
+  text6: PropTypes.string,
+  rootClassName: PropTypes.string,
+  text9: PropTypes.string,
   text2: PropTypes.string,
+  text: PropTypes.string,
+  text5: PropTypes.string,
   text3: PropTypes.string,
   text4: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
+  text1: PropTypes.string,
   text7: PropTypes.string,
   text8: PropTypes.string,
-  text9: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default NavbarInteractive1
