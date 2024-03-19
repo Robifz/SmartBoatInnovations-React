@@ -248,7 +248,7 @@ const Smart0183tcp = (props) => {
           />
         </a>
         <a
-          href="https://youtu.be/9mlTKtD1FFI"
+          href="https://youtu.be/VxIcNZlDbTI"
           target="_blank"
           rel="noreferrer noopener"
           className="smart0183tcp-link08"
