@@ -211,7 +211,7 @@ template:
           {% set volts_half = 4.0 %}
           {% set volts_empty = 2 * volts_half - volts_full %}
           {% set current_voltage = states('sensor.digital_gauges_tank_sender_voltage') | float(default=0) %}
-          {% set increasing_voltage = (volts_full > volts_half) %}
+          {% set increasing_voltage = (volts_full > volts_empty) %}
           {% if increasing_voltage %}
             {% set slope = (volts_full - volts_empty) / 100 %}
           {% else %}
