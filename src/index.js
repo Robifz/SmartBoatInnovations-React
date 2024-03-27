@@ -8,8 +8,10 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import TankYAML from './views/tank-yaml'
 import Smart0183serial from './views/smart0183serial'
 import Smart0183tcp from './views/smart0183tcp'
+import DigitalGaugeYAML from './views/digital-gauge-yaml'
 import Videos from './views/videos'
 import Services from './views/services'
 import OilPressureYAML from './views/oil-pressure-yaml'
@@ -27,8 +29,10 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={TankYAML} exact path="/tank-yaml" />
         <Route component={Smart0183serial} exact path="/smart0183serial" />
         <Route component={Smart0183tcp} exact path="/smart0183tcp" />
+        <Route component={DigitalGaugeYAML} exact path="/digital-gauge-yaml" />
         <Route component={Videos} exact path="/videos" />
         <Route component={Services} exact path="/services" />
         <Route component={OilPressureYAML} exact path="/oil-pressure-yaml" />

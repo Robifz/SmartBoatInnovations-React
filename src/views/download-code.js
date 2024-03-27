@@ -94,10 +94,16 @@ const DownloadCode = (props) => {
         <Link to="/ina219-yaml" className="download-code-navlink02">
           INA219 YAML
         </Link>
-        <Link to="/oil-pressure-yaml" className="download-code-navlink03">
+        <Link to="/digital-gauge-yaml" className="download-code-navlink03">
+          Digital Gauge YAML
+        </Link>
+        <Link to="/oil-pressure-yaml" className="download-code-navlink04">
           Oil Pressure Template YAML
         </Link>
-        <Link to="/smart0183" className="download-code-navlink04">
+        <Link to="/tank-yaml" className="download-code-navlink05">
+          Tank Template YAML
+        </Link>
+        <Link to="/smart0183" className="download-code-navlink06">
           <span>
             Smart0183 
             <span
@@ -108,10 +114,10 @@ const DownloadCode = (props) => {
           </span>
           <span>YAML</span>
         </Link>
-        <Link to="/smart0183serial" className="download-code-navlink05">
+        <Link to="/smart0183serial" className="download-code-navlink07">
           Smart 0183 Serial
         </Link>
-        <Link to="/smart0183tcp" className="download-code-navlink06">
+        <Link to="/smart0183tcp" className="download-code-navlink08">
           Smart 0183 TCP
         </Link>
       </div>
@@ -129,19 +135,19 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container10">
           <nav className="download-code-nav">
-            <Link to="/" className="download-code-navlink07">
+            <Link to="/" className="download-code-navlink09">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink08">
+            <Link to="/equipment" className="download-code-navlink10">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink09">
+            <Link to="/services" className="download-code-navlink11">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink10">
+            <Link to="/download-code" className="download-code-navlink12">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink11">
+            <Link to="/contact" className="download-code-navlink13">
               Contact
             </Link>
           </nav>

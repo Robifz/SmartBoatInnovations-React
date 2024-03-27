@@ -1,0 +1,27 @@
+template:
+  - sensor:
+      - name: "Tank Level"
+        unit_of_measurement: "%"
+        state_class: "measurement"
+        state: >
+          {% set volts_full = 6.0 %}
+          {% set volts_half = 4.0 %}
+          {% set volts_empty = 2 * volts_half - volts_full %}
+          {% set current_voltage = states('sensor.digital_gauges_tank_sender_voltage') | float(default=0) %}
+          {% set increasing_voltage = (volts_full > volts_half) %}
+          {% if increasing_voltage %}
+            {% set slope = (volts_full - volts_empty) / 100 %}
+          {% else %}
+            {% set slope = (volts_empty - volts_full) / 100 %}
+          {% endif %}
+          {% if current_voltage == 0 %}
+            0
+          {% else %}
+            {% if increasing_voltage %}
+              {% set level = (current_voltage - volts_empty) / slope %}
+            {% else %}
+              {% set level = (volts_empty - current_voltage) / slope %}
+            {% endif %}
+            {% set level = max(0, min(level, 100)) %}
+            {{ level | round(0) }}
+          {% endif %}
