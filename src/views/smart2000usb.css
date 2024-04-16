@@ -242,9 +242,12 @@
 }
 .smart2000usb-link08 {
   color: #0000ff;
-  text-decoration: underline;
 }
 .smart2000usb-link09 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart2000usb-link10 {
   display: contents;
 }
 .smart2000usb-image1 {
@@ -254,7 +257,7 @@
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000usb-link10 {
+.smart2000usb-link11 {
   display: contents;
 }
 .smart2000usb-image2 {
@@ -350,7 +353,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.smart2000usb-link11 {
+.smart2000usb-link12 {
   display: contents;
 }
 .smart2000usb-image3 {
@@ -419,7 +422,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart2000usb-text17 {
+  .smart2000usb-text20 {
     margin-bottom: 24px;
   }
 }
@@ -485,7 +488,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart2000usb-text17 {
+  .smart2000usb-text20 {
     text-align: center;
     margin-bottom: 24px;
   }

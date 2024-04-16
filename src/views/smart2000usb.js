@@ -230,6 +230,24 @@ const Smart2000usb = (props) => {
           <br></br>
           <br></br>
           <span>
+            Instructions to setup Waveshare USB adapter:
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <a
+            href="https://www.waveshare.com/wiki/USB-CAN-A#How_to_Use_USB_Config_Tool"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart2000usb-link08"
+          >
+            here
+          </a>
+          <br></br>
+          <br></br>
+          <span>
             A description of the 2000 PGN types can be found
             <span
               dangerouslySetInnerHTML={{
@@ -241,7 +259,7 @@ const Smart2000usb = (props) => {
             href="https://github.com/canboat/canboat/blob/master/analyzer/pgns.json"
             target="_blank"
             rel="noreferrer noopener"
-            className="smart2000usb-link08"
+            className="smart2000usb-link09"
           >
             here
           </a>
@@ -253,7 +271,7 @@ const Smart2000usb = (props) => {
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
           rel="noreferrer noopener"
-          className="smart2000usb-link09"
+          className="smart2000usb-link10"
         >
           <img
             alt="image"
@@ -265,7 +283,7 @@ const Smart2000usb = (props) => {
           href="https://youtu.be/VxIcNZlDbTI"
           target="_blank"
           rel="noreferrer noopener"
-          className="smart2000usb-link10"
+          className="smart2000usb-link11"
         >
           <img
             alt="image"
@@ -297,7 +315,7 @@ const Smart2000usb = (props) => {
         </div>
         <div className="smart2000usb-separator"></div>
         <div className="smart2000usb-container09">
-          <span className="smart2000usb-text17">
+          <span className="smart2000usb-text20">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="smart2000usb-icon-group1">
@@ -305,7 +323,7 @@ const Smart2000usb = (props) => {
               href="https://ko-fi.com/smartboatinnovations"
               target="_blank"
               rel="noreferrer noopener"
-              className="smart2000usb-link11"
+              className="smart2000usb-link12"
             >
               <img
                 alt="image"
