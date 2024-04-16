@@ -1,0 +1,43 @@
+logger:
+  level: ERROR
+
+sensor:
+  - platform: wifi_signal
+    name: "SMART2000 WiFi Signal"
+    update_interval: 60s
+
+text_sensor:
+  - platform: template
+    name: "smart2000_frame"
+    id: smart2000_frame
+
+canbus:
+  - platform: esp32_can
+    tx_pin: GPIO18
+    rx_pin: GPIO19
+    can_id: 0
+    use_extended_id: True
+    bit_rate: 250kbps
+    on_frame:
+    - can_id: 0
+      use_extended_id: True
+      can_id_mask: 0  
+      then:
+      - lambda: |-       
+          uint8_t sourceId = can_id & 0xFF;
+          char sourceIdHex[3]; 
+          sprintf(sourceIdHex, "%02X", sourceId);
+          uint32_t PGN = (can_id >> 8) & 0x3FFFF; 
+          char pgnHex[6]; 
+          sprintf(pgnHex, "%05X", PGN);
+          uint64_t data64 = 0;
+          for (int i = 0; i < 8; i++) {
+              data64 |= ((uint64_t)x[i] << (8 * i));
+          }
+          char canIdHex[9]; 
+          sprintf(canIdHex, "%08X", can_id); 
+          char data64hex[17]; 
+          sprintf(data64hex, "%016llX", data64); 
+          char combinedHex[50]; 
+          sprintf(combinedHex, "%s:%s:%s", pgnHex, sourceIdHex, data64hex); 
+          id(smart2000_frame).publish_state(combinedHex);

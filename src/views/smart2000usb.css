@@ -1,4 +1,4 @@
-.smart2000esp-container {
+.smart2000usb-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   border-width: 5px;
   flex-direction: column;
 }
-.smart2000esp-container01 {
+.smart2000usb-container01 {
   width: 100%;
   height: 300px;
   display: flex;
@@ -19,11 +19,11 @@
   justify-content: flex-start;
   background-image: url("/website%20banner%20no%20logo%20or%20name.png");
 }
-.smart2000esp-container02 {
+.smart2000usb-container02 {
   display: flex;
   position: relative;
 }
-.smart2000esp-navbar-interactive {
+.smart2000usb-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -34,60 +34,60 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.smart2000esp-desktop-menu {
+.smart2000usb-desktop-menu {
   display: flex;
 }
-.smart2000esp-nav {
+.smart2000usb-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.smart2000esp-navlink {
+.smart2000usb-navlink {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
 }
-.smart2000esp-navlink01 {
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 32px;
-  text-decoration: none;
-}
-.smart2000esp-navlink02 {
+.smart2000usb-navlink01 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart2000esp-navlink03 {
+.smart2000usb-navlink02 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart2000esp-navlink04 {
+.smart2000usb-navlink03 {
   font-style: normal;
   font-weight: 500;
   margin-left: 32px;
   text-decoration: none;
 }
-.smart2000esp-btn-group {
+.smart2000usb-navlink04 {
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.smart2000usb-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.smart2000esp-burger-menu {
+.smart2000usb-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.smart2000esp-icon {
+.smart2000usb-icon {
   width: 32px;
   height: 32px;
 }
-.smart2000esp-mobile-menu {
+.smart2000usb-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -100,50 +100,50 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.smart2000esp-nav1 {
+.smart2000usb-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.smart2000esp-container03 {
+.smart2000usb-container03 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-.smart2000esp-menu-close {
+.smart2000usb-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.smart2000esp-nav2 {
+.smart2000usb-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.smart2000esp-navlink05 {
+.smart2000usb-navlink05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-navlink06 {
+.smart2000usb-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-navlink07 {
+.smart2000usb-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-navlink08 {
+.smart2000usb-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-navlink09 {
+.smart2000usb-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-container04 {
+.smart2000usb-container04 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -152,30 +152,30 @@
   align-items: center;
   flex-direction: row;
 }
-.smart2000esp-icon-group {
+.smart2000usb-icon-group {
   display: flex;
 }
-.smart2000esp-icon2 {
+.smart2000usb-icon2 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.smart2000esp-icon4 {
+.smart2000usb-icon4 {
   width: 16px;
   height: 16px;
   margin-right: 32px;
 }
-.smart2000esp-icon6 {
+.smart2000usb-icon6 {
   width: 16px;
   height: 16px;
 }
-.smart2000esp-image {
+.smart2000usb-image {
   width: 100px;
   align-self: center;
   margin-top: 40px;
   object-fit: cover;
 }
-.smart2000esp-container05 {
+.smart2000usb-container05 {
   width: 400px;
   height: 66px;
   display: flex;
@@ -183,7 +183,7 @@
   margin-top: 20px;
   align-items: flex-start;
 }
-.smart2000esp-text {
+.smart2000usb-text {
   display: block;
   font-size: 32px;
   align-self: center;
@@ -193,19 +193,19 @@
   margin-left: auto;
   margin-right: auto;
 }
-.smart2000esp-text01 {
+.smart2000usb-text01 {
   align-self: center;
   margin-top: 50px;
 }
-.smart2000esp-container06 {
+.smart2000usb-container06 {
   width: auto;
-  height: 473px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.smart2000esp-text02 {
+.smart2000usb-text02 {
   font-size: 14px;
   text-align: justify;
   padding-top: var(--dl-space-space-unit);
@@ -213,45 +213,51 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
 }
-.smart2000esp-link {
-  color: #0000ff;
+.smart2000usb-text07 {
+  text-decoration: underline;
 }
-.smart2000esp-link01 {
-  color: #0000ff;
-}
-.smart2000esp-link02 {
-  color: #0000ff;
-}
-.smart2000esp-link04 {
+.smart2000usb-link01 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart2000esp-link05 {
+.smart2000usb-link02 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart2000esp-link06 {
+.smart2000usb-link03 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart2000esp-link07 {
+.smart2000usb-link05 {
   color: #0000ff;
   text-decoration: underline;
 }
-.smart2000esp-link08 {
+.smart2000usb-link06 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart2000usb-link07 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart2000usb-link08 {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.smart2000usb-link09 {
   display: contents;
 }
-.smart2000esp-image1 {
+.smart2000usb-image1 {
   width: 300px;
   align-self: center;
   object-fit: cover;
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-link09 {
+.smart2000usb-link10 {
   display: contents;
 }
-.smart2000esp-image2 {
+.smart2000usb-image2 {
   width: 300px;
   align-self: center;
   object-fit: cover;
@@ -259,31 +265,14 @@
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.smart2000esp-container07 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.smart2000esp-container08 {
+.smart2000usb-container07 {
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.smart2000esp-container09 {
-  width: 793px;
-  height: 1292px;
-  padding-left: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-halfunit);
-}
-.smart2000esp-container10 {
-  display: contents;
-}
-.smart2000esp-footer {
+.smart2000usb-footer {
   width: 100%;
   display: flex;
   max-width: 1400px;
@@ -295,41 +284,41 @@
   padding-bottom: 32px;
   justify-content: space-between;
 }
-.smart2000esp-container11 {
+.smart2000usb-container08 {
   display: flex;
   max-width: 1400px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.smart2000esp-nav3 {
+.smart2000usb-nav3 {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.smart2000esp-navlink10 {
+.smart2000usb-navlink10 {
   margin-left: 0px;
   text-decoration: underline;
 }
-.smart2000esp-navlink11 {
+.smart2000usb-navlink11 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart2000esp-navlink12 {
+.smart2000usb-navlink12 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart2000esp-navlink13 {
+.smart2000usb-navlink13 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart2000esp-navlink14 {
+.smart2000usb-navlink14 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: underline;
 }
-.smart2000esp-separator {
+.smart2000usb-separator {
   flex: 0 0 auto;
   width: 100%;
   height: 0px;
@@ -347,7 +336,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.smart2000esp-container12 {
+.smart2000usb-container09 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -355,152 +344,152 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.smart2000esp-icon-group1 {
+.smart2000usb-icon-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.smart2000esp-link10 {
+.smart2000usb-link11 {
   display: contents;
 }
-.smart2000esp-image3 {
+.smart2000usb-image3 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .smart2000esp-navlink {
+  .smart2000usb-navlink {
     font-style: normal;
     font-weight: 500;
   }
-  .smart2000esp-navlink01 {
+  .smart2000usb-navlink01 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart2000esp-navlink02 {
+  .smart2000usb-navlink02 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart2000esp-navlink03 {
+  .smart2000usb-navlink03 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart2000esp-navlink04 {
+  .smart2000usb-navlink04 {
     font-style: normal;
     font-weight: 500;
   }
-  .smart2000esp-text02 {
+  .smart2000usb-text02 {
     border-width: 0px;
   }
-  .smart2000esp-image3 {
+  .smart2000usb-image3 {
     width: auto;
     height: 50px;
   }
 }
 @media(max-width: 767px) {
-  .smart2000esp-navbar-interactive {
+  .smart2000usb-navbar-interactive {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .smart2000esp-navlink01 {
+  .smart2000usb-navlink01 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart2000esp-navlink02 {
+  .smart2000usb-navlink02 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart2000esp-navlink03 {
+  .smart2000usb-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart2000esp-navlink04 {
+  .smart2000usb-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .smart2000esp-footer {
+  .smart2000usb-footer {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .smart2000esp-separator {
+  .smart2000usb-separator {
     margin-top: 24px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 24px;
   }
-  .smart2000esp-container12 {
+  .smart2000usb-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart2000esp-text17 {
+  .smart2000usb-text17 {
     margin-bottom: 24px;
   }
 }
 @media(max-width: 479px) {
-  .smart2000esp-container {
+  .smart2000usb-container {
     border-width: 3px;
   }
-  .smart2000esp-navbar-interactive {
+  .smart2000usb-navbar-interactive {
     padding: var(--dl-space-space-unit);
     padding-bottom: 1em;
   }
-  .smart2000esp-desktop-menu {
+  .smart2000usb-desktop-menu {
     display: none;
   }
-  .smart2000esp-btn-group {
+  .smart2000usb-btn-group {
     display: none;
   }
-  .smart2000esp-burger-menu {
+  .smart2000usb-burger-menu {
     display: flex;
   }
-  .smart2000esp-mobile-menu {
+  .smart2000usb-mobile-menu {
     padding: 16px;
   }
-  .smart2000esp-navlink05 {
+  .smart2000usb-navlink05 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart2000esp-navlink06 {
+  .smart2000usb-navlink06 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart2000esp-navlink07 {
+  .smart2000usb-navlink07 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart2000esp-navlink08 {
+  .smart2000usb-navlink08 {
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart2000esp-navlink09 {
+  .smart2000usb-navlink09 {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
   }
-  .smart2000esp-text {
+  .smart2000usb-text {
     display: block;
     font-size: 26px;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
   }
-  .smart2000esp-footer {
+  .smart2000usb-footer {
     padding: var(--dl-space-space-unit);
   }
-  .smart2000esp-separator {
+  .smart2000usb-separator {
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  .smart2000esp-container12 {
+  .smart2000usb-container09 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .smart2000esp-text17 {
+  .smart2000usb-text17 {
     text-align: center;
     margin-bottom: 24px;
   }
-  .smart2000esp-image3 {
+  .smart2000usb-image3 {
     width: auto;
     height: 50px;
   }

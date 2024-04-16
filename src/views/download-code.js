@@ -123,6 +123,10 @@ const DownloadCode = (props) => {
         <Link to="/smart2000esp" className="download-code-navlink09">
           Smart 2000 ESP
         </Link>
+        <Link to="/smart2000usb" className="download-code-navlink10">
+          <span>Smart 200</span>
+          <span>0 USB</span>
+        </Link>
       </div>
       <div className="download-code-container07">
         <div>
@@ -138,26 +142,26 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container10">
           <nav className="download-code-nav">
-            <Link to="/" className="download-code-navlink10">
+            <Link to="/" className="download-code-navlink11">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink11">
+            <Link to="/equipment" className="download-code-navlink12">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink12">
+            <Link to="/services" className="download-code-navlink13">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink13">
+            <Link to="/download-code" className="download-code-navlink14">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink14">
+            <Link to="/contact" className="download-code-navlink15">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
         <div className="download-code-container11">
-          <span className="download-code-text15">
+          <span className="download-code-text17">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group">

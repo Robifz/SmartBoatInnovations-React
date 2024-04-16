@@ -9,7 +9,9 @@ import {
 
 import './style.css'
 import TankYAML from './views/tank-yaml'
+import Smart2000usb from './views/smart2000usb'
 import Smart0183serial from './views/smart0183serial'
+import Smart2000esp from './views/smart2000esp'
 import Smart0183tcp from './views/smart0183tcp'
 import DigitalGaugeYAML from './views/digital-gauge-yaml'
 import Videos from './views/videos'
@@ -23,7 +25,6 @@ import INA219YAML from './views/ina219-yaml'
 import DownloadCode from './views/download-code'
 import Commands from './views/commands'
 import LandingPage from './views/landing-page'
-import Smart2000esp from './views/smart2000esp'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -31,7 +32,9 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={TankYAML} exact path="/tank-yaml" />
+        <Route component={Smart2000usb} exact path="/smart2000usb" />
         <Route component={Smart0183serial} exact path="/smart0183serial" />
+        <Route component={Smart2000esp} exact path="/smart2000esp" />
         <Route component={Smart0183tcp} exact path="/smart0183tcp" />
         <Route component={DigitalGaugeYAML} exact path="/digital-gauge-yaml" />
         <Route component={Videos} exact path="/videos" />
@@ -45,7 +48,6 @@ const App = () => {
         <Route component={DownloadCode} exact path="/download-code" />
         <Route component={Commands} exact path="/commands" />
         <Route component={LandingPage} exact path="/" />
-        <Route component={Smart2000esp} exact path="/smart2000esp" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
