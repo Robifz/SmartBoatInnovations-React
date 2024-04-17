@@ -204,7 +204,7 @@ const Smart2000usb = (props) => {
             />
           </span>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000usb-link05"
@@ -212,7 +212,7 @@ const Smart2000usb = (props) => {
             Vi
           </a>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000usb-link06"
@@ -220,7 +220,7 @@ const Smart2000usb = (props) => {
             d
           </a>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000usb-link07"
