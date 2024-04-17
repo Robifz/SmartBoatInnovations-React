@@ -199,7 +199,7 @@ const Smart2000esp = (props) => {
             />
           </span>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000esp-link04"
@@ -207,7 +207,7 @@ const Smart2000esp = (props) => {
             Vi
           </a>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000esp-link05"
@@ -215,7 +215,7 @@ const Smart2000esp = (props) => {
             d
           </a>
           <a
-            href="https://youtu.be/9mlTKtD1FFI"
+            href="https://youtu.be/t1qDKVBHRrs"
             target="_blank"
             rel="noreferrer noopener"
             className="smart2000esp-link06"
