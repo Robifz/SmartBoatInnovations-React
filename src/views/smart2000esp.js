@@ -257,7 +257,7 @@ const Smart2000esp = (props) => {
           />
         </a>
         <a
-          href="https://youtu.be/VxIcNZlDbTI"
+          href="https://youtu.be/t1qDKVBHRrs"
           target="_blank"
           rel="noreferrer noopener"
           className="smart2000esp-link09"

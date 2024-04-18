@@ -280,7 +280,7 @@ const Smart2000usb = (props) => {
           />
         </a>
         <a
-          href="https://youtu.be/VxIcNZlDbTI"
+          href="https://youtu.be/t1qDKVBHRrs"
           target="_blank"
           rel="noreferrer noopener"
           className="smart2000usb-link11"
