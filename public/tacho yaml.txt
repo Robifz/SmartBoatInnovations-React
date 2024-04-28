@@ -1,0 +1,51 @@
+# Set level to INFO after calibration is completed
+logger:
+  level: DEBUG
+
+sensor:
+  - platform: pulse_counter
+    pin: 25
+    name: "Engine Tacho"
+    id: rev_counter
+    icon: "mdi:speedometer"
+    device_class: frequency
+    state_class: measurement
+    unit_of_measurement: 'rpm'
+    accuracy_decimals: 0
+    update_interval: 2s
+    filters:
+    - calibrate_linear:
+        method: exact
+        datapoints:
+        - 0 -> 0       
+        - 15200 -> 1000       
+        - 18200 -> 1200
+        - 21100 -> 1400
+        - 24000 -> 1600    
+
+  - platform: template
+    name: "Engine Active Numeric"
+    id: engine_active_numeric
+    lambda: |-
+      return id(engine_active).state ? 1.0 : 0.0;  
+    update_interval: 1s
+
+  - platform: integration
+    name: "Engine Hours"
+    id: engine_hours
+    sensor: engine_active_numeric
+    time_unit: h
+    restore: true
+    icon: "mdi:timer"
+    filters:
+      - heartbeat: 2s
+
+binary_sensor:
+  - platform: template
+    name: "Engine Active"
+    id: engine_active
+    device_class: "running"  
+    publish_initial_state: true
+    icon: "mdi:engine"  
+    lambda: |-
+      return id(rev_counter).state > 100;

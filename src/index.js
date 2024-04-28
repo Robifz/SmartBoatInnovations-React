@@ -12,6 +12,7 @@ import TankYAML from './views/tank-yaml'
 import Smart2000usb from './views/smart2000usb'
 import Smart0183serial from './views/smart0183serial'
 import Smart2000esp from './views/smart2000esp'
+import TachoYAML from './views/tacho-yaml'
 import Smart0183tcp from './views/smart0183tcp'
 import DigitalGaugeYAML from './views/digital-gauge-yaml'
 import Videos from './views/videos'
@@ -35,6 +36,7 @@ const App = () => {
         <Route component={Smart2000usb} exact path="/smart2000usb" />
         <Route component={Smart0183serial} exact path="/smart0183serial" />
         <Route component={Smart2000esp} exact path="/smart2000esp" />
+        <Route component={TachoYAML} exact path="/tacho-yaml" />
         <Route component={Smart0183tcp} exact path="/smart0183tcp" />
         <Route component={DigitalGaugeYAML} exact path="/digital-gauge-yaml" />
         <Route component={Videos} exact path="/videos" />

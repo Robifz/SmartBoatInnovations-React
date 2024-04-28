@@ -103,7 +103,11 @@ const DownloadCode = (props) => {
         <Link to="/tank-yaml" className="download-code-navlink05">
           Tank Template YAML
         </Link>
-        <Link to="/smart0183" className="download-code-navlink06">
+        <Link to="/tacho-yaml" className="download-code-navlink06">
+          <span>Tachometer</span>
+          <span> YAML</span>
+        </Link>
+        <Link to="/smart0183" className="download-code-navlink07">
           <span>
             Smart0183 
             <span
@@ -114,16 +118,16 @@ const DownloadCode = (props) => {
           </span>
           <span>YAML</span>
         </Link>
-        <Link to="/smart0183serial" className="download-code-navlink07">
+        <Link to="/smart0183serial" className="download-code-navlink08">
           Smart 0183 Serial
         </Link>
-        <Link to="/smart0183tcp" className="download-code-navlink08">
+        <Link to="/smart0183tcp" className="download-code-navlink09">
           Smart 0183 TCP
         </Link>
-        <Link to="/smart2000esp" className="download-code-navlink09">
+        <Link to="/smart2000esp" className="download-code-navlink10">
           Smart 2000 ESP
         </Link>
-        <Link to="/smart2000usb" className="download-code-navlink10">
+        <Link to="/smart2000usb" className="download-code-navlink11">
           <span>Smart 200</span>
           <span>0 USB</span>
         </Link>
@@ -142,26 +146,26 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container10">
           <nav className="download-code-nav">
-            <Link to="/" className="download-code-navlink11">
+            <Link to="/" className="download-code-navlink12">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink12">
+            <Link to="/equipment" className="download-code-navlink13">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink13">
+            <Link to="/services" className="download-code-navlink14">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink14">
+            <Link to="/download-code" className="download-code-navlink15">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink15">
+            <Link to="/contact" className="download-code-navlink16">
               Contact
             </Link>
           </nav>
         </div>
         <div className="download-code-separator"></div>
         <div className="download-code-container11">
-          <span className="download-code-text17">
+          <span className="download-code-text19">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="download-code-icon-group">
