@@ -131,6 +131,9 @@ const DownloadCode = (props) => {
           <span>Smart 200</span>
           <span>0 USB</span>
         </Link>
+        <Link to="/smart-anchor" className="download-code-navlink12">
+          Anchor Watch
+        </Link>
       </div>
       <div className="download-code-container07">
         <div>
@@ -146,19 +149,19 @@ const DownloadCode = (props) => {
       <footer className="download-code-footer">
         <div className="download-code-container10">
           <nav className="download-code-nav">
-            <Link to="/" className="download-code-navlink12">
+            <Link to="/" className="download-code-navlink13">
               Home
             </Link>
-            <Link to="/equipment" className="download-code-navlink13">
+            <Link to="/equipment" className="download-code-navlink14">
               Equipment
             </Link>
-            <Link to="/services" className="download-code-navlink14">
+            <Link to="/services" className="download-code-navlink15">
               Services
             </Link>
-            <Link to="/download-code" className="download-code-navlink15">
+            <Link to="/download-code" className="download-code-navlink16">
               Code
             </Link>
-            <Link to="/contact" className="download-code-navlink16">
+            <Link to="/contact" className="download-code-navlink17">
               Contact
             </Link>
           </nav>

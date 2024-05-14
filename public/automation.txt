@@ -1,0 +1,25 @@
+alias: Smart Anchor Alarm
+description: Smart Anchor Integration Alarm
+trigger:
+  - platform: zone
+    entity_id: device_tracker.boat_location
+    zone: zone.anchor_zone
+    event: leave
+condition: []
+action:
+  - service: notify.notify
+    data:
+      message: Anchor Alarm
+      data:
+        tag: anchor_alarm
+        persistent: true
+        color: red
+        push: "interruption-level: critical"
+  - service: notify.whatsapp
+    data:
+      message: Anchor Alarm
+  - service: switch.turn_on
+    target:
+      entity_id: switch.neo_siren_alarm
+    data: {}
+mode: single

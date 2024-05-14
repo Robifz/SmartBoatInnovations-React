@@ -26,6 +26,7 @@ import INA219YAML from './views/ina219-yaml'
 import DownloadCode from './views/download-code'
 import Commands from './views/commands'
 import LandingPage from './views/landing-page'
+import SmartAnchor from './views/smart-anchor'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -50,6 +51,7 @@ const App = () => {
         <Route component={DownloadCode} exact path="/download-code" />
         <Route component={Commands} exact path="/commands" />
         <Route component={LandingPage} exact path="/" />
+        <Route component={SmartAnchor} exact path="/smart-anchor" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
