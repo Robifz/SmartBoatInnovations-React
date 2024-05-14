@@ -15,11 +15,4 @@ action:
         persistent: true
         color: red
         push: "interruption-level: critical"
-  - service: notify.whatsapp
-    data:
-      message: Anchor Alarm
-  - service: switch.turn_on
-    target:
-      entity_id: switch.neo_siren_alarm
-    data: {}
 mode: single
