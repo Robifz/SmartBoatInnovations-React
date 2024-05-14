@@ -10,6 +10,7 @@ import {
 import './style.css'
 import TankYAML from './views/tank-yaml'
 import Smart2000usb from './views/smart2000usb'
+import SmartAnchor from './views/smart-anchor'
 import Smart0183serial from './views/smart0183serial'
 import Smart2000esp from './views/smart2000esp'
 import TachoYAML from './views/tacho-yaml'
@@ -26,7 +27,6 @@ import INA219YAML from './views/ina219-yaml'
 import DownloadCode from './views/download-code'
 import Commands from './views/commands'
 import LandingPage from './views/landing-page'
-import SmartAnchor from './views/smart-anchor'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -35,6 +35,7 @@ const App = () => {
       <Switch>
         <Route component={TankYAML} exact path="/tank-yaml" />
         <Route component={Smart2000usb} exact path="/smart2000usb" />
+        <Route component={SmartAnchor} exact path="/smart-anchor" />
         <Route component={Smart0183serial} exact path="/smart0183serial" />
         <Route component={Smart2000esp} exact path="/smart2000esp" />
         <Route component={TachoYAML} exact path="/tacho-yaml" />
@@ -51,7 +52,6 @@ const App = () => {
         <Route component={DownloadCode} exact path="/download-code" />
         <Route component={Commands} exact path="/commands" />
         <Route component={LandingPage} exact path="/" />
-        <Route component={SmartAnchor} exact path="/smart-anchor" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

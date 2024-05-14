@@ -145,22 +145,19 @@ const SmartAnchor = (props) => {
       </div>
       <h1 className="smart-anchor-text01">Smart Anchor Watch YAML</h1>
       <div className="smart-anchor-container06">
-        <a
-          href="https://youtu.be/ScP7xjOwWFg"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="smart-anchor-link"
-        >
+        <span className="smart-anchor-text02">
           <br></br>
-          <span>
-            Here is the essential Smart Anchor Watch YAML snippet to add to your
-            Home Assistant configuration.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
+          <span>The HACS custom repository URL is:</span>
+          <br></br>
+          <br></br>
+          <a
+            href="https://github.com/SmartBoatInnovations/ha-smart-anchor"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="smart-anchor-link"
+          >
+            https://github.com/SmartBoatInnovations/ha-smart-anchor
+          </a>
           <br></br>
           <br></br>
           <span>
@@ -172,11 +169,16 @@ const SmartAnchor = (props) => {
               }}
             />
           </span>
-          <span className="smart-anchor-text07">Video</span>
+          <span className="smart-anchor-text10">Video</span>
           <br></br>
           <br></br>
+          <span>
+            Below are the essential Smart Anchor Watch YAML snippets to add to
+            Home Assistant.
+          </span>
           <br></br>
-        </a>
+          <br></br>
+        </span>
         <a
           href="https://ko-fi.com/smartboatinnovations"
           target="_blank"
@@ -244,7 +246,7 @@ const SmartAnchor = (props) => {
         </div>
         <div className="smart-anchor-separator"></div>
         <div className="smart-anchor-container11">
-          <span className="smart-anchor-text11">
+          <span className="smart-anchor-text16">
             © 2023 Smart Boat Innovations, All Rights Reserved.
           </span>
           <div className="smart-anchor-icon-group1">
