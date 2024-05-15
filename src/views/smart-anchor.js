@@ -192,7 +192,7 @@ const SmartAnchor = (props) => {
           />
         </a>
         <a
-          href="https://youtu.be/ScP7xjOwWFg"
+          href="https://youtu.be/VT_s4hxUcq0"
           target="_blank"
           rel="noreferrer noopener"
           className="smart-anchor-link2"
